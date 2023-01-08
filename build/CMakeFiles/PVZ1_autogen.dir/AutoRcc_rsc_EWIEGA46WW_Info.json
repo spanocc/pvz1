@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/home/llh/project/PVZ1/build/PVZ1_autogen",
+	"CMAKE_BINARY_DIR" : "/home/llh/project/PVZ1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/llh/project/PVZ1/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/llh/project/PVZ1",
+	"CMAKE_SOURCE_DIR" : "/home/llh/project/PVZ1",
+	"INCLUDE_DIR" : "/home/llh/project/PVZ1/build/PVZ1_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/llh/project/PVZ1/image/sunflowercard.png",
+		"/home/llh/project/PVZ1/image/SeedBank.png",
+		"/home/llh/project/PVZ1/image/sun.png",
+		"/home/llh/project/PVZ1/image/background.jpg",
+		"/home/llh/project/PVZ1/image/background1.jpg"
+	],
+	"LOCK_FILE" : "/home/llh/project/PVZ1/build/CMakeFiles/PVZ1_autogen.dir/AutoRcc_rsc_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "rsc" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_rsc.cpp",
+	"RCC_EXECUTABLE" : "/home/llh/Qt5.14.0/5.14.0/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/llh/project/PVZ1/build/CMakeFiles/PVZ1_autogen.dir/AutoRcc_rsc_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/llh/project/PVZ1/rsc.qrc",
+	"VERBOSITY" : 0
+}
