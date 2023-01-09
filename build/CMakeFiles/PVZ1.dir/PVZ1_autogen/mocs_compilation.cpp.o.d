@@ -281,7 +281,11 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../seedbank.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_sun.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sun.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../helper.h
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../helper.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_sun.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sun.h

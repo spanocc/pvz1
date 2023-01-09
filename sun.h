@@ -23,12 +23,18 @@ class Sun : public QPushButton {
     // 绘图事件 是虚函数                                                                            
     void paintEvent(QPaintEvent *);
 
+  signals:
+    // 发出更新阳光数字的信号，来通知seedbank更新数字
+    void SignalUpdateSun();
+
   private:
 
     static const int RecycleSunX = 0;
     static const int RecycleSunY = 0;
+    static const int SunValue = 25;
 
     Move sun_move_;
+    int sun_value_;
 };
 
 

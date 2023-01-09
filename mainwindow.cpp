@@ -19,13 +19,14 @@ MainWindow::MainWindow(QWidget *parent)
 
     Graph *main_graph = new Graph(this);
     main_graph->setFixedSize(MainWindowWidth, MainWindowHeight);
+    
     Sun *asun = new Sun(this);
-
     SeedBank *sb = new SeedBank(this);
 
     QTimer *timer = new QTimer(this);
     connect(timer, &QTimer::timeout, asun, &Sun::SunMove);
     connect(asun, &Sun::clicked, asun, &Sun::RecycleSun);
+    connect(asun, &Sun::SignalUpdateSun, sb, &SeedBank::UpdateSun);
     
 
     timer->start(50); // 20帧

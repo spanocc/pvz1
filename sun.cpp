@@ -1,7 +1,9 @@
 #include <cmath>
 #include "sun.h"
 
-Sun::Sun(QWidget *parent) : QPushButton(parent) {
+extern int sun_gold;
+
+Sun::Sun(QWidget *parent) : QPushButton(parent), sun_value_(SunValue) {
     sun_move_.vx_ = 0;
     sun_move_.vy_ = 10;
     setFixedSize(QSize(200, 200)); 
@@ -18,6 +20,10 @@ void Sun::SunMove() {
 }
 
 void Sun::RecycleSun() {
+
+    sun_gold += sun_value_;
+    emit SignalUpdateSun(); // 发出更新数字的信号
+
     QPoint sun_pos = pos();
     int x = sun_pos.x(), y = sun_pos.y();
     int divx = x - RecycleSunX, divy = y - RecycleSunY;

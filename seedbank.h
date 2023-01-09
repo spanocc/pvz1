@@ -3,7 +3,9 @@
 
 #include <vector>
 #include <QWidget>
+#include <QLabel>
 #include "plantcard.h"
+#include "sun.h"
 
 class SeedBank : public QWidget {
 
@@ -13,6 +15,10 @@ class SeedBank : public QWidget {
     SeedBank(QWidget *parent);
 
     void paintEvent(QPaintEvent *);
+
+    // 更新阳光数字
+    void UpdateSun();
+
   
   private:
     // 种子银行的参数
@@ -28,6 +34,8 @@ class SeedBank : public QWidget {
     static const int PlantCardNum = 7;
 
     std::vector<PlantCard *> plant_card_vec;
+
+    QLabel *sun_digit_ = nullptr;
 };
 
 #endif
