@@ -382,6 +382,30 @@ sun.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sun.cpp.s
 .PHONY : sun.cpp.s
 
+sunflower.o: sunflower.cpp.o
+.PHONY : sunflower.o
+
+# target to build an object file
+sunflower.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sunflower.cpp.o
+.PHONY : sunflower.cpp.o
+
+sunflower.i: sunflower.cpp.i
+.PHONY : sunflower.i
+
+# target to preprocess a source file
+sunflower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sunflower.cpp.i
+.PHONY : sunflower.cpp.i
+
+sunflower.s: sunflower.cpp.s
+.PHONY : sunflower.s
+
+# target to generate assembly for a file
+sunflower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sunflower.cpp.s
+.PHONY : sunflower.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -422,6 +446,9 @@ help:
 	@echo "... sun.o"
 	@echo "... sun.i"
 	@echo "... sun.s"
+	@echo "... sunflower.o"
+	@echo "... sunflower.i"
+	@echo "... sunflower.s"
 .PHONY : help
 
 

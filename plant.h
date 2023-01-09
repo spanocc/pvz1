@@ -2,18 +2,23 @@
 #define PLANT_H
 
 #include <string>
-#include <QObject>
+#include <QWidget>
 
 
 enum PlantType {
     NONEPLANT = 0, SUNFLOWER
 };
 
-class Plant : public QObject {
+class Plant : public QWidget {
 
     Q_OBJECT
 
   public:
+    Plant(QWidget *parent);
+
+  private:
+    
+
 };
 
 

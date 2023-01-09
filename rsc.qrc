@@ -5,5 +5,23 @@
         <file>image/background1.jpg</file>
         <file>image/SeedBank.png</file>
         <file>image/sunflowercard.png</file>
+        <file>image/sunflower/sunflower0.png</file>
+        <file>image/sunflower/sunflower1.png</file>
+        <file>image/sunflower/sunflower2.png</file>
+        <file>image/sunflower/sunflower3.png</file>
+        <file>image/sunflower/sunflower4.png</file>
+        <file>image/sunflower/sunflower5.png</file>
+        <file>image/sunflower/sunflower6.png</file>
+        <file>image/sunflower/sunflower7.png</file>
+        <file>image/sunflower/sunflower8.png</file>
+        <file>image/sunflower/sunflower9.png</file>
+        <file>image/sunflower/sunflower10.png</file>
+        <file>image/sunflower/sunflower11.png</file>
+        <file>image/sunflower/sunflower12.png</file>
+        <file>image/sunflower/sunflower13.png</file>
+        <file>image/sunflower/sunflower14.png</file>
+        <file>image/sunflower/sunflower15.png</file>
+        <file>image/sunflower/sunflower16.png</file>
+        <file>image/sunflower/sunflower17.png</file>
     </qresource>
 </RCC>

@@ -51,6 +51,7 @@ else()
     seedbank.cpp
     plantcard.cpp
     plant.cpp
+    sunflower.cpp
   )
 endif()
 

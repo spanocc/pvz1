@@ -6,3 +6,4 @@
 #include "EWIEGA46WW/moc_plantcard.cpp"
 #include "EWIEGA46WW/moc_seedbank.cpp"
 #include "EWIEGA46WW/moc_sun.cpp"
+#include "EWIEGA46WW/moc_sunflower.cpp"

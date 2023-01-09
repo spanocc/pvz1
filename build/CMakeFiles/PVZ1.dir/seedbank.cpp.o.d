@@ -280,7 +280,5 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
- /home/llh/project/PVZ1/plant.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QObject \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject.h \
- /home/llh/project/PVZ1/sun.h /home/llh/project/PVZ1/helper.h
+ /home/llh/project/PVZ1/plant.h /home/llh/project/PVZ1/sun.h \
+ /home/llh/project/PVZ1/helper.h

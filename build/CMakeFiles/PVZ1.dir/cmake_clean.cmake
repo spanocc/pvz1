@@ -22,6 +22,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/PVZ1.dir/seedbank.cpp.o.d"
   "CMakeFiles/PVZ1.dir/sun.cpp.o"
   "CMakeFiles/PVZ1.dir/sun.cpp.o.d"
+  "CMakeFiles/PVZ1.dir/sunflower.cpp.o"
+  "CMakeFiles/PVZ1.dir/sunflower.cpp.o.d"
   "PVZ1"
   "PVZ1.pdb"
   "PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp"

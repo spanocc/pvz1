@@ -42,6 +42,6 @@ void Sun::RecycleSun() {
 }
 
 void Sun::paintEvent(QPaintEvent *) {
-     QPainter painter(this);
-     painter.drawPixmap(0, 0, this->width(), this->height(),QPixmap(":/image/sun.png"));
+    QPainter painter(this);
+    painter.drawPixmap(0, 0, this->width(), this->height(),QPixmap(":/image/sun.png"));
 }

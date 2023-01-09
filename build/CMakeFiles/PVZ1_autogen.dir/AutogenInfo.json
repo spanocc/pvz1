@@ -120,7 +120,13 @@
 			"EWIEGA46WW/moc_seedbank.cpp",
 			null
 		],
-		[ "/home/llh/project/PVZ1/sun.h", "MU", "EWIEGA46WW/moc_sun.cpp", null ]
+		[ "/home/llh/project/PVZ1/sun.h", "MU", "EWIEGA46WW/moc_sun.cpp", null ],
+		[
+			"/home/llh/project/PVZ1/sunflower.h",
+			"MU",
+			"EWIEGA46WW/moc_sunflower.cpp",
+			null
+		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/llh/project/PVZ1/build/PVZ1_autogen/include",
@@ -182,7 +188,8 @@
 		[ "/home/llh/project/PVZ1/plant.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/plantcard.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/seedbank.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/sun.cpp", "MU", null ]
+		[ "/home/llh/project/PVZ1/sun.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/sunflower.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

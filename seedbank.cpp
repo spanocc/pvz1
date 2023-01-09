@@ -18,6 +18,7 @@ SeedBank::SeedBank(QWidget *parent)
         plant_card_vec[i] = new PlantCard(this, SUNFLOWER);
         plant_card_vec[i]->setFixedSize(QSize(PlantCardWidth, PlantCardHeight));
         plant_card_vec[i]->move(PlantCardInitX + PlantCardWidth * i, 10);
+        connect(plant_card_vec[i], &PlantCard::clicked, plant_card_vec[i], &PlantCard::ChooseCard);
     }
     // 阳光数字
     sun_digit_ = new QLabel(this);

@@ -261,6 +261,11 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
+ /home/llh/project/PVZ1/plant.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_graph_block.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph_block.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp \
@@ -268,24 +273,23 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_plant.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QObject \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_plantcard.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sun.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../helper.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../seedbank.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sun.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../helper.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sunflower.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_plant.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_plantcard.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../seedbank.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_sun.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sun.h
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sun.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_sunflower.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sunflower.h

@@ -260,8 +260,13 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
- /usr/include/c++/12.2.0/iostream /usr/include/c++/12.2.0/ostream \
- /usr/include/c++/12.2.0/ios /usr/include/c++/12.2.0/bits/basic_ios.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
+ /home/llh/project/PVZ1/plant.h /usr/include/c++/12.2.0/iostream \
+ /usr/include/c++/12.2.0/ostream /usr/include/c++/12.2.0/ios \
+ /usr/include/c++/12.2.0/bits/basic_ios.h \
  /usr/include/c++/12.2.0/bits/locale_facets.h \
  /usr/include/c++/12.2.0/cwctype /usr/include/wctype.h \
  /usr/include/bits/wctype-wchar.h \

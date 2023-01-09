@@ -94,10 +94,10 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
  /usr/include/c++/12.2.0/bits/functional_hash.h \
  /usr/include/c++/12.2.0/bits/hash_bytes.h \
  /usr/include/c++/12.2.0/bits/basic_string.tcc \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QObject \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnamespace.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
  /usr/include/c++/12.2.0/cstddef /usr/include/c++/12.2.0/utility \
  /usr/include/c++/12.2.0/bits/stl_relops.h /usr/include/assert.h \
@@ -126,7 +126,13 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtgui-config.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnamespace.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs_impl.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstring.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qchar.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearray.h \
@@ -206,4 +212,44 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
  /usr/include/c++/12.2.0/chrono /usr/include/c++/12.2.0/bits/chrono.h \
  /usr/include/c++/12.2.0/ratio /usr/include/c++/12.2.0/limits \
  /usr/include/c++/12.2.0/ctime \
- /usr/include/c++/12.2.0/bits/parse_numbers.h
+ /usr/include/c++/12.2.0/bits/parse_numbers.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpalette.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcolor.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgb.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgba64.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbrush.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmatrix.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpolygon.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qregion.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qdatastream.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiodevice.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qline.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainterpath.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
+ /usr/include/c++/12.2.0/memory \
+ /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/12.2.0/bits/align.h /usr/include/c++/12.2.0/bit \
+ /usr/include/c++/12.2.0/bits/unique_ptr.h \
+ /usr/include/c++/12.2.0/bits/shared_ptr.h \
+ /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
+ /usr/include/c++/12.2.0/ext/concurrence.h \
+ /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
+ /usr/include/c++/12.2.0/backward/auto_ptr.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qsizepolicy.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcursor.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h
