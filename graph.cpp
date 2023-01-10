@@ -1,5 +1,7 @@
-#include "graph.h"
 #include <iostream>
+#include "graph.h"
+#include "seedbank.h"
+
 Graph::Graph(QWidget *parent) 
     : QWidget(parent),
       graph_(LineNum, std::vector<GraphBlock *>(ColumnNum, nullptr)) {  

@@ -12,6 +12,7 @@ class Sun : public QPushButton {
 
   public:
     Sun(QWidget *parent);
+    ~Sun();
 
     void set_move(uint64_t vx, uint64_t vy) { sun_move_.vx_ = vx; sun_move_.vy_ = vy; }
     const Move& get_move() const { return sun_move_; }
@@ -24,8 +25,7 @@ class Sun : public QPushButton {
     void paintEvent(QPaintEvent *);
 
   signals:
-    // 发出更新阳光数字的信号，来通知seedbank更新数字
-    void SignalUpdateSun();
+    void Destory(Sun *sun); // 告诉mianwindow销毁自己
 
   private:
 

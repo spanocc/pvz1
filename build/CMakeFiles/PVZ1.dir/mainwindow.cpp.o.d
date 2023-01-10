@@ -219,6 +219,10 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: \
  /usr/include/c++/12.2.0/ratio /usr/include/c++/12.2.0/limits \
  /usr/include/c++/12.2.0/ctime \
  /usr/include/c++/12.2.0/bits/parse_numbers.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTime \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qdatetime.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
@@ -234,8 +238,6 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgb.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgba64.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
  /usr/include/c++/12.2.0/memory \
  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
@@ -262,7 +264,16 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
- /home/llh/project/PVZ1/mainwindow.h \
+ /home/llh/project/PVZ1/mainwindow.h /usr/include/c++/12.2.0/random \
+ /usr/include/c++/12.2.0/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/12.2.0/bits/random.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
+ /usr/include/c++/12.2.0/bits/random.tcc \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \

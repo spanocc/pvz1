@@ -4,6 +4,8 @@
 
 extern PlantType current_plant;
 extern const char *plant_name[];
+extern const int plant_value[];
+extern int sun_gold;
 
 
 PlantCard::PlantCard(QWidget *parent, PlantType plant_type) 
@@ -19,5 +21,5 @@ void PlantCard::paintEvent(QPaintEvent *) {
 }
 
 void PlantCard::ChooseCard() {
-    current_plant = plant_type_;
+    if(sun_gold >= plant_value[plant_type_]) current_plant = plant_type_;
 }

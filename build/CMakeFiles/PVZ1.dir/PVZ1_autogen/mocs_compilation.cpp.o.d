@@ -273,6 +273,16 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph_block.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../mainwindow.h \
+ /usr/include/c++/12.2.0/random /usr/include/c++/12.2.0/cmath \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/12.2.0/bits/random.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
+ /usr/include/c++/12.2.0/bits/random.tcc \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \

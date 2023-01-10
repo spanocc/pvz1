@@ -1,7 +1,10 @@
 #include <cmath>
+#include <iostream>
 #include "sun.h"
+#include "mainwindow.h"
 
 extern int sun_gold;
+extern MainWindow *main_window;
 
 Sun::Sun(QWidget *parent) : QPushButton(parent), sun_value_(SunValue) {
     sun_move_.vx_ = 0;
@@ -10,7 +13,6 @@ Sun::Sun(QWidget *parent) : QPushButton(parent), sun_value_(SunValue) {
     // setIcon(QIcon(":/image/sun.png"));
     // setIconSize(QSize(100, 100));
     // setStyleSheet("QPushButton{border:none}");
-    move(400, 0);
 }
 
 void Sun::SunMove() {
@@ -22,9 +24,10 @@ void Sun::SunMove() {
 void Sun::RecycleSun() {
 
     sun_gold += sun_value_;
-    emit SignalUpdateSun(); // 发出更新数字的信号
+    main_window->seed_bank()->UpdateSun(); // 更新剩余阳光的显示
+    emit Destory(this); // 通知mainwindow销毁这个阳光
 
-    QPoint sun_pos = pos();
+/*  QPoint sun_pos = pos();
     int x = sun_pos.x(), y = sun_pos.y();
     int divx = x - RecycleSunX, divy = y - RecycleSunY;
 
@@ -38,10 +41,14 @@ void Sun::RecycleSun() {
     int vy = static_cast<int>(vx * ratio);
     if(x > RecycleSunX) vx *= -1;
     if(y > RecycleSunY) vy *= -1;
-    set_move(vx, vy);
+    set_move(vx, vy); */
 }
 
 void Sun::paintEvent(QPaintEvent *) {
     QPainter painter(this);
     painter.drawPixmap(0, 0, this->width(), this->height(),QPixmap(":/image/sun.png"));
+}
+
+Sun::~Sun() {
+    std::cout<<"destory a sun\n";
 }

@@ -9,6 +9,12 @@ const char *plant_name[] = {
 /* 1  */ "sunflower" 
 };
 
+// 必须加上extern才能被其他文件检测到 （extern 和 const 的用法）
+extern const int plant_value[] = { // 每个植物消耗的阳光  
+/* 0  */ 0,
+/* 1  */ 50
+};
+
 Plant::Plant(QWidget *parent) 
     : QWidget(parent),
       dynamic_timer_(new QTimer(this))  {
