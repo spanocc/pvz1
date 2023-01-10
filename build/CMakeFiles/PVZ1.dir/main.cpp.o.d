@@ -270,6 +270,9 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
  /home/llh/project/PVZ1/graph_block.h /home/llh/project/PVZ1/plant.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
  /home/llh/project/PVZ1/seedbank.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \

@@ -266,6 +266,9 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
  /home/llh/project/PVZ1/plant.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_graph_block.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph_block.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp \

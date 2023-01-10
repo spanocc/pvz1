@@ -1,6 +1,5 @@
 CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
- /usr/include/stdc-predef.h /home/llh/project/PVZ1/plant.h \
- /usr/include/c++/12.2.0/string \
+ /usr/include/stdc-predef.h /usr/include/c++/12.2.0/string \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -94,6 +93,42 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
  /usr/include/c++/12.2.0/bits/functional_hash.h \
  /usr/include/c++/12.2.0/bits/hash_bytes.h \
  /usr/include/c++/12.2.0/bits/basic_string.tcc \
+ /usr/include/c++/12.2.0/iostream /usr/include/c++/12.2.0/ostream \
+ /usr/include/c++/12.2.0/ios /usr/include/c++/12.2.0/exception \
+ /usr/include/c++/12.2.0/bits/exception_ptr.h \
+ /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
+ /usr/include/c++/12.2.0/typeinfo \
+ /usr/include/c++/12.2.0/bits/nested_exception.h \
+ /usr/include/c++/12.2.0/bits/ios_base.h \
+ /usr/include/c++/12.2.0/ext/atomicity.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /usr/include/sys/single_threaded.h \
+ /usr/include/c++/12.2.0/bits/locale_classes.h \
+ /usr/include/c++/12.2.0/bits/locale_classes.tcc \
+ /usr/include/c++/12.2.0/system_error \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
+ /usr/include/c++/12.2.0/stdexcept /usr/include/c++/12.2.0/streambuf \
+ /usr/include/c++/12.2.0/bits/streambuf.tcc \
+ /usr/include/c++/12.2.0/bits/basic_ios.h \
+ /usr/include/c++/12.2.0/bits/locale_facets.h \
+ /usr/include/c++/12.2.0/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/12.2.0/bits/locale_facets.tcc \
+ /usr/include/c++/12.2.0/bits/basic_ios.tcc \
+ /usr/include/c++/12.2.0/bits/ostream.tcc /usr/include/c++/12.2.0/istream \
+ /usr/include/c++/12.2.0/bits/istream.tcc /home/llh/project/PVZ1/plant.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -141,31 +176,6 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/12.2.0/stdlib.h /usr/include/c++/12.2.0/iterator \
  /usr/include/c++/12.2.0/bits/stream_iterator.h \
- /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
- /usr/include/c++/12.2.0/streambuf \
- /usr/include/c++/12.2.0/bits/ios_base.h \
- /usr/include/c++/12.2.0/ext/atomicity.h \
- /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
- /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
- /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
- /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
- /usr/include/bits/types/struct_tm.h \
- /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
- /usr/include/bits/types/struct___jmp_buf_tag.h \
- /usr/include/bits/pthread_stack_min-dynamic.h \
- /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
- /usr/include/sys/single_threaded.h \
- /usr/include/c++/12.2.0/bits/locale_classes.h \
- /usr/include/c++/12.2.0/bits/locale_classes.tcc \
- /usr/include/c++/12.2.0/system_error \
- /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
- /usr/include/c++/12.2.0/stdexcept /usr/include/c++/12.2.0/exception \
- /usr/include/c++/12.2.0/bits/exception_ptr.h \
- /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
- /usr/include/c++/12.2.0/typeinfo \
- /usr/include/c++/12.2.0/bits/nested_exception.h \
- /usr/include/c++/12.2.0/bits/streambuf.tcc \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
@@ -252,4 +262,11 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qsizepolicy.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcursor.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h

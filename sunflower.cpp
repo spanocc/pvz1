@@ -3,10 +3,10 @@
 SunFlower::SunFlower(QWidget *parent) 
     : Plant(parent) {
     
-    setFixedSize(QSize(SunFlowerWidth, SunFlowerHeight));    
-}
+    image_num_ = 18;
+    plant_type_ = SUNFLOWER;
 
-void SunFlower::paintEvent(QPaintEvent *) {
-    QPainter painter(this);
-    painter.drawPixmap(0, 0, this->width(), this->height(),QPixmap(":/image/sunflower/sunflower0.png"));
+    setFixedSize(QSize(SunFlowerWidth, SunFlowerHeight));    
+
+    DynamicImageInit();
 }

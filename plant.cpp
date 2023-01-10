@@ -1,8 +1,35 @@
+#include <string>
+#include <iostream>
 #include "plant.h"
 
 PlantType current_plant = NONEPLANT;
 
+const char *plant_name[] = {
+/* 0  */ "",
+/* 1  */ "sunflower" 
+};
+
 Plant::Plant(QWidget *parent) 
-    : QWidget(parent) {
+    : QWidget(parent),
+      dynamic_timer_(new QTimer(this))  {
     
+}
+
+void Plant::DynamicImageInit() {
+    assert(dynamic_timer_);
+
+    connect(dynamic_timer_, &QTimer::timeout, this, [&]() {
+        current_image_ = (current_image_ + 1) % image_num_;
+        update(); // 更新图像
+    });
+    dynamic_timer_->start(120);
+}
+
+void Plant::paintEvent(QPaintEvent *) {
+
+    if(image_num_ == 0) return;
+
+    QPainter painter(this);
+    std::string image_path = std::string(":/image/") + plant_name[plant_type_] + "/" + plant_name[plant_type_] + std::to_string(current_image_) + ".png";
+    painter.drawPixmap(0, 0, this->width(), this->height(),QPixmap(image_path.c_str()));
 }

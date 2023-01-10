@@ -1,7 +1,6 @@
 #ifndef SUNFLOWER_H
 #define SUNFLOWER_H
 
-#include <QPainter>
 #include "plant.h" 
 
 class SunFlower : public Plant {
@@ -10,8 +9,6 @@ class SunFlower : public Plant {
 
   public:
     SunFlower(QWidget *parent);
-
-    void paintEvent(QPaintEvent *);
 
   private:
     static const int SunFlowerWidth = 175;
