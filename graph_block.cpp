@@ -32,4 +32,6 @@ void GraphBlock::CreatPlant() {
     plant_->set_pos(pos());
     sun_gold -= plant_value[plant_->plant_type()];
     main_window->seed_bank()->UpdateSun(); // 更新剩余阳光的显示
+
+    current_plant = NONEPLANT; // 种下一个植物后，current_plant恢复到原状态
 }

@@ -23,5 +23,27 @@
         <file>image/sunflower/sunflower15.png</file>
         <file>image/sunflower/sunflower16.png</file>
         <file>image/sunflower/sunflower17.png</file>
+        <file>image/sun/sun0.png</file>
+        <file>image/sun/sun1.png</file>
+        <file>image/sun/sun2.png</file>
+        <file>image/sun/sun3.png</file>
+        <file>image/sun/sun4.png</file>
+        <file>image/sun/sun5.png</file>
+        <file>image/sun/sun6.png</file>
+        <file>image/sun/sun7.png</file>
+        <file>image/sun/sun8.png</file>
+        <file>image/sun/sun9.png</file>
+        <file>image/sun/sun10.png</file>
+        <file>image/sun/sun11.png</file>
+        <file>image/sun/sun12.png</file>
+        <file>image/sun/sun13.png</file>
+        <file>image/sun/sun14.png</file>
+        <file>image/sun/sun15.png</file>
+        <file>image/sun/sun16.png</file>
+        <file>image/sun/sun17.png</file>
+        <file>image/sun/sun18.png</file>
+        <file>image/sun/sun19.png</file>
+        <file>image/sun/sun20.png</file>
+        <file>image/sun/sun21.png</file>
     </qresource>
 </RCC>

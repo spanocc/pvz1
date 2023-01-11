@@ -1,18 +1,30 @@
 #include <cmath>
 #include <iostream>
+#include <string>
 #include "sun.h"
 #include "mainwindow.h"
 
 extern int sun_gold;
 extern MainWindow *main_window;
 
-Sun::Sun(QWidget *parent) : QPushButton(parent), sun_value_(SunValue) {
+Sun::Sun(QWidget *parent) 
+    : QPushButton(parent), 
+      sun_value_(SunValue), 
+      dynamic_timer_(new QTimer(this)) {
     sun_move_.vx_ = 0;
     sun_move_.vy_ = 10;
     setFixedSize(QSize(200, 200)); 
     // setIcon(QIcon(":/image/sun.png"));
     // setIconSize(QSize(100, 100));
     // setStyleSheet("QPushButton{border:none}");
+
+    // 实现阳光动态效果
+    image_num_ = 22;
+    connect(dynamic_timer_, &QTimer::timeout, this, [&]() {
+        current_image_ = (current_image_ + 1) % image_num_;
+        update(); // 更新图像
+    });
+    dynamic_timer_->start(80);
 }
 
 void Sun::SunMove() {
@@ -46,7 +58,8 @@ void Sun::RecycleSun() {
 
 void Sun::paintEvent(QPaintEvent *) {
     QPainter painter(this);
-    painter.drawPixmap(0, 0, this->width(), this->height(),QPixmap(":/image/sun.png"));
+    std::string sun_path = std::string(":/image/sun/sun") + std::to_string(current_image_) + ".png";  // std::cout<<sun_path<<std::endl;
+    painter.drawPixmap(0, 0, this->width(), this->height(),QPixmap(sun_path.c_str()));
 }
 
 Sun::~Sun() {

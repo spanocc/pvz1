@@ -21,5 +21,9 @@ void PlantCard::paintEvent(QPaintEvent *) {
 }
 
 void PlantCard::ChooseCard() {
+    if(current_plant == plant_type_) {  // 第一次点击是种植物，第二次点击是把current恢复到原状态
+        current_plant = NONEPLANT;
+        return;
+    }
     if(sun_gold >= plant_value[plant_type_]) current_plant = plant_type_;
 }

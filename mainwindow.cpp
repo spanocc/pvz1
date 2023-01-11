@@ -59,7 +59,7 @@ void MainWindow::ProduceSun() {
     sun->show();
 }
 
-void MainWindow::ProduceSun(const QPoint &pos) {   std::cout<<"poooo\n";
+void MainWindow::ProduceSun(const QPoint &pos) {   
     Sun *sun = new Sun(this);
     sun->move(pos.x(), pos.y());
     connect(sun, &Sun::clicked, sun, &Sun::RecycleSun);

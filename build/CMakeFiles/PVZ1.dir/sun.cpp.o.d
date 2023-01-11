@@ -276,6 +276,9 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
  /home/llh/project/PVZ1/helper.h /home/llh/project/PVZ1/mainwindow.h \
  /usr/include/c++/12.2.0/random /usr/include/c++/12.2.0/bits/random.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
@@ -287,9 +290,6 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
  /home/llh/project/PVZ1/graph_block.h /home/llh/project/PVZ1/plant.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
  /home/llh/project/PVZ1/seedbank.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
