@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/PVZ1.dir/main.cpp.o.d"
   "CMakeFiles/PVZ1.dir/mainwindow.cpp.o"
   "CMakeFiles/PVZ1.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/PVZ1.dir/peashooter.cpp.o"
+  "CMakeFiles/PVZ1.dir/peashooter.cpp.o.d"
   "CMakeFiles/PVZ1.dir/plant.cpp.o"
   "CMakeFiles/PVZ1.dir/plant.cpp.o.d"
   "CMakeFiles/PVZ1.dir/plantcard.cpp.o"

@@ -25,6 +25,8 @@ Sun::Sun(QWidget *parent)
         update(); // 更新图像
     });
     dynamic_timer_->start(80);
+
+    std::cout<<"produce a sun\n";
 }
 
 void Sun::SunMove() {

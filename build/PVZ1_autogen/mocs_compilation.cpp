@@ -2,6 +2,7 @@
 #include "EWIEGA46WW/moc_graph.cpp"
 #include "EWIEGA46WW/moc_graph_block.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
+#include "EWIEGA46WW/moc_peashooter.cpp"
 #include "EWIEGA46WW/moc_plant.cpp"
 #include "EWIEGA46WW/moc_plantcard.cpp"
 #include "EWIEGA46WW/moc_seedbank.cpp"

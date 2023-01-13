@@ -294,9 +294,10 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
  /home/llh/project/PVZ1/plant.h /home/llh/project/PVZ1/sunflower.h \
- /home/llh/project/PVZ1/mainwindow.h /usr/include/c++/12.2.0/random \
- /usr/include/c++/12.2.0/cmath /usr/include/math.h \
- /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /home/llh/project/PVZ1/peashooter.h /home/llh/project/PVZ1/mainwindow.h \
+ /usr/include/c++/12.2.0/random /usr/include/c++/12.2.0/cmath \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
  /usr/include/bits/fp-fast.h \
  /usr/include/bits/mathcalls-helper-functions.h \

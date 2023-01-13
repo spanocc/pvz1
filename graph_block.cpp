@@ -3,6 +3,7 @@
 #include "graph.h"
 #include "plant.h"
 #include "sunflower.h"
+#include "peashooter.h"
 #include "mainwindow.h"
 
 extern MainWindow *main_window; 
@@ -22,10 +23,15 @@ void GraphBlock::CreatPlant() {
     if(current_plant == NONEPLANT) return;
     else if(plant_ != nullptr) return;
 
-    else if(current_plant == SUNFLOWER) {   std::cout<<"create an sunflower"<<std::endl;
+    else if(current_plant == SUNFLOWER) {   std::cout<<"create a sunflower"<<std::endl;
         SunFlower *sun_flower = new SunFlower(this);   
         sun_flower->show(); // 让植物显示出来
         plant_ = sun_flower;
+    }
+    else if(current_plant == PEASHOOTER) {      std::cout<<"create a peashooter"<<std::endl;
+        PeaShooter *pea_shooter = new PeaShooter(this);
+        pea_shooter->show();
+        plant_ = pea_shooter;
     }
 
     assert(plant_);

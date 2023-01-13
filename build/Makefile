@@ -286,6 +286,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+peashooter.o: peashooter.cpp.o
+.PHONY : peashooter.o
+
+# target to build an object file
+peashooter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/peashooter.cpp.o
+.PHONY : peashooter.cpp.o
+
+peashooter.i: peashooter.cpp.i
+.PHONY : peashooter.i
+
+# target to preprocess a source file
+peashooter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/peashooter.cpp.i
+.PHONY : peashooter.cpp.i
+
+peashooter.s: peashooter.cpp.s
+.PHONY : peashooter.s
+
+# target to generate assembly for a file
+peashooter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/peashooter.cpp.s
+.PHONY : peashooter.cpp.s
+
 plant.o: plant.cpp.o
 .PHONY : plant.o
 
@@ -434,6 +458,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... peashooter.o"
+	@echo "... peashooter.i"
+	@echo "... peashooter.s"
 	@echo "... plant.o"
 	@echo "... plant.i"
 	@echo "... plant.s"

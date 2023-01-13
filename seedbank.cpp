@@ -15,9 +15,13 @@ SeedBank::SeedBank(QWidget *parent)
 
     // 卡片
     for(int i = 0; i < PlantCardNum; ++i) {
-        plant_card_vec[i] = new PlantCard(this, SUNFLOWER);
+        if(i == 0) plant_card_vec[i] = new PlantCard(this, SUNFLOWER);
+        else if(i == 1) plant_card_vec[i] = new PlantCard(this, PEASHOOTER);
+        else continue;
         plant_card_vec[i]->setFixedSize(QSize(PlantCardWidth, PlantCardHeight));
-        plant_card_vec[i]->move(PlantCardInitX + PlantCardWidth * i, 10);
+        // 由于卡片图片不一致，为了保持对齐，所以卡片设置的高度不一样
+        if(i == 0) plant_card_vec[i]->move(PlantCardInitX + PlantCardWidth * i, 10);  //  向日葵y轴坐标为10
+        if(i == 1) plant_card_vec[i]->move(PlantCardInitX + PlantCardWidth * i, 7);   //  豌豆射手y轴坐标为7
         connect(plant_card_vec[i], &PlantCard::clicked, plant_card_vec[i], &PlantCard::ChooseCard);
     }
     // 阳光数字

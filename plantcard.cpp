@@ -15,12 +15,14 @@ PlantCard::PlantCard(QWidget *parent, PlantType plant_type)
 }
 
 void PlantCard::paintEvent(QPaintEvent *) {
+    assert(plant_type_ != NONEPLANT);
     QPainter painter(this);
     std::string card_path = std::string(":/image/") + plant_name[plant_type_] + "card.png";     // std::cout<<card_path<<std::endl;
     painter.drawPixmap(0, 0, this->width(), this->height(),QPixmap(card_path.c_str()));
 }
 
 void PlantCard::ChooseCard() {
+    assert(plant_type_ != NONEPLANT);
     if(current_plant == plant_type_) {  // 第一次点击是种植物，第二次点击是把current恢复到原状态
         current_plant = NONEPLANT;
         return;

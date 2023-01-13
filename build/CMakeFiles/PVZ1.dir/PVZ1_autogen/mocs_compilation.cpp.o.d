@@ -308,6 +308,8 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sunflower.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_peashooter.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../peashooter.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_plant.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_plantcard.cpp \

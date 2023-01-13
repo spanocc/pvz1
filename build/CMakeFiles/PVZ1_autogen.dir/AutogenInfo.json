@@ -103,6 +103,12 @@
 			null
 		],
 		[
+			"/home/llh/project/PVZ1/peashooter.h",
+			"MU",
+			"EWIEGA46WW/moc_peashooter.cpp",
+			null
+		],
+		[
 			"/home/llh/project/PVZ1/plant.h",
 			"MU",
 			"EWIEGA46WW/moc_plant.cpp",
@@ -185,6 +191,7 @@
 		[ "/home/llh/project/PVZ1/graph_block.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/main.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/mainwindow.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/peashooter.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/plant.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/plantcard.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/seedbank.cpp", "MU", null ],

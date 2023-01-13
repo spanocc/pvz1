@@ -13,6 +13,7 @@ SunFlower::SunFlower(QWidget *parent)
     setFixedSize(QSize(SunFlowerWidth, SunFlowerHeight));    
     // 设置向日葵的动态效果
     DynamicImageInit();
+    movie_->setSpeed(100);  // 设置gif播放速度
     // 建立产生阳光的信号函数
     connect(produce_sun_timer_, &QTimer::timeout, this, [this]() {
         emit ProduceSun(pos_); // 阳光的位置应该是相对于主窗口的，而pos函数调用的位置是相对于该graph_block的

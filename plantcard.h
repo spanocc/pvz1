@@ -19,7 +19,7 @@ class PlantCard : public QPushButton {
 
   private:
 
-    PlantType plant_type_;
+    PlantType plant_type_ = NONEPLANT;
 
 };
 
