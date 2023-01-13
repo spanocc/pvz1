@@ -53,6 +53,7 @@ else()
     plant.cpp
     sunflower.cpp
     peashooter.cpp
+    bullet.cpp
   )
 endif()
 

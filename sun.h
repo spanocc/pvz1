@@ -6,6 +6,7 @@
 #include <QTimer>
 #include "helper.h"
 
+// 阳光由MainWindow产生
 // 阳光的动态效果是通过切换图片实现的，因为阳光是QPushButton而不是QLable
 class Sun : public QPushButton {
 
@@ -29,9 +30,9 @@ class Sun : public QPushButton {
     void Destory(Sun *sun); // 告诉mianwindow销毁自己
 
   private:
-
-    static const int RecycleSunX = 0;
-    static const int RecycleSunY = 0;
+    // 回收阳光要回到的位置
+    // static const int RecycleSunX = 0;
+    // static const int RecycleSunY = 0;
     static const int SunValue = 25;
 
     static const int SunWidth = 180;

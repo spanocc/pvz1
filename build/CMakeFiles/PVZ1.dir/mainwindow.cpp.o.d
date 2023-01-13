@@ -289,7 +289,11 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
- /home/llh/project/PVZ1/helper.h /home/llh/project/PVZ1/graph.h \
+ /home/llh/project/PVZ1/helper.h /home/llh/project/PVZ1/bullet.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
+ /home/llh/project/PVZ1/graph.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
  /home/llh/project/PVZ1/graph_block.h /home/llh/project/PVZ1/plant.h \
@@ -305,9 +309,6 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
  /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/plantcard.h \
  /home/llh/project/PVZ1/plant.h /home/llh/project/PVZ1/sunflower.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/include/./ui_mainwindow.h \

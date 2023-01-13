@@ -3,8 +3,8 @@
 
 extern MainWindow *main_window; 
 
-SunFlower::SunFlower(QWidget *parent) 
-    : Plant(parent),
+SunFlower::SunFlower(QWidget *parent, const QPoint& pos) 
+    : Plant(parent, pos),
       produce_sun_timer_(new QTimer(this)) {
     
     // image_num_ = 18;

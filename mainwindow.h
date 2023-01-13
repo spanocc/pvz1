@@ -4,6 +4,7 @@
 #include <random>
 #include <QMainWindow>
 #include "sun.h"
+#include "bullet.h"
 #include "graph.h"
 #include "seedbank.h"
 #include "sunflower.h"
@@ -22,6 +23,7 @@ public:
     ~MainWindow();
 
     SeedBank *seed_bank() { return seed_bank_; }
+    QTimer* timer() { return timer_; }
 
     void paintEvent(QPaintEvent *);
     // 初始化地图
@@ -37,6 +39,9 @@ public:
     void ProduceSun(const QPoint &pos);
     // 销毁这个阳光
     void DestroySun(Sun *sun) { delete sun; }
+
+    // 产生子弹
+    void ProduceBullet(const QPoint &pos);
 
     // 定义为public，方便其他类获取窗口大小 eg：Sun类要获取窗口大小
     static const int MainWindowWidth = 1800;

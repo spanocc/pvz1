@@ -190,6 +190,30 @@ PVZ1_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.s
 .PHONY : PVZ1_autogen/mocs_compilation.cpp.s
 
+bullet.o: bullet.cpp.o
+.PHONY : bullet.o
+
+# target to build an object file
+bullet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/bullet.cpp.o
+.PHONY : bullet.cpp.o
+
+bullet.i: bullet.cpp.i
+.PHONY : bullet.i
+
+# target to preprocess a source file
+bullet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/bullet.cpp.i
+.PHONY : bullet.cpp.i
+
+bullet.s: bullet.cpp.s
+.PHONY : bullet.s
+
+# target to generate assembly for a file
+bullet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/bullet.cpp.s
+.PHONY : bullet.cpp.s
+
 graph.o: graph.cpp.o
 .PHONY : graph.o
 
@@ -446,6 +470,9 @@ help:
 	@echo "... PVZ1_autogen/mocs_compilation.o"
 	@echo "... PVZ1_autogen/mocs_compilation.i"
 	@echo "... PVZ1_autogen/mocs_compilation.s"
+	@echo "... bullet.o"
+	@echo "... bullet.i"
+	@echo "... bullet.s"
 	@echo "... graph.o"
 	@echo "... graph.i"
 	@echo "... graph.s"

@@ -9,7 +9,7 @@ class SunFlower : public Plant {
     Q_OBJECT
 
   public:
-    SunFlower(QWidget *parent);
+    SunFlower(QWidget *parent, const QPoint& pos);
 
   private:
     static const int SunFlowerWidth = 175;

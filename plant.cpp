@@ -18,8 +18,9 @@ extern const int plant_value[] = { // 每个植物消耗的阳光
 };
 
 
-Plant::Plant(QWidget *parent) 
-    : QLabel(parent) {
+Plant::Plant(QWidget *parent, const QPoint& pos) 
+    : QLabel(parent), 
+      pos_(pos) {
     
 }
 

@@ -24,18 +24,17 @@ void GraphBlock::CreatPlant() {
     else if(plant_ != nullptr) return;
 
     else if(current_plant == SUNFLOWER) {   std::cout<<"create a sunflower"<<std::endl;
-        SunFlower *sun_flower = new SunFlower(this);   
+        SunFlower *sun_flower = new SunFlower(this, pos());   
         sun_flower->show(); // 让植物显示出来
         plant_ = sun_flower;
     }
     else if(current_plant == PEASHOOTER) {      std::cout<<"create a peashooter"<<std::endl;
-        PeaShooter *pea_shooter = new PeaShooter(this);
+        PeaShooter *pea_shooter = new PeaShooter(this, pos());
         pea_shooter->show();
         plant_ = pea_shooter;
     }
 
     assert(plant_);
-    plant_->set_pos(pos());
     sun_gold -= plant_value[plant_->plant_type()];
     main_window->seed_bank()->UpdateSun(); // 更新剩余阳光的显示
 

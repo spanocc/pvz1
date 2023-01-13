@@ -286,6 +286,10 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
+ /home/llh/project/PVZ1/bullet.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
  /home/llh/project/PVZ1/graph.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
@@ -302,8 +306,5 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
  /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/plantcard.h \
  /home/llh/project/PVZ1/plant.h /home/llh/project/PVZ1/sunflower.h

@@ -66,3 +66,11 @@ void MainWindow::ProduceSun(const QPoint &pos) {
     connect(sun, &Sun::Destory, this, &MainWindow::DestroySun);
     sun->show();
 }
+
+void MainWindow::ProduceBullet(const QPoint &pos) {    // std::cout<<"produce a bullet (pos :"<<pos.x()<<" "<<pos.y()<<")\n";
+    Bullet *bullet = new Bullet(this);
+    bullet->move(pos.x() + Graph::GraphBlockWidth, pos.y() + 10);
+    // 子弹移动跟随mainwindow的定时器
+    connect(this->timer(), &QTimer::timeout, bullet, &Bullet::BulletMove);
+    bullet->show();
+}

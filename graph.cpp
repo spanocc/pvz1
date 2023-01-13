@@ -12,7 +12,7 @@ Graph::Graph(QWidget *parent)
             graph_[i][j]->move(InitGraphX + j * GraphBlockWidth, InitGraphY + i * GraphBlockHeight);
             connect(graph_[i][j], &GraphBlock::clicked, graph_[i][j], &GraphBlock::CreatPlant);
         }
-    }
+    } 
 }
 
 

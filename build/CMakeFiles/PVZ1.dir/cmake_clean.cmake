@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o.d"
   "CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/PVZ1.dir/bullet.cpp.o"
+  "CMakeFiles/PVZ1.dir/bullet.cpp.o.d"
   "CMakeFiles/PVZ1.dir/graph.cpp.o"
   "CMakeFiles/PVZ1.dir/graph.cpp.o.d"
   "CMakeFiles/PVZ1.dir/graph_block.cpp.o"

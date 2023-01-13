@@ -18,12 +18,9 @@ class Plant : public QLabel {
     Q_OBJECT
 
   public:
-    Plant(QWidget *parent);
+    Plant(QWidget *parent, const QPoint& p);
 
     //void paintEvent(QPaintEvent *);
-
-    // 设置植物的位置（给pos_变量填上值）
-    void set_pos(const QPoint& pos) { pos_ = pos; }
     PlantType plant_type() { return plant_type_; }
   private:
     
