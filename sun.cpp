@@ -12,8 +12,8 @@ Sun::Sun(QWidget *parent)
       sun_value_(SunValue), 
       dynamic_timer_(new QTimer(this)) {
     sun_move_.vx_ = 0;
-    sun_move_.vy_ = 10;
-    setFixedSize(QSize(200, 200)); 
+    sun_move_.vy_ = 7;
+    setFixedSize(QSize(SunWidth, SunHeight)); 
     // setIcon(QIcon(":/image/sun.png"));
     // setIconSize(QSize(100, 100));
     // setStyleSheet("QPushButton{border:none}");
@@ -32,6 +32,7 @@ Sun::Sun(QWidget *parent)
 void Sun::SunMove() {
     QPoint sun_pos = pos();
     int x = sun_pos.x(), y = sun_pos.y();
+    if(y + SunHeight >= MainWindow::MainWindowHeight) return; // 防止离开屏幕外
     move(x + sun_move_.vx_, y + sun_move_.vy_);
 }
 

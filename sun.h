@@ -34,6 +34,9 @@ class Sun : public QPushButton {
     static const int RecycleSunY = 0;
     static const int SunValue = 25;
 
+    static const int SunWidth = 180;
+    static const int SunHeight = 180;
+
     QTimer *dynamic_timer_ = nullptr; // 实现阳光动态效果的定时器
     int image_num_ = 0; // 动态图片总数
     int current_image_ = 0; // 当前切换到第几张图片了

@@ -38,9 +38,12 @@ public:
     // 销毁这个阳光
     void DestroySun(Sun *sun) { delete sun; }
 
-private:
+    // 定义为public，方便其他类获取窗口大小 eg：Sun类要获取窗口大小
     static const int MainWindowWidth = 1800;
     static const int MainWindowHeight = 1200;
+
+private:
+
 
     Ui::MainWindow *ui;
 
