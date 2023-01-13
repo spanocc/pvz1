@@ -272,16 +272,31 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
  /home/llh/project/PVZ1/plant.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
- /home/llh/project/PVZ1/graph.h /home/llh/project/PVZ1/plant.h \
- /home/llh/project/PVZ1/sunflower.h /home/llh/project/PVZ1/mainwindow.h \
- /usr/include/c++/12.2.0/random /usr/include/c++/12.2.0/cmath \
- /usr/include/math.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h \
+ /home/llh/project/PVZ1/graph.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+ /home/llh/project/PVZ1/plant.h /home/llh/project/PVZ1/sunflower.h \
+ /home/llh/project/PVZ1/mainwindow.h /usr/include/c++/12.2.0/random \
+ /usr/include/c++/12.2.0/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
  /usr/include/bits/fp-fast.h \
  /usr/include/bits/mathcalls-helper-functions.h \
@@ -293,8 +308,4 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
  /home/llh/project/PVZ1/sun.h /home/llh/project/PVZ1/helper.h \
- /home/llh/project/PVZ1/seedbank.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
- /home/llh/project/PVZ1/plantcard.h
+ /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/plantcard.h

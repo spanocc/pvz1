@@ -6,7 +6,7 @@
 #include <QTimer>
 #include "helper.h"
 
-
+// 阳光的动态效果是通过切换图片实现的，因为阳光是QPushButton而不是QLable
 class Sun : public QPushButton {
 
     Q_OBJECT

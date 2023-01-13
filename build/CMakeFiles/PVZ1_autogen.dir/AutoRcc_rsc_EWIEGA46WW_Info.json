@@ -7,9 +7,11 @@
 	"INCLUDE_DIR" : "/home/llh/project/PVZ1/build/PVZ1_autogen/include",
 	"INPUTS" : 
 	[
+		"/home/llh/project/PVZ1/image/sunflower.gif",
 		"/home/llh/project/PVZ1/image/sunflowercard.png",
 		"/home/llh/project/PVZ1/image/SeedBank.png",
 		"/home/llh/project/PVZ1/image/sun.png",
+		"/home/llh/project/PVZ1/image/peashooter.gif",
 		"/home/llh/project/PVZ1/image/background.jpg",
 		"/home/llh/project/PVZ1/image/background1.jpg",
 		"/home/llh/project/PVZ1/image/sun/sun20.png",

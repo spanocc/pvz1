@@ -266,6 +266,21 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
  /home/llh/project/PVZ1/plant.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
@@ -290,9 +305,6 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../helper.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../seedbank.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sunflower.h \

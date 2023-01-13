@@ -22,7 +22,7 @@ void GraphBlock::CreatPlant() {
     if(current_plant == NONEPLANT) return;
     else if(plant_ != nullptr) return;
 
-    else if(current_plant == SUNFLOWER) {   std::cout<<"create an sunflower\n"<<std::endl;
+    else if(current_plant == SUNFLOWER) {   std::cout<<"create an sunflower"<<std::endl;
         SunFlower *sun_flower = new SunFlower(this);   
         sun_flower->show(); // 让植物显示出来
         plant_ = sun_flower;

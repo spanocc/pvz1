@@ -7,7 +7,7 @@ SunFlower::SunFlower(QWidget *parent)
     : Plant(parent),
       produce_sun_timer_(new QTimer(this)) {
     
-    image_num_ = 18;
+    // image_num_ = 18;
     plant_type_ = SUNFLOWER;
 
     setFixedSize(QSize(SunFlowerWidth, SunFlowerHeight));    
@@ -19,6 +19,6 @@ SunFlower::SunFlower(QWidget *parent)
     });
     void (MainWindow::*produce_sunflower_sun)(const QPoint&) = &MainWindow::ProduceSun; // 指向含有QPoint参数的ProduceSun函数的指针
     connect(this, &SunFlower::ProduceSun, main_window, produce_sunflower_sun);
-
     produce_sun_timer_->start(15000);
+
 }

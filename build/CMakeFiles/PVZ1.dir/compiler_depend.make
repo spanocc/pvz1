@@ -329,6 +329,21 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
   /home/llh/project/PVZ1/plant.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
@@ -358,9 +373,6 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /home/llh/project/PVZ1/helper.h \
   /home/llh/project/PVZ1/graph.h \
   /home/llh/project/PVZ1/seedbank.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
   /home/llh/project/PVZ1/plantcard.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/sunflower.h \
@@ -714,13 +726,25 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
   /home/llh/project/PVZ1/plant.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
   /home/llh/project/PVZ1/seedbank.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
   /home/llh/project/PVZ1/plantcard.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/sun.h \
@@ -1062,12 +1086,27 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
   /home/llh/project/PVZ1/plant.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
   /home/llh/project/PVZ1/graph.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/sunflower.h \
   /home/llh/project/PVZ1/mainwindow.h \
@@ -1092,9 +1131,6 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /home/llh/project/PVZ1/sun.h \
   /home/llh/project/PVZ1/helper.h \
   /home/llh/project/PVZ1/seedbank.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
   /home/llh/project/PVZ1/plantcard.h
 
 CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
@@ -1445,18 +1481,27 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
   /home/llh/project/PVZ1/graph_block.h \
   /home/llh/project/PVZ1/plant.h \
-  /home/llh/project/PVZ1/seedbank.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
+  /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/sunflower.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QApplication \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qapplication.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qguiapplication.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qinputmethod.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlocale.h \
@@ -1836,10 +1881,22 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
   /home/llh/project/PVZ1/graph_block.h \
   /home/llh/project/PVZ1/plant.h \
-  /home/llh/project/PVZ1/seedbank.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
+  /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/sunflower.h \
@@ -1849,9 +1906,6 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmap.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QApplication \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qapplication.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qguiapplication.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qinputmethod.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlocale.h \
@@ -2047,9 +2101,8 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /usr/include/c++/12.2.0/istream \
   /usr/include/c++/12.2.0/bits/istream.tcc \
   /home/llh/project/PVZ1/plant.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
   /usr/include/c++/12.2.0/cstddef \
@@ -2082,12 +2135,10 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtgui-config.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnamespace.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstring.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qchar.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearray.h \
@@ -2153,27 +2204,32 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /usr/include/c++/12.2.0/limits \
   /usr/include/c++/12.2.0/ctime \
   /usr/include/c++/12.2.0/bits/parse_numbers.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpalette.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcolor.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgb.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgba64.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbrush.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmatrix.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpolygon.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qregion.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qdatastream.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiodevice.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qline.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainterpath.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
@@ -2188,16 +2244,28 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /usr/include/c++/12.2.0/ext/concurrence.h \
   /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
   /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbrush.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpalette.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcursor.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h
@@ -2538,8 +2606,21 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
   /home/llh/project/PVZ1/plant.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h
@@ -2888,6 +2969,18 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
   /home/llh/project/PVZ1/plant.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
@@ -3257,10 +3350,22 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
   /home/llh/project/PVZ1/graph_block.h \
   /home/llh/project/PVZ1/plant.h \
-  /home/llh/project/PVZ1/seedbank.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
+  /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/sunflower.h
@@ -3534,34 +3639,36 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /usr/include/c++/12.2.0/ctime \
   /usr/include/c++/12.2.0/bits/parse_numbers.h \
   /home/llh/project/PVZ1/plant.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtgui-config.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpalette.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcolor.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgb.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgba64.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbrush.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmatrix.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpolygon.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qregion.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qdatastream.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiodevice.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qline.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainterpath.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
@@ -3576,16 +3683,28 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /usr/include/c++/12.2.0/ext/concurrence.h \
   /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
   /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbrush.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpalette.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcursor.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
   /home/llh/project/PVZ1/mainwindow.h \
   /usr/include/c++/12.2.0/random \
   /usr/include/c++/12.2.0/cmath \
@@ -3604,7 +3723,6 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /usr/include/c++/12.2.0/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
   /home/llh/project/PVZ1/sun.h \
@@ -3613,12 +3731,11 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
   /home/llh/project/PVZ1/helper.h \
   /home/llh/project/PVZ1/graph.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
   /home/llh/project/PVZ1/graph_block.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/seedbank.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
   /home/llh/project/PVZ1/plantcard.h
 
 
@@ -3652,8 +3769,6 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qinputmethod.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h:
-
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qapplication.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QApplication:
@@ -3667,8 +3782,6 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
 /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
 /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h:
-
-/usr/include/c++/12.2.0/cwctype:
 
 /usr/include/c++/12.2.0/bits/locale_facets.h:
 
@@ -3687,10 +3800,6 @@ PVZ1_autogen/EWIEGA46WW/moc_sun.cpp:
 /home/llh/project/PVZ1/sunflower.h:
 
 /home/llh/project/PVZ1/plantcard.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h:
 
 /home/llh/project/PVZ1/sun.h:
 
@@ -3718,11 +3827,33 @@ PVZ1_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/12.2.0/random:
 
-PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp:
-
 PVZ1_autogen/EWIEGA46WW/moc_graph_block.cpp:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h:
+
+PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h:
+
+/usr/include/c++/12.2.0/cwctype:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h:
 
@@ -3982,6 +4113,8 @@ PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp:
 
 /usr/include/gnu/stubs.h:
 
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/12.2.0/bits/stl_tempbuf.h:
@@ -4216,9 +4349,9 @@ PVZ1_autogen/EWIEGA46WW/moc_graph.cpp:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qstatusbar.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h:
-
 /usr/include/bits/wctype-wchar.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h:
 
@@ -4227,6 +4360,8 @@ PVZ1_autogen/EWIEGA46WW/moc_graph.cpp:
 /usr/include/c++/12.2.0/ext/string_conversions.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h:
 
 /usr/include/c++/12.2.0/algorithm:
 

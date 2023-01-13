@@ -293,21 +293,29 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
  /home/llh/project/PVZ1/graph_block.h /home/llh/project/PVZ1/plant.h \
- /home/llh/project/PVZ1/seedbank.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
- /home/llh/project/PVZ1/plantcard.h /home/llh/project/PVZ1/plant.h \
- /home/llh/project/PVZ1/sunflower.h \
+ /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/plantcard.h \
+ /home/llh/project/PVZ1/plant.h /home/llh/project/PVZ1/sunflower.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/include/./ui_mainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QVariant \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvariant.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmap.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QApplication \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qapplication.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qguiapplication.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qinputmethod.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlocale.h \

@@ -71,9 +71,11 @@ include CMakeFiles/PVZ1.dir/flags.make
 
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/rsc.qrc
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: CMakeFiles/PVZ1_autogen.dir/AutoRcc_rsc_EWIEGA46WW_Info.json
+PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflowercard.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/SeedBank.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun.png
+PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/peashooter.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/background.jpg
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/background1.jpg
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun20.png

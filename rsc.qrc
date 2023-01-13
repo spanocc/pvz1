@@ -45,5 +45,7 @@
         <file>image/sun/sun19.png</file>
         <file>image/sun/sun20.png</file>
         <file>image/sun/sun21.png</file>
+        <file>image/peashooter.gif</file>
+        <file>image/sunflower.gif</file>
     </qresource>
 </RCC>
