@@ -28,6 +28,11 @@ class Plant : public QLabel {
 
     PlantType plant_type_ = NONEPLANT;
 
+    // hp植物血量
+    int hit_point_;
+
+    int line_; // 植物所在行数
+
     QPoint pos_; // 相对于主窗口或者说是Graph的位置
     // 实现gif动态
     QMovie *movie_ = nullptr;

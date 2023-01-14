@@ -294,7 +294,9 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h /usr/include/c++/12.2.0/bits/random.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
- /usr/include/c++/12.2.0/bits/random.tcc \
+ /usr/include/c++/12.2.0/bits/random.tcc /usr/include/c++/12.2.0/deque \
+ /usr/include/c++/12.2.0/bits/stl_deque.h \
+ /usr/include/c++/12.2.0/bits/deque.tcc \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -304,7 +306,7 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/llh/project/PVZ1/helper.h /home/llh/project/PVZ1/bullet.h \
- /home/llh/project/PVZ1/graph.h \
+ /home/llh/project/PVZ1/zombie.h /home/llh/project/PVZ1/graph.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
  /home/llh/project/PVZ1/graph_block.h /home/llh/project/PVZ1/plant.h \

@@ -5,7 +5,7 @@
 #include "seedbank.h"
 
 
-int sun_gold = 100; // 初始阳光
+int sun_gold = 1000; // 初始阳光
 
 SeedBank::SeedBank(QWidget *parent) 
     : QWidget(parent),

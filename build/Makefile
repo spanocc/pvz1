@@ -310,6 +310,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+ordinaryzombie.o: ordinaryzombie.cpp.o
+.PHONY : ordinaryzombie.o
+
+# target to build an object file
+ordinaryzombie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o
+.PHONY : ordinaryzombie.cpp.o
+
+ordinaryzombie.i: ordinaryzombie.cpp.i
+.PHONY : ordinaryzombie.i
+
+# target to preprocess a source file
+ordinaryzombie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.i
+.PHONY : ordinaryzombie.cpp.i
+
+ordinaryzombie.s: ordinaryzombie.cpp.s
+.PHONY : ordinaryzombie.s
+
+# target to generate assembly for a file
+ordinaryzombie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.s
+.PHONY : ordinaryzombie.cpp.s
+
 peashooter.o: peashooter.cpp.o
 .PHONY : peashooter.o
 
@@ -454,6 +478,30 @@ sunflower.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sunflower.cpp.s
 .PHONY : sunflower.cpp.s
 
+zombie.o: zombie.cpp.o
+.PHONY : zombie.o
+
+# target to build an object file
+zombie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/zombie.cpp.o
+.PHONY : zombie.cpp.o
+
+zombie.i: zombie.cpp.i
+.PHONY : zombie.i
+
+# target to preprocess a source file
+zombie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/zombie.cpp.i
+.PHONY : zombie.cpp.i
+
+zombie.s: zombie.cpp.s
+.PHONY : zombie.s
+
+# target to generate assembly for a file
+zombie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/zombie.cpp.s
+.PHONY : zombie.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -485,6 +533,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... ordinaryzombie.o"
+	@echo "... ordinaryzombie.i"
+	@echo "... ordinaryzombie.s"
 	@echo "... peashooter.o"
 	@echo "... peashooter.i"
 	@echo "... peashooter.s"
@@ -503,6 +554,9 @@ help:
 	@echo "... sunflower.o"
 	@echo "... sunflower.i"
 	@echo "... sunflower.s"
+	@echo "... zombie.o"
+	@echo "... zombie.i"
+	@echo "... zombie.s"
 .PHONY : help
 
 

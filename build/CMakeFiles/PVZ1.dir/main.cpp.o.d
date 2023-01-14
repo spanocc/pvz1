@@ -110,7 +110,9 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
  /usr/include/c++/12.2.0/bits/random.tcc /usr/include/c++/12.2.0/numeric \
- /usr/include/c++/12.2.0/bits/stl_numeric.h \
+ /usr/include/c++/12.2.0/bits/stl_numeric.h /usr/include/c++/12.2.0/deque \
+ /usr/include/c++/12.2.0/bits/stl_deque.h \
+ /usr/include/c++/12.2.0/bits/deque.tcc \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -279,10 +281,7 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
- /home/llh/project/PVZ1/graph.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
- /home/llh/project/PVZ1/graph_block.h /home/llh/project/PVZ1/plant.h \
+ /home/llh/project/PVZ1/zombie.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
@@ -295,6 +294,10 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+ /home/llh/project/PVZ1/graph.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+ /home/llh/project/PVZ1/graph_block.h /home/llh/project/PVZ1/plant.h \
  /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/plantcard.h \
  /home/llh/project/PVZ1/plant.h /home/llh/project/PVZ1/sunflower.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QApplication \

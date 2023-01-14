@@ -20,9 +20,14 @@ GraphBlock::GraphBlock(QWidget *parent) : QPushButton(parent) {
 }
 
 void GraphBlock::CreatPlant() {    
+
+    assert(((pos().y() - Graph::InitGraphY) % Graph::GraphBlockHeight) == 0);
+    int line = (pos().y() - Graph::InitGraphY) / Graph::GraphBlockHeight; // 计算出该子弹所处的行号
+    assert(line >= 0 && line <= 4);
+
     if(current_plant == NONEPLANT) return;
     else if(plant_ != nullptr) return;
-
+    
     else if(current_plant == SUNFLOWER) {   std::cout<<"create a sunflower"<<std::endl;
         SunFlower *sun_flower = new SunFlower(this, pos());   
         sun_flower->show(); // 让植物显示出来
@@ -30,6 +35,13 @@ void GraphBlock::CreatPlant() {
     }
     else if(current_plant == PEASHOOTER) {      std::cout<<"create a peashooter"<<std::endl;
         PeaShooter *pea_shooter = new PeaShooter(this, pos());
+        connect(main_window->timer(), &QTimer::timeout, pea_shooter, [line, pea_shooter]() {
+            if(main_window->zombie_queue()[line].empty()) {
+                pea_shooter->BulletStop();
+            } else {
+                pea_shooter->BulletStart();
+            }
+        });
         pea_shooter->show();
         plant_ = pea_shooter;
     }

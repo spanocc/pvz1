@@ -5,7 +5,8 @@
 extern MainWindow *main_window;
 
 PeaShooter::PeaShooter(QWidget *parent, const QPoint& pos)  
-    : Plant(parent, pos) {
+    : Plant(parent, pos),
+      produce_bullet_timer_(new QTimer(this)) {
 
     plant_type_ = PEASHOOTER;
 
@@ -13,8 +14,23 @@ PeaShooter::PeaShooter(QWidget *parent, const QPoint& pos)
     DynamicImageInit();
     movie_->setSpeed(70);
 
-    // 建立产生子弹的信号函数
+    // 建立产生子弹的时间间隔的信号函数
+    connect(produce_bullet_timer_, &QTimer::timeout, this, [this]() {
+        emit ProduceBullet(pos_); 
+    });
     connect(this, &PeaShooter::ProduceBullet, main_window, &MainWindow::ProduceBullet);
+        
+}
 
-    emit ProduceBullet(pos_);  
+void PeaShooter::BulletStart() {
+    if(produce_bullet_switch_) return; // 已经在发射子弹了
+    produce_bullet_switch_ = true;
+    emit ProduceBullet(pos_);  // 有僵尸出现，立马发射一个子弹，然后开启定时器，每5s射出一个子弹
+    produce_bullet_timer_->start(5000);
+}
+
+void PeaShooter::BulletStop() {
+    if(produce_bullet_switch_ == false) return; // 已经处于关闭状态
+    produce_bullet_switch_ = false;
+    produce_bullet_timer_->stop();
 }

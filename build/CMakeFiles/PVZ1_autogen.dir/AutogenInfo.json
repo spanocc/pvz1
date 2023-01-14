@@ -109,6 +109,12 @@
 			null
 		],
 		[
+			"/home/llh/project/PVZ1/ordinaryzombie.h",
+			"MU",
+			"EWIEGA46WW/moc_ordinaryzombie.cpp",
+			null
+		],
+		[
 			"/home/llh/project/PVZ1/peashooter.h",
 			"MU",
 			"EWIEGA46WW/moc_peashooter.cpp",
@@ -137,6 +143,12 @@
 			"/home/llh/project/PVZ1/sunflower.h",
 			"MU",
 			"EWIEGA46WW/moc_sunflower.cpp",
+			null
+		],
+		[
+			"/home/llh/project/PVZ1/zombie.h",
+			"MU",
+			"EWIEGA46WW/moc_zombie.cpp",
 			null
 		]
 	],
@@ -198,12 +210,14 @@
 		[ "/home/llh/project/PVZ1/graph_block.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/main.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/mainwindow.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/ordinaryzombie.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/peashooter.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/plant.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/plantcard.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/seedbank.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/sun.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/sunflower.cpp", "MU", null ]
+		[ "/home/llh/project/PVZ1/sunflower.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/zombie.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

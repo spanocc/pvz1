@@ -49,5 +49,6 @@
         <file>image/sunflower.gif</file>
         <file>image/peashootercard.png</file>
         <file>image/bullet.png</file>
+        <file>image/ordinaryzombie.gif</file>
     </qresource>
 </RCC>

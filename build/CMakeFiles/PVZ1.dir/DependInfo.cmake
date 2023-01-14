@@ -15,12 +15,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/llh/project/PVZ1/graph_block.cpp" "CMakeFiles/PVZ1.dir/graph_block.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/graph_block.cpp.o.d"
   "/home/llh/project/PVZ1/main.cpp" "CMakeFiles/PVZ1.dir/main.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/main.cpp.o.d"
   "/home/llh/project/PVZ1/mainwindow.cpp" "CMakeFiles/PVZ1.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/mainwindow.cpp.o.d"
+  "/home/llh/project/PVZ1/ordinaryzombie.cpp" "CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o.d"
   "/home/llh/project/PVZ1/peashooter.cpp" "CMakeFiles/PVZ1.dir/peashooter.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/peashooter.cpp.o.d"
   "/home/llh/project/PVZ1/plant.cpp" "CMakeFiles/PVZ1.dir/plant.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/plant.cpp.o.d"
   "/home/llh/project/PVZ1/plantcard.cpp" "CMakeFiles/PVZ1.dir/plantcard.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/plantcard.cpp.o.d"
   "/home/llh/project/PVZ1/seedbank.cpp" "CMakeFiles/PVZ1.dir/seedbank.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/seedbank.cpp.o.d"
   "/home/llh/project/PVZ1/sun.cpp" "CMakeFiles/PVZ1.dir/sun.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/sun.cpp.o.d"
   "/home/llh/project/PVZ1/sunflower.cpp" "CMakeFiles/PVZ1.dir/sunflower.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/sunflower.cpp.o.d"
+  "/home/llh/project/PVZ1/zombie.cpp" "CMakeFiles/PVZ1.dir/zombie.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/zombie.cpp.o.d"
   )
 
 # Targets to which this target links.

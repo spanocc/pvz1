@@ -54,6 +54,8 @@ else()
     sunflower.cpp
     peashooter.cpp
     bullet.cpp
+    zombie.cpp
+    ordinaryzombie.cpp
   )
 endif()
 

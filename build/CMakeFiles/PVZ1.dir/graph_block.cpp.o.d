@@ -304,10 +304,12 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h /usr/include/c++/12.2.0/bits/random.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
- /usr/include/c++/12.2.0/bits/random.tcc \
+ /usr/include/c++/12.2.0/bits/random.tcc /usr/include/c++/12.2.0/deque \
+ /usr/include/c++/12.2.0/bits/stl_deque.h \
+ /usr/include/c++/12.2.0/bits/deque.tcc \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
  /home/llh/project/PVZ1/sun.h /home/llh/project/PVZ1/helper.h \
- /home/llh/project/PVZ1/bullet.h /home/llh/project/PVZ1/seedbank.h \
- /home/llh/project/PVZ1/plantcard.h
+ /home/llh/project/PVZ1/bullet.h /home/llh/project/PVZ1/zombie.h \
+ /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/plantcard.h
