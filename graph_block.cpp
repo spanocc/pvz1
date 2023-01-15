@@ -21,10 +21,6 @@ GraphBlock::GraphBlock(QWidget *parent) : QPushButton(parent) {
 
 void GraphBlock::CreatPlant() {    
 
-    assert(((pos().y() - Graph::InitGraphY) % Graph::GraphBlockHeight) == 0);
-    int line = (pos().y() - Graph::InitGraphY) / Graph::GraphBlockHeight; // 计算出该子弹所处的行号
-    assert(line >= 0 && line <= 4);
-
     if(current_plant == NONEPLANT) return;
     else if(plant_ != nullptr) return;
     
@@ -35,20 +31,28 @@ void GraphBlock::CreatPlant() {
     }
     else if(current_plant == PEASHOOTER) {      std::cout<<"create a peashooter"<<std::endl;
         PeaShooter *pea_shooter = new PeaShooter(this, pos());
-        connect(main_window->timer(), &QTimer::timeout, pea_shooter, [line, pea_shooter]() {
-            if(main_window->zombie_queue()[line].empty()) {
-                pea_shooter->BulletStop();
-            } else {
-                pea_shooter->BulletStart();
+        connect(main_window->timer(), &QTimer::timeout, pea_shooter, [this, pea_shooter]() {
+            // 检查这列僵尸队列中是否有僵尸在该豌豆前面
+            for(int i = 0; i < main_window->zombie_queue()[pea_shooter->line()].size(); ++i) {
+                int zombie_pos = main_window->zombie_queue()[pea_shooter->line()][i]->get_column() * Graph::GraphBlockWidth + Graph::InitGraphX;
+                int bullet_pos = pos().x() + Graph::GraphBlockWidth - 50;
+                // + 180是为了视觉效果，到僵尸中心才算击中 与bullet.cpp中的BulletMove函数中的处理相同
+                if(bullet_pos <= zombie_pos + 180) {
+                    pea_shooter->BulletStart();
+                    return;
+                }
             }
+            pea_shooter->BulletStop();
         });
         pea_shooter->show();
         plant_ = pea_shooter;
     }
 
     assert(plant_);
+
     sun_gold -= plant_value[plant_->plant_type()];
     main_window->seed_bank()->UpdateSun(); // 更新剩余阳光的显示
-
     current_plant = NONEPLANT; // 种下一个植物后，current_plant恢复到原状态
+
+    connect(plant_, &Plant::Destroy, this, &GraphBlock::DestroyPlant);
 }

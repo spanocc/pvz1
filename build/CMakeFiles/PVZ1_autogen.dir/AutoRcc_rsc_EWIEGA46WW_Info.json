@@ -8,10 +8,12 @@
 	"INPUTS" : 
 	[
 		"/home/llh/project/PVZ1/image/sunflower.gif",
+		"/home/llh/project/PVZ1/image/ordinaryzombieattack.gif",
 		"/home/llh/project/PVZ1/image/sunflowercard.png",
 		"/home/llh/project/PVZ1/image/ordinaryzombie.gif",
 		"/home/llh/project/PVZ1/image/peashootercard.png",
 		"/home/llh/project/PVZ1/image/SeedBank.png",
+		"/home/llh/project/PVZ1/image/peabullethit.gif",
 		"/home/llh/project/PVZ1/image/sun.png",
 		"/home/llh/project/PVZ1/image/peashooter.gif",
 		"/home/llh/project/PVZ1/image/bullet.png",

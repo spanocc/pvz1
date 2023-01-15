@@ -257,7 +257,6 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qsizepolicy.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcursor.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../zombie.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
@@ -270,7 +269,16 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../zombie.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../helper.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_graph.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
@@ -280,14 +288,7 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
  /home/llh/project/PVZ1/plant.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_graph_block.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph_block.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp \
@@ -312,7 +313,6 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../seedbank.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sunflower.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_ordinaryzombie.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../ordinaryzombie.h \

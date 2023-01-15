@@ -82,7 +82,7 @@ void MainWindow::ProduceSun(const QPoint &pos) {
     sun->show();
 }
 
-// pos参数是GraphBlock的位置
+// pos参数是产生子弹的植物的GraphBlock的位置
 void MainWindow::ProduceBullet(const QPoint &pos) {    // std::cout<<"produce a bullet (pos :"<<pos.x()<<" "<<pos.y()<<")\n";
     // std::cout<<pos.y()<<std::endl;
     assert(((pos.y() - Graph::InitGraphY) % Graph::GraphBlockHeight) == 0);
@@ -91,7 +91,7 @@ void MainWindow::ProduceBullet(const QPoint &pos) {    // std::cout<<"produce a 
 
     Bullet *bullet = new Bullet(this);
     bullet->set_line(line);
-    bullet->move(pos.x() + Graph::GraphBlockWidth, pos.y() + 10);
+    bullet->move(pos.x() + Graph::GraphBlockWidth - 50, pos.y() + 10); // -50 和 +10都是为了视觉效果
     // 子弹移动跟随mainwindow的定时器
     connect(this->timer(), &QTimer::timeout, bullet, &Bullet::BulletMove);
     // 绑定销毁子弹的函数
@@ -108,7 +108,7 @@ void MainWindow::CreateZombie(ZombieType zombie_type, int line) {    // std::cou
     zombie_queue_[line].push_back(zombie);
     zombie->set_line(line);
 
-    zombie->move(MainWindowWidth, Graph::InitGraphY + line * Graph::GraphBlockHeight - 160);    
+    zombie->move(MainWindowWidth - 50, Graph::InitGraphY + line * Graph::GraphBlockHeight - 160);    
     connect(timer_, &QTimer::timeout, zombie, &Zombie::ZombieMove);
     connect(zombie, &Zombie::Destroy, this, &MainWindow::DestroyZombie);
     zombie->show();

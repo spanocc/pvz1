@@ -1,6 +1,7 @@
 #include <string>
 #include <iostream>
 #include "plant.h"
+#include "graph.h"
 
 PlantType current_plant = NONEPLANT;
 
@@ -20,8 +21,16 @@ extern const int plant_value[] = { // 每个植物消耗的阳光
 
 Plant::Plant(QWidget *parent, const QPoint& pos) 
     : QLabel(parent), 
-      pos_(pos) {
-    
+      pos_(pos) {  // pos是相对于主窗口的位置
+    // 算出行数和列数
+    assert(((pos.y() - Graph::InitGraphY) % Graph::GraphBlockHeight) == 0);
+    assert(((pos.x() - Graph::InitGraphX) % Graph::GraphBlockWidth) == 0);
+    line_ = (pos.y() - Graph::InitGraphY) / Graph::GraphBlockHeight; // 计算出该子弹所处的行号
+    column_ = (pos.x() - Graph::InitGraphX) / Graph::GraphBlockWidth;
+    assert(line_ >= 0 && line_ < Graph::LineNum);
+    assert(column_ >= 0 && column_ < Graph::ColumnNum);
+
+    // std::cout<<line_<<" "<<column_<<std::endl;
 }
 
 void Plant::DynamicImageInit() {
@@ -34,6 +43,9 @@ void Plant::DynamicImageInit() {
     movie_->start();
 }
 
+void Plant::KillPlant() {
+    emit Destroy();
+}
 
 /*
 void Plant::DynamicImageInit() {

@@ -5,10 +5,12 @@ OrdinaryZombie::OrdinaryZombie(QWidget *parent)
 
     zombie_type_ = ORDINARY;
     hit_point_ = 6;
+    damage_ = 2;
     zombie_move_.vx_ = -1;
     zombie_move_.vy_ = 0;
     
     setFixedSize(OrdinaryZombieWidth, OrdinaryZombieHeight);
     DynamicImageInit();
-    movie_->setSpeed(80);  // 设置gif播放速度
+    init_movie_->setSpeed(80);  // 设置gif播放速度
+    attack_movie_->setSpeed(80);  // 设置gif播放速度
 }

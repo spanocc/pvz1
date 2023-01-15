@@ -11,7 +11,8 @@ Bullet::Bullet(QWidget *parent) : QLabel(parent) {
 
     setFixedSize(BulletWidth, BulletHeight);
 
-    damage_ = 2;
+    // damage_ = 2;
+    damage_ = 1;
 }
 
 void Bullet::BulletMove() {
@@ -20,11 +21,13 @@ void Bullet::BulletMove() {
     
     // 检查子弹是否击中僵尸
     auto& zombie_q = main_window->zombie_queue();
-    if(!zombie_q[line_].empty() && x >= zombie_q[line_].front()->pos().x() + 80) {  // + 80是为了视觉效果
-        BulletHit(zombie_q[line_].front()); // front()是重载函数，可以是引用也可以是指针
-        return;
+    for(int i = 0; i < zombie_q[line_].size(); ++i) {
+        // + 180是为了视觉效果，到僵尸中心才算击中                    子弹和僵尸相撞的误差 < 15 (子弹一帧移动的距离是10, 僵尸一帧移动的距离是1)
+        if(x >= zombie_q[line_][i]->pos().x() + 180 && x - (zombie_q[line_][i]->pos().x() + 180) <= 15 ) {
+            BulletHit(zombie_q[line_].front()); // front()是重载函数，可以是引用也可以是指针
+            return;
+        }
     }
-
     // 子弹超出屏幕要销毁
     if(x > MainWindow::MainWindowWidth) {
         emit Destory(this);
@@ -49,6 +52,5 @@ void Bullet::BulletHit(Zombie *zombie) {
     } else {
         hp -= damage_;
     }
-
     Destory(this);
 }

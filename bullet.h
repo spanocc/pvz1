@@ -2,6 +2,7 @@
 #define BULLET_H
 
 #include <QLabel>
+#include <QMovie>
 #include "zombie.h"
 #include "helper.h"
 

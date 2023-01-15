@@ -24,6 +24,8 @@ class Graph : public QWidget {
 
     Graph(QWidget *parent);
 
+    std::vector<std::vector<GraphBlock *>>& graph() { return graph_; } 
+
   private:
   
     std::vector<std::vector<GraphBlock *>> graph_;  // LineNum x ColumnNum 的数组

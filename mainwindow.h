@@ -27,6 +27,7 @@ public:
     SeedBank *seed_bank() { return seed_bank_; }
     QTimer* timer() { return timer_; }
     std::deque<std::deque<Zombie *>> &zombie_queue() { return zombie_queue_; }
+    Graph *graph() { return graph_; }
 
     void paintEvent(QPaintEvent *);
     // 初始化地图

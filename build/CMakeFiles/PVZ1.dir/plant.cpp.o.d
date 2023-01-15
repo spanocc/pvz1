@@ -283,4 +283,13 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
+ /home/llh/project/PVZ1/graph.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+ /home/llh/project/PVZ1/graph_block.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
+ /home/llh/project/PVZ1/plant.h

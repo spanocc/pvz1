@@ -22,6 +22,13 @@ class Plant : public QLabel {
 
     //void paintEvent(QPaintEvent *);
     PlantType plant_type() { return plant_type_; }
+
+    // 杀死植物
+    void KillPlant();
+
+    int& hp() { return hit_point_; }
+    const int& line() { return line_; }
+    const int& column() { return column_; }
   private:
     
   protected:
@@ -32,6 +39,7 @@ class Plant : public QLabel {
     int hit_point_;
 
     int line_; // 植物所在行数
+    int column_; // 植物所在列数
 
     QPoint pos_; // 相对于主窗口或者说是Graph的位置
     // 实现gif动态
@@ -39,6 +47,9 @@ class Plant : public QLabel {
 
     // 实现植物动态图像
     void DynamicImageInit();
+
+  signals:
+    void Destroy();
 
     // 改用gif实现动态效果，所以这些没用了
 

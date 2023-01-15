@@ -276,4 +276,37 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
- /home/llh/project/PVZ1/helper.h
+ /home/llh/project/PVZ1/helper.h /home/llh/project/PVZ1/plant.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
+ /home/llh/project/PVZ1/mainwindow.h /usr/include/c++/12.2.0/random \
+ /usr/include/c++/12.2.0/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/12.2.0/bits/random.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
+ /usr/include/c++/12.2.0/bits/random.tcc /usr/include/c++/12.2.0/deque \
+ /usr/include/c++/12.2.0/bits/stl_deque.h \
+ /usr/include/c++/12.2.0/bits/deque.tcc \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
+ /home/llh/project/PVZ1/sun.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
+ /home/llh/project/PVZ1/bullet.h /home/llh/project/PVZ1/graph.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+ /home/llh/project/PVZ1/graph_block.h /home/llh/project/PVZ1/plant.h \
+ /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/plantcard.h \
+ /home/llh/project/PVZ1/sunflower.h

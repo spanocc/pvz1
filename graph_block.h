@@ -12,8 +12,12 @@ class GraphBlock : public QPushButton {
   public:
     GraphBlock(QWidget *parent);
 
+    Plant* plant() { return plant_; }
+
     // 在此处创建一个植物
     void CreatPlant();
+    // 销毁一个植物
+    void DestroyPlant() { delete plant_; plant_ = nullptr; }
 
   private:
     Plant *plant_ = nullptr;

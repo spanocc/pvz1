@@ -50,5 +50,7 @@
         <file>image/peashootercard.png</file>
         <file>image/bullet.png</file>
         <file>image/ordinaryzombie.gif</file>
+        <file>image/peabullethit.gif</file>
+        <file>image/ordinaryzombieattack.gif</file>
     </qresource>
 </RCC>
