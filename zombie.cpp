@@ -52,6 +52,7 @@ void Zombie::ZombieMove() {
             ZombieAttack(plant);
             return;
         } else if(state_ == ZOMBIE_ATTACK) {
+            state_ = ZOMBIE_INIT;
             this->setMovie(init_movie_);
             init_movie_->start();
         }

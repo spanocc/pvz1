@@ -112,4 +112,7 @@ void MainWindow::CreateZombie(ZombieType zombie_type, int line) {    // std::cou
     connect(timer_, &QTimer::timeout, zombie, &Zombie::ZombieMove);
     connect(zombie, &Zombie::Destroy, this, &MainWindow::DestroyZombie);
     zombie->show();
+
+    // 将鼠标点击事件取消
+    zombie->setAttribute(Qt::WA_TransparentForMouseEvents, true);  // 防止僵尸档到GraphBlock的按钮
 }
