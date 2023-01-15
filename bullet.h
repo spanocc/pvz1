@@ -27,6 +27,11 @@ class Bullet : public QLabel {
     static const int BulletWidth = 60;
     static const int BulletHeight = 60;
 
+    enum BulletState {
+      BULLET_MOVE, BULLET_BREAK
+    };
+    int state_ = BULLET_MOVE;
+
     Move bullet_move_;
 
     int line_; // 该子弹所处的行号

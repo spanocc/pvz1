@@ -27,7 +27,7 @@ void PeaShooter::BulletStart() {
     if(produce_bullet_switch_) return; // 已经在发射子弹了
     produce_bullet_switch_ = true;
     emit ProduceBullet(pos_);  // 有僵尸出现，立马发射一个子弹，然后开启定时器，每5s射出一个子弹
-    produce_bullet_timer_->start(5000);
+    produce_bullet_timer_->start(2800); // 攻击间隔是3s，我设置成2.8s
 }
 
 void PeaShooter::BulletStop() {
