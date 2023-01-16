@@ -52,6 +52,15 @@ void GraphBlock::CreatPlant() {
 
     sun_gold -= plant_value[plant_->plant_type()];
     main_window->seed_bank()->UpdateSun(); // 更新剩余阳光的显示
+    // 卡片开始冷却
+    const auto& pcv = main_window->seed_bank()->plant_card_vec();
+    for(const auto& it : pcv) {
+        if(it && it->plant_type() == current_plant) {
+            it->back_card()->StartCoolDown();
+            break;
+        }
+    }
+
     current_plant = NONEPLANT; // 种下一个植物后，current_plant恢复到原状态
 
     connect(plant_, &Plant::Destroy, this, &GraphBlock::DestroyPlant);

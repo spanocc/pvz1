@@ -292,5 +292,7 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
  /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/plantcard.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
  /home/llh/project/PVZ1/plant.h /home/llh/project/PVZ1/sun.h \
  /home/llh/project/PVZ1/helper.h

@@ -299,6 +299,8 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
  /home/llh/project/PVZ1/graph_block.h /home/llh/project/PVZ1/plant.h \
  /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/plantcard.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
  /home/llh/project/PVZ1/sunflower.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QApplication \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qapplication.h \

@@ -313,6 +313,8 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../seedbank.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sunflower.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_ordinaryzombie.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../ordinaryzombie.h \

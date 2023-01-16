@@ -382,6 +382,8 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /home/llh/project/PVZ1/graph.h \
   /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/project/PVZ1/sunflower.h \
   PVZ1_autogen/EWIEGA46WW/moc_ordinaryzombie.cpp \
   /home/llh/project/PVZ1/ordinaryzombie.h \
@@ -786,6 +788,8 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/project/PVZ1/sunflower.h
 
 CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
@@ -1147,6 +1151,8 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
   /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/sun.h \
   /home/llh/project/PVZ1/helper.h
@@ -1538,7 +1544,9 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /home/llh/project/PVZ1/bullet.h \
   /home/llh/project/PVZ1/zombie.h \
   /home/llh/project/PVZ1/seedbank.h \
-  /home/llh/project/PVZ1/plantcard.h
+  /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h
 
 CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /usr/include/stdc-predef.h \
@@ -1911,6 +1919,8 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/project/PVZ1/sunflower.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QApplication \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qapplication.h \
@@ -2316,6 +2326,8 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/project/PVZ1/sunflower.h \
   PVZ1_autogen/include/ui_mainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QVariant \
@@ -3063,6 +3075,8 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/project/PVZ1/sunflower.h
 
 CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
@@ -3604,10 +3618,8 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /usr/include/c++/12.2.0/bits/ostream.tcc \
   /usr/include/c++/12.2.0/istream \
   /usr/include/c++/12.2.0/bits/istream.tcc \
-  /home/llh/project/PVZ1/plantcard.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QBitmap \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbitmap.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
   /usr/include/c++/12.2.0/cstddef \
@@ -3640,12 +3652,19 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtgui-config.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnamespace.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs_impl.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcolor.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgb.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringlist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
@@ -3692,18 +3711,8 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /usr/include/bits/xopen_lim.h \
   /usr/include/bits/uio_lim.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringlist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qregexp.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcolor.h \
-  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgb.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgba64.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
@@ -3746,6 +3755,13 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiodevice.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qline.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainterpath.h \
+  /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpalette.h \
@@ -3755,6 +3771,8 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcursor.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
@@ -4122,6 +4140,8 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
@@ -4527,6 +4547,8 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/project/PVZ1/sunflower.h
 
 CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
@@ -4900,7 +4922,9 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /home/llh/project/PVZ1/graph_block.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/seedbank.h \
-  /home/llh/project/PVZ1/plantcard.h
+  /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h
 
 CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /usr/include/stdc-predef.h \
@@ -5288,6 +5312,8 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/project/PVZ1/sunflower.h
 
 
@@ -5296,6 +5322,8 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
 /home/llh/project/PVZ1/sunflower.cpp:
 
 /home/llh/project/PVZ1/sun.cpp:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbitmap.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QStatusBar:
 
@@ -5361,6 +5389,8 @@ PVZ1_autogen/EWIEGA46WW/moc_sun.cpp:
 
 /home/llh/project/PVZ1/sunflower.h:
 
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage:
+
 /home/llh/project/PVZ1/plantcard.h:
 
 /home/llh/project/PVZ1/sun.h:
@@ -5378,6 +5408,8 @@ PVZ1_autogen/include/ui_mainwindow.h:
 /usr/include/c++/12.2.0/bits/random.tcc:
 
 /usr/include/c++/12.2.0/bits/random.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QBitmap:
 
 /usr/include/bits/iscanonical.h:
 

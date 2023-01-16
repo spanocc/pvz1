@@ -18,6 +18,12 @@ extern const int plant_value[] = { // 每个植物消耗的阳光
 /* 2  */ 100
 };
 
+extern const int plant_cool_down[] = { // 每个植物冷却时间 （毫秒）
+/* 0  */ 5000,
+/* 1  */ 5000,
+/* 2  */ 5000
+};
+
 
 Plant::Plant(QWidget *parent, const QPoint& pos) 
     : QLabel(parent), 

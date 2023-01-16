@@ -129,10 +129,8 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
  /usr/include/c++/12.2.0/bits/ostream.tcc /usr/include/c++/12.2.0/istream \
  /usr/include/c++/12.2.0/bits/istream.tcc \
- /home/llh/project/PVZ1/plantcard.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QBitmap \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbitmap.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
  /usr/include/c++/12.2.0/cstddef /usr/include/c++/12.2.0/utility \
@@ -163,12 +161,19 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtgui-config.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnamespace.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs_impl.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcolor.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgb.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringlist.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlist.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qalgorithms.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
@@ -208,18 +213,8 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearraylist.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringlist.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qregexp.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringmatcher.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs_impl.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcolor.h \
- /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgb.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgba64.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
@@ -258,6 +253,13 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiodevice.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qline.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainterpath.h \
+ /home/llh/project/PVZ1/plantcard.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpalette.h \
@@ -267,6 +269,8 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qsizepolicy.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcursor.h \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+ /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
