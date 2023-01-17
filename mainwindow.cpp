@@ -64,6 +64,8 @@ void MainWindow::ZombieInit() {
 
 }
 
+
+
 void MainWindow::ProduceSun() {
     int sun_x = static_cast<int>(sun_u_(e_));   // std::cout<<sun_x<<std::endl;
     Sun *sun = new Sun(this);
@@ -115,4 +117,16 @@ void MainWindow::CreateZombie(ZombieType zombie_type, int line) {    // std::cou
 
     // 将鼠标点击事件取消
     zombie->setAttribute(Qt::WA_TransparentForMouseEvents, true);  // 防止僵尸档到GraphBlock的按钮
+}
+
+
+void MainWindow::CreatePlantGhost() {
+    // 第一次选择植物
+    if(plant_ghost_ == nullptr) {
+        plant_ghost_ = new PlantGhost(this);
+        connect(this->timer_, &QTimer::timeout, plant_ghost_, &PlantGhost::PlantGhostMove);
+        plant_ghost_->show();
+    }
+    // 之前已经选了一个植物，现在是更换植物
+    else plant_ghost_->update();
 }

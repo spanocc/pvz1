@@ -63,6 +63,19 @@ class Plant : public QLabel {
     //void DynamicImageInit();
 };
 
+// 点击植物卡片后，放置植物之前，鼠标位置出现这个植物的残影
+class PlantGhost : public QWidget {
+  
+	Q_OBJECT
+
+  public:
+	PlantGhost(QWidget *parent);
+
+	void paintEvent(QPaintEvent *);
+
+	void PlantGhostMove();
+  private:
+};
 
 
 

@@ -62,6 +62,7 @@ void GraphBlock::CreatPlant() {
     }
 
     current_plant = NONEPLANT; // 种下一个植物后，current_plant恢复到原状态
+    main_window->DestroyPlantGhost();
 
     connect(plant_, &Plant::Destroy, this, &GraphBlock::DestroyPlant);
 }

@@ -9,7 +9,7 @@ PeaShooter::PeaShooter(QWidget *parent, const QPoint& pos)
       produce_bullet_timer_(new QTimer(this)) {
 
     plant_type_ = PEASHOOTER;
-    hit_point_ = 500;
+    hit_point_ = 350;
 
     setFixedSize(QSize(PeaShooterWidth, PeaShooterHeight)); 
     DynamicImageInit();

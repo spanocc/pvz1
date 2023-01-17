@@ -2,8 +2,10 @@
 #include <iostream>
 #include "plant.h"
 #include "graph.h"
+#include "mainwindow.h"
 
 PlantType current_plant = NONEPLANT;
+extern MainWindow *main_window;
 
 const char *plant_name[] = {
 /* 0  */ "",
@@ -51,6 +53,28 @@ void Plant::DynamicImageInit() {
 
 void Plant::KillPlant() {
     emit Destroy();
+}
+
+PlantGhost::PlantGhost(QWidget *parent) : QWidget(parent){
+    setFixedSize(QSize(175, 175));
+    // 将鼠标点击事件取消
+    setAttribute(Qt::WA_TransparentForMouseEvents, true);
+
+    std::cout<<"creat plantghost\n";
+}
+
+void PlantGhost::paintEvent(QPaintEvent *) {
+    QPainter painter(this);
+    std::string plant_path = std::string(":/image/") + plant_name[current_plant] + ".gif";   
+    painter.setOpacity(0.3);
+    painter.drawPixmap(0, 0, this->width(), this->height(),QPixmap(plant_path.c_str()));
+}
+
+void  PlantGhost::PlantGhostMove() {
+    QPoint mouse_pos = QCursor::pos(); // 鼠标的绝对位置
+    int x = mouse_pos.x() - main_window->pos().x(), y = mouse_pos.y() - main_window->pos().y(); // 鼠标相对于主屏幕的位置
+    move(x - 100, y - 100);
+    // std::cout<<x<<" "<<y<<std::endl;
 }
 
 /*

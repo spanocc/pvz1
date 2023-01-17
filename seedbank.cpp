@@ -5,7 +5,7 @@
 #include "seedbank.h"
 
 
-int sun_gold = 50; // 初始阳光
+int sun_gold = 500; // 初始阳光
 
 SeedBank::SeedBank(QWidget *parent) 
     : QWidget(parent),
@@ -13,16 +13,17 @@ SeedBank::SeedBank(QWidget *parent)
     setFixedSize(QSize(SeedBankWidth, SeedBankHeight));
     move(QPoint(SeedBankInitX, SeedBankInitY));
 
-    // 卡片
+
     for(int i = 0; i < PlantCardNum; ++i) {
-        if(i == 0) plant_card_vec_[i] = new PlantCard(this, SUNFLOWER);
-        else if(i == 1) plant_card_vec_[i] = new PlantCard(this, PEASHOOTER);
-        else continue;
-        // else plant_card_vec_[i] = new PlantCard(this, SUNFLOWER);
         // 由于卡片图片不一致，为了保持对齐，所以卡片设置的高度不一样
-        if(i == 0) plant_card_vec_[i]->move(PlantCardInitX + PlantCard::PlantCardWidth * i, 10);  //  向日葵y轴坐标为10
-        if(i == 1) plant_card_vec_[i]->move(PlantCardInitX + PlantCard::PlantCardWidth * i, 7);   //  豌豆射手y轴坐标为7
-        // else plant_card_vec_[i]->move(PlantCardInitX + PlantCard::PlantCardWidth * i, 10);
+        if(i == 0) {
+            plant_card_vec_[i] = new PlantCard(this, SUNFLOWER);
+            plant_card_vec_[i]->move(PlantCardInitX + PlantCard::PlantCardWidth * i, 10);  //  向日葵y轴坐标为10
+        } else if(i == 1) {
+            plant_card_vec_[i] = new PlantCard(this, PEASHOOTER);
+            plant_card_vec_[i]->move(PlantCardInitX + PlantCard::PlantCardWidth * i, 7);   //  豌豆射手y轴坐标为7
+        } else continue;
+
         connect(plant_card_vec_[i], &PlantCard::clicked, plant_card_vec_[i], &PlantCard::ChooseCard);
     }
     // 阳光数字

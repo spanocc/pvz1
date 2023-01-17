@@ -2,12 +2,14 @@
 #include <iostream>
 #include <QBitmap>
 #include "plantcard.h"
+#include "mainwindow.h"
 
 extern PlantType current_plant;
 extern const char *plant_name[];
 extern const int plant_value[];
 extern const int plant_cool_down[];
 extern int sun_gold;
+extern MainWindow *main_window;
 
 
 PlantCard::PlantCard(QWidget *parent, PlantType plant_type) 
@@ -43,9 +45,13 @@ void PlantCard::ChooseCard() {
     assert(plant_type_ != NONEPLANT);
     if(current_plant == plant_type_) {  // 第一次点击是种植物，第二次点击是把current恢复到原状态
         current_plant = NONEPLANT;
+        main_window->DestroyPlantGhost();
         return;
     }
-    if(sun_gold >= plant_value[plant_type_]) current_plant = plant_type_;
+    if(sun_gold >= plant_value[plant_type_]) {
+        current_plant = plant_type_;
+        main_window->CreatePlantGhost();
+    }
 }
 
 

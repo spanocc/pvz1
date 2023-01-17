@@ -59,6 +59,14 @@ public:
         delete zombie; 
     }
 
+    // 创建一个跟随鼠标的植物残影
+    void CreatePlantGhost();
+    void DestroyPlantGhost() {
+        assert(plant_ghost_);
+        delete plant_ghost_;
+        plant_ghost_ = nullptr;
+    }
+
     // 定义为public，方便其他类获取窗口大小 eg：Sun类要获取窗口大小
     static const int MainWindowWidth = 1800;
     static const int MainWindowHeight = 1200;
@@ -74,6 +82,8 @@ private:
     SeedBank *seed_bank_ = nullptr;
     // 地图
     Graph *graph_ = nullptr;
+    // 放置植物时的残影
+    PlantGhost* plant_ghost_ = nullptr;
 
     // 随机数引擎
     std::default_random_engine e_;

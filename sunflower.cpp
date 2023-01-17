@@ -9,7 +9,7 @@ SunFlower::SunFlower(QWidget *parent, const QPoint& pos)
     
     // image_num_ = 18;
     plant_type_ = SUNFLOWER;
-    hit_point_ = 500;
+    hit_point_ = 350;
 
     setFixedSize(QSize(SunFlowerWidth, SunFlowerHeight));    
     // 设置向日葵的动态效果
