@@ -59,6 +59,7 @@ void Bullet::BulletHit(Zombie *zombie) {
         zombie->KillZombie();
     } else {
         hp -= damage_;
+        zombie->ZombieHit(); // 僵尸被攻击特效
     }
 
     state_ = BULLET_BREAK;

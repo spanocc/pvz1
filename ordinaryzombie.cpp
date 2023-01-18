@@ -11,6 +11,6 @@ OrdinaryZombie::OrdinaryZombie(QWidget *parent)
     
     setFixedSize(OrdinaryZombieWidth, OrdinaryZombieHeight);
     DynamicImageInit();
-    init_movie_->setSpeed(80);  // 设置gif播放速度
-    attack_movie_->setSpeed(80);  // 设置gif播放速度
+    // init_movie_->setSpeed(80);  // 设置gif播放速度
+    // attack_movie_->setSpeed(80);  // 设置gif播放速度
 }

@@ -28,10 +28,14 @@ class Zombie : public QLabel {
     void KillZombie();
     // 僵尸攻击植物
     void ZombieAttack(Plant *plant);
+    // 僵尸受到攻击(damage_减少后就要调用该函数)
+    void ZombieHit();
 
     void set_line(int line) { line_ = line; }
     const int& get_line() { return line_; }
     const int& get_column() { return column_; }
+
+    void paintEvent(QPaintEvent *);
 
   private:
 
@@ -57,6 +61,17 @@ class Zombie : public QLabel {
     // 实现gif动态
     QMovie *init_movie_ = nullptr;
     QMovie *attack_movie_ = nullptr;
+
+    QTimer *init_dynamic_timer_ = nullptr; 
+    int init_image_num_ = 0; // 动态图片总数
+    int init_current_image_ = 0; // 当前切换到第几张图片了
+
+    QTimer *attack_dynamic_timer_ = nullptr; 
+    int attack_image_num_ = 0; // 动态图片总数
+    int attack_current_image_ = 0; // 当前切换到第几张图片了
+    // 是否正受到攻击
+    bool hit_flag_ = false;
+    QTimer *hit_timer_ = nullptr;
 
   signals:
     void Destroy(Zombie *zombie); // 告诉mianwindow销毁自己
