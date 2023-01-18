@@ -52,5 +52,7 @@
         <file>image/ordinaryzombie.gif</file>
         <file>image/peabullethit.gif</file>
         <file>image/ordinaryzombieattack.gif</file>
+        <file>image/shovel.png</file>
+        <file>image/shovelbank.png</file>
     </qresource>
 </RCC>

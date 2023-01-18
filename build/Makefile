@@ -430,6 +430,30 @@ seedbank.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/seedbank.cpp.s
 .PHONY : seedbank.cpp.s
 
+shovel.o: shovel.cpp.o
+.PHONY : shovel.o
+
+# target to build an object file
+shovel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shovel.cpp.o
+.PHONY : shovel.cpp.o
+
+shovel.i: shovel.cpp.i
+.PHONY : shovel.i
+
+# target to preprocess a source file
+shovel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shovel.cpp.i
+.PHONY : shovel.cpp.i
+
+shovel.s: shovel.cpp.s
+.PHONY : shovel.s
+
+# target to generate assembly for a file
+shovel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shovel.cpp.s
+.PHONY : shovel.cpp.s
+
 sun.o: sun.cpp.o
 .PHONY : sun.o
 
@@ -548,6 +572,9 @@ help:
 	@echo "... seedbank.o"
 	@echo "... seedbank.i"
 	@echo "... seedbank.s"
+	@echo "... shovel.o"
+	@echo "... shovel.i"
+	@echo "... shovel.s"
 	@echo "... sun.o"
 	@echo "... sun.i"
 	@echo "... sun.s"

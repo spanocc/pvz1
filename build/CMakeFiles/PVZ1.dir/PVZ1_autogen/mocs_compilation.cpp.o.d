@@ -302,9 +302,7 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h /usr/include/c++/12.2.0/bits/random.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
- /usr/include/c++/12.2.0/bits/random.tcc /usr/include/c++/12.2.0/deque \
- /usr/include/c++/12.2.0/bits/stl_deque.h \
- /usr/include/c++/12.2.0/bits/deque.tcc \
+ /usr/include/c++/12.2.0/bits/random.tcc \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -315,6 +313,7 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../shovel.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sunflower.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_ordinaryzombie.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../ordinaryzombie.h \
@@ -326,6 +325,8 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../seedbank.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_shovel.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../shovel.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_sun.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sun.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_sunflower.cpp \

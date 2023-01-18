@@ -78,11 +78,13 @@ PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/ordinaryzombie
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/peashootercard.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/SeedBank.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/peabullethit.gif
+PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/shovelbank.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/peashooter.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/bullet.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/background.jpg
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/background1.jpg
+PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/shovel.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun20.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun21.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun10.png
@@ -323,10 +325,24 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/ordinaryzombie.cpp -o CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.s
 
+CMakeFiles/PVZ1.dir/shovel.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp
+CMakeFiles/PVZ1.dir/shovel.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/PVZ1.dir/shovel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/shovel.cpp.o -MF CMakeFiles/PVZ1.dir/shovel.cpp.o.d -o CMakeFiles/PVZ1.dir/shovel.cpp.o -c /home/llh/project/PVZ1/shovel.cpp
+
+CMakeFiles/PVZ1.dir/shovel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/shovel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/shovel.cpp > CMakeFiles/PVZ1.dir/shovel.cpp.i
+
+CMakeFiles/PVZ1.dir/shovel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/shovel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/shovel.cpp -o CMakeFiles/PVZ1.dir/shovel.cpp.s
+
 CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o: CMakeFiles/PVZ1.dir/flags.make
 CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o: PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp
 CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o -MF CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o.d -o CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o -c /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp
 
 CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.i: cmake_force
@@ -353,6 +369,7 @@ PVZ1_OBJECTS = \
 "CMakeFiles/PVZ1.dir/bullet.cpp.o" \
 "CMakeFiles/PVZ1.dir/zombie.cpp.o" \
 "CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o" \
+"CMakeFiles/PVZ1.dir/shovel.cpp.o" \
 "CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o"
 
 # External object files for target PVZ1
@@ -372,13 +389,14 @@ PVZ1: CMakeFiles/PVZ1.dir/peashooter.cpp.o
 PVZ1: CMakeFiles/PVZ1.dir/bullet.cpp.o
 PVZ1: CMakeFiles/PVZ1.dir/zombie.cpp.o
 PVZ1: CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/shovel.cpp.o
 PVZ1: CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o
 PVZ1: CMakeFiles/PVZ1.dir/build.make
 PVZ1: /home/llh/Qt5.14.0/5.14.0/gcc_64/lib/libQt5Widgets.so.5.14.0
 PVZ1: /home/llh/Qt5.14.0/5.14.0/gcc_64/lib/libQt5Gui.so.5.14.0
 PVZ1: /home/llh/Qt5.14.0/5.14.0/gcc_64/lib/libQt5Core.so.5.14.0
 PVZ1: CMakeFiles/PVZ1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable PVZ1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable PVZ1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PVZ1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

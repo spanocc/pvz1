@@ -2,12 +2,14 @@
 #define MAINWINDOW_H
 
 #include <random>
-#include <deque>
+#include <list>
+#include <vector>
 #include <QMainWindow>
 #include "sun.h"
 #include "bullet.h"
 #include "graph.h"
 #include "seedbank.h"
+#include "shovel.h"
 #include "sunflower.h"
 #include "zombie.h"
 
@@ -26,7 +28,7 @@ public:
 
     SeedBank *seed_bank() { return seed_bank_; }
     QTimer* timer() { return timer_; }
-    std::deque<std::deque<Zombie *>> &zombie_queue() { return zombie_queue_; }
+    std::vector<std::list<Zombie *>> &zombie_queue() { return zombie_queue_; }
     Graph *graph() { return graph_; }
 
     void paintEvent(QPaintEvent *);
@@ -36,6 +38,8 @@ public:
     void SunInit();
     // 初始化种子银行
     void SeedBankInit();
+    // 初始化铲子银行
+    void ShovelBankInit();
     // 初始化僵尸生成
     void ZombieInit();
 
@@ -53,19 +57,11 @@ public:
 
     // 在line行生成一个zombie_type类型的僵尸
     void CreateZombie(ZombieType zombie_type, int line);
-    void DestroyZombie(Zombie *zombie) { 
-        assert(zombie == zombie_queue_[zombie->get_line()].front());
-        zombie_queue_[zombie->get_line()].pop_front();
-        delete zombie; 
-    }
+    void DestroyZombie(Zombie *zombie);
 
     // 创建一个跟随鼠标的植物残影
     void CreatePlantGhost();
-    void DestroyPlantGhost() {
-        assert(plant_ghost_);
-        delete plant_ghost_;
-        plant_ghost_ = nullptr;
-    }
+    void DestroyPlantGhost();
 
     // 定义为public，方便其他类获取窗口大小 eg：Sun类要获取窗口大小
     static const int MainWindowWidth = 1800;
@@ -80,6 +76,10 @@ private:
     QTimer *timer_ = nullptr;
     // 种子银行
     SeedBank *seed_bank_ = nullptr;
+    // 铲子银行
+    ShovelBank* shovel_bank_ = nullptr;
+    // 铲子
+    Shovel* shovel_ = nullptr;
     // 地图
     Graph *graph_ = nullptr;
     // 放置植物时的残影
@@ -93,8 +93,8 @@ private:
     // 阳光横坐标随机数
     std::uniform_int_distribution<unsigned> sun_u_;
 
-    // 僵尸队列
-    std::deque<std::deque<Zombie *>> zombie_queue_;
+    // 僵尸链表
+    std::vector<std::list<Zombie *>> zombie_queue_;
     // 僵尸生成的定时器
     QTimer *zombie_timer_ = nullptr;
     // 僵尸随机出现的列数

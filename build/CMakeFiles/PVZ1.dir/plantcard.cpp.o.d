@@ -303,9 +303,7 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h /usr/include/c++/12.2.0/bits/random.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
- /usr/include/c++/12.2.0/bits/random.tcc /usr/include/c++/12.2.0/deque \
- /usr/include/c++/12.2.0/bits/stl_deque.h \
- /usr/include/c++/12.2.0/bits/deque.tcc \
+ /usr/include/c++/12.2.0/bits/random.tcc \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -315,4 +313,5 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
  /home/llh/project/PVZ1/graph_block.h /home/llh/project/PVZ1/plant.h \
- /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/sunflower.h
+ /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/shovel.h \
+ /home/llh/project/PVZ1/sunflower.h

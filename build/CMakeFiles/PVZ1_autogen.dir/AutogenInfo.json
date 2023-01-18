@@ -138,6 +138,12 @@
 			"EWIEGA46WW/moc_seedbank.cpp",
 			null
 		],
+		[
+			"/home/llh/project/PVZ1/shovel.h",
+			"MU",
+			"EWIEGA46WW/moc_shovel.cpp",
+			null
+		],
 		[ "/home/llh/project/PVZ1/sun.h", "MU", "EWIEGA46WW/moc_sun.cpp", null ],
 		[
 			"/home/llh/project/PVZ1/sunflower.h",
@@ -215,6 +221,7 @@
 		[ "/home/llh/project/PVZ1/plant.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/plantcard.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/seedbank.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/shovel.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/sun.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/sunflower.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/zombie.cpp", "MU", null ]

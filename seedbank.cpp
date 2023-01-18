@@ -13,7 +13,7 @@ SeedBank::SeedBank(QWidget *parent)
     setFixedSize(QSize(SeedBankWidth, SeedBankHeight));
     move(QPoint(SeedBankInitX, SeedBankInitY));
 
-
+    // 植物卡片
     for(int i = 0; i < PlantCardNum; ++i) {
         // 由于卡片图片不一致，为了保持对齐，所以卡片设置的高度不一样
         if(i == 0) {
@@ -26,20 +26,21 @@ SeedBank::SeedBank(QWidget *parent)
 
         connect(plant_card_vec_[i], &PlantCard::clicked, plant_card_vec_[i], &PlantCard::ChooseCard);
     }
+
     // 阳光数字
     sun_digit_ = new QLabel(this);
     sun_digit_->move(25, 120);
     sun_digit_->setFixedSize(120, 50);
-    sun_digit_->setAlignment(Qt::AlignHCenter); // 文本中心对齐
+    sun_digit_->setAlignment(Qt::AlignHCenter); // 文本中心对齐    
 
-    
     QFont ft;
     ft.setPointSize(20);
     ft.setFamily("IrisUPC");
     ft.setBold(true);
     sun_digit_->setFont(ft);
-    
+
     UpdateSun();
+
 }
 
 void SeedBank::paintEvent(QPaintEvent *) {

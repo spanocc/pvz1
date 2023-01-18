@@ -24,10 +24,10 @@ void Bullet::BulletMove() {
     
     // 检查子弹是否击中僵尸
     auto& zombie_q = main_window->zombie_queue();
-    for(int i = 0; i < zombie_q[line_].size(); ++i) {
+    for(const auto& it: zombie_q[line_]) {
         // + 180是为了视觉效果，到僵尸中心才算击中                    子弹和僵尸相撞的误差 < 25 (子弹一帧移动的距离是20, 僵尸一帧移动的距离是1)
-        if(x >= zombie_q[line_][i]->pos().x() + 180 && x - (zombie_q[line_][i]->pos().x() + 180) <= 25 ) {
-            BulletHit(zombie_q[line_].front()); // front()是重载函数，可以是引用也可以是指针
+        if(x >= it->pos().x() + 180 && x - (it->pos().x() + 180) <= 25 ) {
+            BulletHit(it); 
             return;
         }
     }

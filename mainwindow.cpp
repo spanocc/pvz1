@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 #include <QTimer>
 #include <QTime>
 #include <QPainter>
@@ -6,13 +7,15 @@
 #include "./ui_mainwindow.h"
 #include "ordinaryzombie.h"
 
+extern PlantType current_plant;
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
       ui(new Ui::MainWindow),        
       timer_(new QTimer(this)),
       e_(time(0)),
       sun_u_(0, 1500),  // 创建一个0到1500的随机数作为随机掉落的阳光的横坐标
-      zombie_queue_(Graph::LineNum, std::deque<Zombie *>()),
+      zombie_queue_(Graph::LineNum, std::list<Zombie *>()),
       zombie_u_(0, 4) {
 
     ui->setupUi(this);
@@ -21,6 +24,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     GraphInit();
     SeedBankInit();  // 种子银行后初始化，第一排的植物要在种子银行下面
+    ShovelBankInit();
     SunInit();
     ZombieInit();
     
@@ -44,6 +48,11 @@ void MainWindow::GraphInit() {
 
 void MainWindow::SeedBankInit() {
     seed_bank_ = new SeedBank(this);
+}
+
+void MainWindow::ShovelBankInit() {
+    shovel_bank_ = new ShovelBank(this);
+    shovel_ = new Shovel(this);
 }
 
 void MainWindow::SunInit() {
@@ -119,8 +128,17 @@ void MainWindow::CreateZombie(ZombieType zombie_type, int line) {    // std::cou
     zombie->setAttribute(Qt::WA_TransparentForMouseEvents, true);  // 防止僵尸档到GraphBlock的按钮
 }
 
+void MainWindow::DestroyZombie(Zombie *zombie) { 
+    auto& zombie_list = zombie_queue_[zombie->get_line()];
+    const auto& it = std::find(zombie_list.begin(), zombie_list.end(), zombie);
+    assert(it != zombie_list.end());
+    zombie_list.erase(it);
+    delete zombie; 
+}
+
 
 void MainWindow::CreatePlantGhost() {
+    assert(current_plant != NONEPLANT);
     // 第一次选择植物
     if(plant_ghost_ == nullptr) {
         plant_ghost_ = new PlantGhost(this);
@@ -130,3 +148,9 @@ void MainWindow::CreatePlantGhost() {
     // 之前已经选了一个植物，现在是更换植物
     else plant_ghost_->update();
 }
+void MainWindow::DestroyPlantGhost() { 
+    if(plant_ghost_ == nullptr) return;
+    assert(current_plant == NONEPLANT);
+    delete plant_ghost_;
+    plant_ghost_ = nullptr;
+ }

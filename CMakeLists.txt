@@ -56,6 +56,7 @@ else()
     bullet.cpp
     zombie.cpp
     ordinaryzombie.cpp
+    shovel.cpp
   )
 endif()
 

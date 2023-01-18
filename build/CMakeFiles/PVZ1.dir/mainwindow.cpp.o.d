@@ -129,6 +129,12 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: \
  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
  /usr/include/c++/12.2.0/bits/ostream.tcc /usr/include/c++/12.2.0/istream \
  /usr/include/c++/12.2.0/bits/istream.tcc \
+ /usr/include/c++/12.2.0/algorithm \
+ /usr/include/c++/12.2.0/bits/stl_algo.h \
+ /usr/include/c++/12.2.0/bits/algorithmfwd.h \
+ /usr/include/c++/12.2.0/bits/stl_heap.h \
+ /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
+ /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
@@ -139,12 +145,6 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
- /usr/include/c++/12.2.0/algorithm \
- /usr/include/c++/12.2.0/bits/stl_algo.h \
- /usr/include/c++/12.2.0/bits/algorithmfwd.h \
- /usr/include/c++/12.2.0/bits/stl_heap.h \
- /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
- /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -273,9 +273,7 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h /usr/include/c++/12.2.0/bits/random.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
- /usr/include/c++/12.2.0/bits/random.tcc /usr/include/c++/12.2.0/deque \
- /usr/include/c++/12.2.0/bits/stl_deque.h \
- /usr/include/c++/12.2.0/bits/deque.tcc \
+ /usr/include/c++/12.2.0/bits/random.tcc \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -315,7 +313,7 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: \
  /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/plantcard.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
- /home/llh/project/PVZ1/sunflower.h \
+ /home/llh/project/PVZ1/shovel.h /home/llh/project/PVZ1/sunflower.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/include/./ui_mainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QVariant \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvariant.h \

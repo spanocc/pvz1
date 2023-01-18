@@ -33,8 +33,8 @@ void GraphBlock::CreatPlant() {
         PeaShooter *pea_shooter = new PeaShooter(this, pos());
         connect(main_window->timer(), &QTimer::timeout, pea_shooter, [this, pea_shooter]() {
             // 检查这列僵尸队列中是否有僵尸在该豌豆前面
-            for(int i = 0; i < main_window->zombie_queue()[pea_shooter->line()].size(); ++i) {
-                int zombie_pos = main_window->zombie_queue()[pea_shooter->line()][i]->pos().x();
+            for(const auto& it: main_window->zombie_queue()[pea_shooter->line()]) {
+                int zombie_pos = it->pos().x();
                 int bullet_pos = pos().x() + Graph::GraphBlockWidth - 50;
                 // + 180是为了视觉效果，到僵尸中心才算击中 与bullet.cpp中的BulletMove函数中的处理相同
                 if(bullet_pos <= zombie_pos + 180) {

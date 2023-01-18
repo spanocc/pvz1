@@ -110,9 +110,11 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
  /usr/include/c++/12.2.0/bits/random.tcc /usr/include/c++/12.2.0/numeric \
- /usr/include/c++/12.2.0/bits/stl_numeric.h /usr/include/c++/12.2.0/deque \
- /usr/include/c++/12.2.0/bits/stl_deque.h \
- /usr/include/c++/12.2.0/bits/deque.tcc \
+ /usr/include/c++/12.2.0/bits/stl_numeric.h /usr/include/c++/12.2.0/list \
+ /usr/include/c++/12.2.0/bits/stl_list.h \
+ /usr/include/c++/12.2.0/bits/allocated_ptr.h \
+ /usr/include/c++/12.2.0/ext/aligned_buffer.h \
+ /usr/include/c++/12.2.0/bits/list.tcc \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -198,10 +200,6 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
  /usr/include/c++/12.2.0/bits/std_function.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
- /usr/include/c++/12.2.0/list /usr/include/c++/12.2.0/bits/stl_list.h \
- /usr/include/c++/12.2.0/bits/allocated_ptr.h \
- /usr/include/c++/12.2.0/ext/aligned_buffer.h \
- /usr/include/c++/12.2.0/bits/list.tcc \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
@@ -301,7 +299,7 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
  /home/llh/project/PVZ1/seedbank.h /home/llh/project/PVZ1/plantcard.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
- /home/llh/project/PVZ1/sunflower.h \
+ /home/llh/project/PVZ1/shovel.h /home/llh/project/PVZ1/sunflower.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QApplication \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qapplication.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qguiapplication.h \

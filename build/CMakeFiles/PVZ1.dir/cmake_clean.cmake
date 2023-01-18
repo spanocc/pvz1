@@ -26,6 +26,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/PVZ1.dir/plantcard.cpp.o.d"
   "CMakeFiles/PVZ1.dir/seedbank.cpp.o"
   "CMakeFiles/PVZ1.dir/seedbank.cpp.o.d"
+  "CMakeFiles/PVZ1.dir/shovel.cpp.o"
+  "CMakeFiles/PVZ1.dir/shovel.cpp.o.d"
   "CMakeFiles/PVZ1.dir/sun.cpp.o"
   "CMakeFiles/PVZ1.dir/sun.cpp.o.d"
   "CMakeFiles/PVZ1.dir/sunflower.cpp.o"
