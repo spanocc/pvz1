@@ -51,6 +51,8 @@ void PlantCard::ChooseCard() {
     if(sun_gold >= plant_value[plant_type_]) {
         current_plant = plant_type_;
         main_window->CreatePlantGhost();
+        // 把铲子关闭
+        main_window->shovel()->ResetShovel();
     }
 }
 

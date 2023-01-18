@@ -5,11 +5,13 @@
 #include "sunflower.h"
 #include "peashooter.h"
 #include "mainwindow.h"
+#include "shovel.h"
 
 extern MainWindow *main_window; 
 extern PlantType current_plant; // 当前应该创建的植物（刚刚点击过的）
 extern int sun_gold;
 extern const int plant_value[];
+extern bool shovel_switch;
 
 GraphBlock::GraphBlock(QWidget *parent) : QPushButton(parent) {
     setFixedSize(QSize(Graph::GraphBlockWidth, Graph::GraphBlockHeight)); 
@@ -17,6 +19,12 @@ GraphBlock::GraphBlock(QWidget *parent) : QPushButton(parent) {
     setStyleSheet("QPushButton{background:transparent}");
     setStyleSheet("QPushButton{border:none}");
 
+    connect(this, &GraphBlock::clicked, this, [this]() {
+        if(shovel_switch) {
+            if(plant_) DestroyPlant();
+            main_window->shovel()->ResetShovel();
+        } else CreatPlant();
+    });
 }
 
 void GraphBlock::CreatPlant() {    

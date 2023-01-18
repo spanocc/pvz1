@@ -30,6 +30,7 @@ public:
     QTimer* timer() { return timer_; }
     std::vector<std::list<Zombie *>> &zombie_queue() { return zombie_queue_; }
     Graph *graph() { return graph_; }
+    Shovel* shovel() { return shovel_; }
 
     void paintEvent(QPaintEvent *);
     // 初始化地图

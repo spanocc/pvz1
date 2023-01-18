@@ -17,7 +17,7 @@ class GraphBlock : public QPushButton {
     // 在此处创建一个植物
     void CreatPlant();
     // 销毁一个植物
-    void DestroyPlant() { delete plant_; plant_ = nullptr; }
+    void DestroyPlant() { assert(plant_); delete plant_; plant_ = nullptr; }
 
   private:
     Plant *plant_ = nullptr;

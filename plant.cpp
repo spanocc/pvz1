@@ -4,6 +4,7 @@
 #include "graph.h"
 #include "mainwindow.h"
 
+// current_plant改变时要同时改变鼠标位置的植物残影
 PlantType current_plant = NONEPLANT;
 extern MainWindow *main_window;
 
