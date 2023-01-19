@@ -81,18 +81,22 @@ void Zombie::ZombieMove() {
         if(plant) {
             ZombieAttack(plant);
             return;
-        } else if(state_ == ZOMBIE_ATTACK) {
+        } else if(state_ == ZOMBIE_ATTACK) {  // 回到INIT状态
             state_ = ZOMBIE_INIT;
             // this->setMovie(init_movie_);
             // init_movie_->start();
             attack_movie_->stop();
             init_current_image_ = 0;
-            init_dynamic_timer_->start(160);
+            if(slow_down_) init_dynamic_timer_->start(320); // 切换图片的速度
+            else init_dynamic_timer_->start(160); // 切换图片的速度
             update(); // 更新图像
         }
     }
-
-    move(x + zombie_move_.vx_, y + zombie_move_.vy_); 
+    if(slow_down_) { // 减速，每两次移动一次（速度减半）
+        slow_move_ ^= 1;
+        if(slow_move_) move(x + zombie_move_.vx_, y + zombie_move_.vy_); 
+    } else move(x + zombie_move_.vx_, y + zombie_move_.vy_); 
+    
 }
 
 void Zombie::KillZombie() {
@@ -100,11 +104,12 @@ void Zombie::KillZombie() {
 }
 
 void Zombie::ZombieAttack(Plant *plant) {
-    int& hp = plant->hp();
-    if(damage_ >= hp) {
+    int& hp = plant->hp(); 
+    int damage = slow_down_ ? (damage_ / 2 + 1) : damage_;  // 减速 伤害减半 
+    if(damage >= hp) {
         plant->KillPlant();
     } else {
-        hp -= damage_;
+        hp -= damage;
     }
 
     if(state_ == ZOMBIE_INIT) {
@@ -113,7 +118,8 @@ void Zombie::ZombieAttack(Plant *plant) {
         // attack_movie_->start();
         init_movie_->stop();
         attack_current_image_ = 0;
-        attack_dynamic_timer_->start(160);
+        if(slow_down_) attack_dynamic_timer_->start(320);
+        else attack_dynamic_timer_->start(160);
         update(); // 更新图像
     }
 }
@@ -124,17 +130,70 @@ void Zombie::ZombieHit() {
     update();
 }
 
+void Zombie::ZombieSlowDown() {
+    slow_down_ = true;
+    if(state_ == ZOMBIE_INIT) {  // current_image不变
+        init_dynamic_timer_->stop();
+        init_dynamic_timer_->start(320); // gif 播放速度变慢
+    } else if(state_ == ZOMBIE_ATTACK) {
+        attack_dynamic_timer_->stop();
+        attack_dynamic_timer_->start(320); // gif 播放速度变慢
+    }
+
+    if(slow_down_timer_ == nullptr) {
+        slow_down_timer_ = new QTimer(this);
+        connect(slow_down_timer_, &QTimer::timeout, this, [this]() { // 减速结束
+            slow_down_timer_->stop();
+            slow_down_ = false;
+            slow_move_ = false;
+
+            if(state_ == ZOMBIE_INIT) {  // current_image不变
+                init_dynamic_timer_->stop();
+                init_dynamic_timer_->start(160); // gif 播放速度复原
+            } else if(state_ == ZOMBIE_ATTACK) {
+                attack_dynamic_timer_->stop();
+                attack_dynamic_timer_->start(160); 
+            }
+        });
+    }
+
+    slow_down_timer_->stop();
+    slow_down_timer_->start(3000); // 刷新减速时间为3秒
+
+}
+
 void Zombie::paintEvent(QPaintEvent *) {
     QPainter painter(this);
     QPixmap pixmap;
+    QImage image;
     if(state_ == ZOMBIE_INIT) {
         init_movie_->jumpToFrame(init_current_image_);
-        pixmap = init_movie_->currentPixmap();
+        image = init_movie_->currentImage();
     }
     else if(state_ == ZOMBIE_ATTACK) {
         attack_movie_->jumpToFrame(attack_current_image_);
-        pixmap = attack_movie_->currentPixmap();    
+        image = attack_movie_->currentImage();    
     }
+
+    if(slow_down_) {
+            // 给图片变蓝,寒冰的特效
+        int r, g, b;
+        QColor old_color;
+        for(int x = 0; x < image.width(); ++x) {
+            for(int y = 0; y < image.height(); ++y) { 
+                old_color = QColor(image.pixel(x, y));
+                r = old_color.red();
+                g = old_color.green(); 
+                b = old_color.blue();         
+                if(!r & !g & !b) continue;; // 透明颜色不变色  
+                b += 70; 
+                if(b > 255) b = 255; 
+                image.setPixelColor(x, y, qRgb(r, g, b));
+            }
+        }
+    }
+
+
     if(hit_flag_) painter.setOpacity(0.5);
-    painter.drawPixmap(0, 0, this->width(), this->height(),QPixmap(pixmap));
+    painter.drawPixmap(0, 0, this->width(), this->height(), QPixmap::fromImage(image));
 }

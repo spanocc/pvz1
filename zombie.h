@@ -30,6 +30,8 @@ class Zombie : public QLabel {
     void ZombieAttack(Plant *plant);
     // 僵尸受到攻击(damage_减少后就要调用该函数)
     void ZombieHit();
+    // 僵尸受到减速效果 : gif播放变缓慢（图片切换速度变缓慢） 图片变蓝 移动速度变慢 攻击力减半
+    void ZombieSlowDown();
 
     void set_line(int line) { line_ = line; }
     const int& get_line() { return line_; }
@@ -72,6 +74,13 @@ class Zombie : public QLabel {
     // 是否正受到攻击
     bool hit_flag_ = false;
     QTimer *hit_timer_ = nullptr;
+
+    // 是否受到寒冰属性攻击
+    bool slow_down_ = false;
+    // 减速，速度变为原来的一半，当slow_move是true时，才移动
+    bool slow_move_ = false;
+    // 减速时间
+    QTimer *slow_down_timer_ = nullptr;
 
   signals:
     void Destroy(Zombie *zombie); // 告诉mianwindow销毁自己

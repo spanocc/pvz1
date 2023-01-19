@@ -60,6 +60,7 @@ void Bullet::BulletHit(Zombie *zombie) {
     } else {
         hp -= damage_;
         zombie->ZombieHit(); // 僵尸被攻击特效
+        zombie->ZombieSlowDown(); 
     }
 
     state_ = BULLET_BREAK;

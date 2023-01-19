@@ -28,9 +28,13 @@ class Bullet : public QLabel {
     static const int BulletHeight = 60;
 
     enum BulletState {
-      BULLET_MOVE, BULLET_BREAK
+      	BULLET_MOVE, BULLET_BREAK
     };
     int state_ = BULLET_MOVE;
+
+    enum BulletType {
+		
+    };
 
     Move bullet_move_;
 
