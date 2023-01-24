@@ -6,13 +6,17 @@
 #include "zombie.h"
 #include "helper.h"
 
+enum BulletType {
+	ORDINARY_BULLET = 0, SNOW_BULLET
+};
+
 // 子弹由MainWindow产生
 class Bullet : public QLabel {
 
     Q_OBJECT
 
   public:
-    Bullet(QWidget *parent);
+    Bullet(QWidget *parent, BulletType bullet_type);
     ~Bullet();
     // 设置行号
     void set_line(const int& line) { line_ = line; }
@@ -23,6 +27,7 @@ class Bullet : public QLabel {
     void paintEvent(QPaintEvent *);
     // 子弹击中目标
     void BulletHit(Zombie *zombie);
+
   private:
     static const int BulletWidth = 60;
     static const int BulletHeight = 60;
@@ -32,9 +37,7 @@ class Bullet : public QLabel {
     };
     int state_ = BULLET_MOVE;
 
-    enum BulletType {
-		
-    };
+	BulletType bullet_type_ = ORDINARY_BULLET;
 
     Move bullet_move_;
 

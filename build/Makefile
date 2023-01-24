@@ -430,6 +430,30 @@ seedbank.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/seedbank.cpp.s
 .PHONY : seedbank.cpp.s
 
+shooter.o: shooter.cpp.o
+.PHONY : shooter.o
+
+# target to build an object file
+shooter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shooter.cpp.o
+.PHONY : shooter.cpp.o
+
+shooter.i: shooter.cpp.i
+.PHONY : shooter.i
+
+# target to preprocess a source file
+shooter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shooter.cpp.i
+.PHONY : shooter.cpp.i
+
+shooter.s: shooter.cpp.s
+.PHONY : shooter.s
+
+# target to generate assembly for a file
+shooter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shooter.cpp.s
+.PHONY : shooter.cpp.s
+
 shovel.o: shovel.cpp.o
 .PHONY : shovel.o
 
@@ -453,6 +477,30 @@ shovel.s: shovel.cpp.s
 shovel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shovel.cpp.s
 .PHONY : shovel.cpp.s
+
+snowshooter.o: snowshooter.cpp.o
+.PHONY : snowshooter.o
+
+# target to build an object file
+snowshooter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/snowshooter.cpp.o
+.PHONY : snowshooter.cpp.o
+
+snowshooter.i: snowshooter.cpp.i
+.PHONY : snowshooter.i
+
+# target to preprocess a source file
+snowshooter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/snowshooter.cpp.i
+.PHONY : snowshooter.cpp.i
+
+snowshooter.s: snowshooter.cpp.s
+.PHONY : snowshooter.s
+
+# target to generate assembly for a file
+snowshooter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/snowshooter.cpp.s
+.PHONY : snowshooter.cpp.s
 
 sun.o: sun.cpp.o
 .PHONY : sun.o
@@ -572,9 +620,15 @@ help:
 	@echo "... seedbank.o"
 	@echo "... seedbank.i"
 	@echo "... seedbank.s"
+	@echo "... shooter.o"
+	@echo "... shooter.i"
+	@echo "... shooter.s"
 	@echo "... shovel.o"
 	@echo "... shovel.i"
 	@echo "... shovel.s"
+	@echo "... snowshooter.o"
+	@echo "... snowshooter.i"
+	@echo "... snowshooter.s"
 	@echo "... sun.o"
 	@echo "... sun.i"
 	@echo "... sun.s"

@@ -4,6 +4,7 @@
 #include "plant.h"
 #include "sunflower.h"
 #include "peashooter.h"
+#include "snowshooter.h"
 #include "mainwindow.h"
 #include "shovel.h"
 
@@ -39,7 +40,7 @@ void GraphBlock::CreatPlant() {
     }
     else if(current_plant == PEASHOOTER) {      std::cout<<"create a peashooter"<<std::endl;
         PeaShooter *pea_shooter = new PeaShooter(this, pos());
-        connect(main_window->timer(), &QTimer::timeout, pea_shooter, [this, pea_shooter]() {
+        /*connect(main_window->timer(), &QTimer::timeout, pea_shooter, [this, pea_shooter]() {
             // 检查这列僵尸队列中是否有僵尸在该豌豆前面
             for(const auto& it: main_window->zombie_queue()[pea_shooter->line()]) {
                 int zombie_pos = it->pos().x();
@@ -51,9 +52,14 @@ void GraphBlock::CreatPlant() {
                 }
             }
             pea_shooter->BulletStop();
-        });
+        });*/
         pea_shooter->show();
         plant_ = pea_shooter;
+    }
+    else if(current_plant == SNOWSHOOTER) {   std::cout<<"create a snowshooter"<<std::endl;
+        SnowShooter *snow_shooter = new SnowShooter(this, pos());
+        snow_shooter->show();
+        plant_ = snow_shooter;
     }
 
     assert(plant_);

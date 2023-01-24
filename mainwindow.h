@@ -52,7 +52,7 @@ public:
     void DestroySun(Sun *sun) { delete sun; }
 
     // 产生子弹
-    void ProduceBullet(const QPoint &pos);
+    void ProduceBullet(const QPoint &pos, BulletType bullet_type);
     // 销毁子弹
     void DestroyBullet(Bullet *bullet) { delete bullet; }
 

@@ -54,5 +54,9 @@
         <file>image/ordinaryzombieattack.gif</file>
         <file>image/shovel.png</file>
         <file>image/shovelbank.png</file>
+        <file>image/snowshooter.gif</file>
+        <file>image/snowbullet.png</file>
+        <file>image/snowshootercard.png</file>
+        <file>image/snowbullethit.png</file>
     </qresource>
 </RCC>

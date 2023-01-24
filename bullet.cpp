@@ -1,11 +1,12 @@
 #include <iostream>
+#include <string>
 #include <QTimer>
 #include "bullet.h"
 #include "mainwindow.h"
 
 extern MainWindow *main_window;
 
-Bullet::Bullet(QWidget *parent) : QLabel(parent) {
+Bullet::Bullet(QWidget *parent, BulletType bullet_type) : QLabel(parent), bullet_type_(bullet_type) {
     bullet_move_.vx_ = 20;
     bullet_move_.vy_ = 0;
 
@@ -41,11 +42,16 @@ void Bullet::BulletMove() {
 
 void Bullet::paintEvent(QPaintEvent *) {
     QPainter painter(this);
-    if(state_ == BULLET_BREAK) { // 播放子弹破碎的gif
+    std::string image_path; 
+    if(state_ == BULLET_BREAK) { // 显示子弹破碎
         setFixedSize(100, 100);
-        painter.drawPixmap(0, 0, this->width(), this->height(), QPixmap(":/image/peabullethit.gif"));
+        if(bullet_type_ == ORDINARY_BULLET) image_path = ":/image/peabullethit.gif";
+        else if(bullet_type_ == SNOW_BULLET) image_path = ":/image/snowbullethit.png";
+        painter.drawPixmap(0, 0, this->width(), this->height(), QPixmap(image_path.c_str()));
     } else {
-        painter.drawPixmap(0, 0, this->width(), this->height(), QPixmap(":/image/bullet.png"));
+        if(bullet_type_ == ORDINARY_BULLET) image_path = ":/image/bullet.png";
+        else if(bullet_type_ == SNOW_BULLET) image_path = ":/image/snowbullet.png";
+        painter.drawPixmap(0, 0, this->width(), this->height(), QPixmap(image_path.c_str()));
     }
 }
 
@@ -60,7 +66,7 @@ void Bullet::BulletHit(Zombie *zombie) {
     } else {
         hp -= damage_;
         zombie->ZombieHit(); // 僵尸被攻击特效
-        zombie->ZombieSlowDown(); 
+        if(bullet_type_ == SNOW_BULLET) zombie->ZombieSlowDown(); 
     }
 
     state_ = BULLET_BREAK;

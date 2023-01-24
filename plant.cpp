@@ -11,20 +11,24 @@ extern MainWindow *main_window;
 const char *plant_name[] = {
 /* 0  */ "",
 /* 1  */ "sunflower",
-/* 2  */ "peashooter"
+/* 2  */ "peashooter",
+/* 3  */ "snowshooter",
 };
 
 // 必须加上extern才能被其他文件检测到 （extern 和 const 的用法）
 extern const int plant_value[] = { // 每个植物消耗的阳光  
 /* 0  */ 0,
 /* 1  */ 50,
-/* 2  */ 100
+/* 2  */ 100,
+/* 3  */ 175,
 };
 
 extern const int plant_cool_down[] = { // 每个植物冷却时间 （毫秒）
 /* 0  */ 5000,
 /* 1  */ 5000,
-/* 2  */ 5000
+/* 2  */ 5000,
+/* 3  */ 5000,
+
 };
 
 

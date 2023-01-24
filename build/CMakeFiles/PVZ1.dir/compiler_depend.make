@@ -7,10 +7,12 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o: PVZ1_autogen/EWIEGA46
 CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h \
   PVZ1_autogen/EWIEGA46WW/moc_bullet.cpp \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -19,39 +21,37 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/types.h \
@@ -60,24 +60,24 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /usr/include/bits/wchar.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
   /usr/include/bits/types/__mbstate_t.h \
@@ -85,14 +85,14 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/types/time_t.h \
@@ -121,39 +121,39 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/project/PVZ1/bullet.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
-  /usr/include/c++/12.2.0/initializer_list \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/initializer_list \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -166,7 +166,7 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /usr/include/bits/types/sigset_t.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -175,7 +175,7 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
+  /usr/include/c++/12.2.1/atomic \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -195,30 +195,30 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -226,19 +226,19 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
@@ -247,21 +247,21 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -277,18 +277,18 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
@@ -356,8 +356,8 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /home/llh/project/PVZ1/graph_block.h \
   PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/cmath \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
   /usr/include/math.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -368,9 +368,9 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -387,14 +387,19 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
   /home/llh/project/PVZ1/ordinaryzombie.h \
   PVZ1_autogen/EWIEGA46WW/moc_peashooter.cpp \
   /home/llh/project/PVZ1/peashooter.h \
+  /home/llh/project/PVZ1/shooter.h \
   PVZ1_autogen/EWIEGA46WW/moc_plant.cpp \
   /home/llh/project/PVZ1/plant.h \
   PVZ1_autogen/EWIEGA46WW/moc_plantcard.cpp \
   /home/llh/project/PVZ1/plantcard.h \
   PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp \
   /home/llh/project/PVZ1/seedbank.h \
+  PVZ1_autogen/EWIEGA46WW/moc_shooter.cpp \
+  /home/llh/project/PVZ1/shooter.h \
   PVZ1_autogen/EWIEGA46WW/moc_shovel.cpp \
   /home/llh/project/PVZ1/shovel.h \
+  PVZ1_autogen/EWIEGA46WW/moc_snowshooter.cpp \
+  /home/llh/project/PVZ1/snowshooter.h \
   PVZ1_autogen/EWIEGA46WW/moc_sun.cpp \
   /home/llh/project/PVZ1/sun.h \
   PVZ1_autogen/EWIEGA46WW/moc_sunflower.cpp \
@@ -404,9 +409,9 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compi
 
 CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/iostream \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -415,20 +420,20 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
@@ -437,39 +442,39 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/types/time_t.h \
@@ -496,42 +501,42 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -544,15 +549,15 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -560,46 +565,46 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.h \
-  /usr/include/c++/12.2.0/cwctype \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
   /usr/include/wctype.h \
   /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/12.2.0/bits/ostream.tcc \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -608,9 +613,9 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -626,9 +631,9 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
@@ -637,26 +642,26 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -672,18 +677,18 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
   /home/llh/project/PVZ1/bullet.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
@@ -719,16 +724,16 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
@@ -755,8 +760,8 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/cmath \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
   /usr/include/math.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -767,9 +772,9 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -792,9 +797,9 @@ CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp \
 
 CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/iostream \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -803,20 +808,20 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
@@ -825,39 +830,39 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/types/time_t.h \
@@ -884,42 +889,42 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -932,15 +937,15 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -948,54 +953,54 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.h \
-  /usr/include/c++/12.2.0/cwctype \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
   /usr/include/wctype.h \
   /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/12.2.0/bits/ostream.tcc \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/llh/project/PVZ1/graph.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -1004,9 +1009,9 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -1024,9 +1029,9 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
@@ -1035,21 +1040,21 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -1065,18 +1070,18 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
@@ -1102,16 +1107,16 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
@@ -1157,9 +1162,9 @@ CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp \
 
 CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/iostream \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -1168,20 +1173,20 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
@@ -1190,39 +1195,39 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/types/time_t.h \
@@ -1249,42 +1254,42 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -1297,15 +1302,15 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -1313,49 +1318,49 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.h \
-  /usr/include/c++/12.2.0/cwctype \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
   /usr/include/wctype.h \
   /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/12.2.0/bits/ostream.tcc \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/llh/project/PVZ1/graph_block.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -1364,9 +1369,9 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -1388,33 +1393,33 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstring.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qchar.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearray.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -1445,28 +1450,28 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
@@ -1515,9 +1520,14 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/sunflower.h \
   /home/llh/project/PVZ1/peashooter.h \
+  /home/llh/project/PVZ1/shooter.h \
+  /home/llh/project/PVZ1/bullet.h \
+  /home/llh/project/PVZ1/zombie.h \
+  /home/llh/project/PVZ1/helper.h \
+  /home/llh/project/PVZ1/snowshooter.h \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/cmath \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
   /usr/include/math.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -1528,16 +1538,13 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
   /home/llh/project/PVZ1/sun.h \
-  /home/llh/project/PVZ1/helper.h \
-  /home/llh/project/PVZ1/bullet.h \
-  /home/llh/project/PVZ1/zombie.h \
   /home/llh/project/PVZ1/seedbank.h \
   /home/llh/project/PVZ1/plantcard.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
@@ -1547,10 +1554,10 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp \
 CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /usr/include/stdc-predef.h \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/cmath \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -1559,9 +1566,9 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
   /usr/include/math.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/types.h \
@@ -1578,9 +1585,9 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
   /usr/include/stdlib.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/types/locale_t.h \
@@ -1610,75 +1617,75 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /usr/include/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/cstdlib \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/cstdlib \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -1686,46 +1693,46 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -1734,9 +1741,9 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -1755,15 +1762,15 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/sched.h \
@@ -1777,19 +1784,19 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /usr/include/bits/setjmp.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
@@ -1798,14 +1805,14 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -1821,17 +1828,17 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
@@ -1857,16 +1864,16 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
@@ -1934,9 +1941,9 @@ CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp \
 
 CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/iostream \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -1945,20 +1952,20 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
@@ -1967,39 +1974,39 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/types/time_t.h \
@@ -2026,42 +2033,42 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -2074,15 +2081,15 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -2090,40 +2097,40 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.h \
-  /usr/include/c++/12.2.0/cwctype \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
   /usr/include/wctype.h \
   /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/12.2.0/bits/ostream.tcc \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
@@ -2138,9 +2145,9 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -2156,9 +2163,9 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
@@ -2167,26 +2174,26 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -2202,18 +2209,18 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTime \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qdatetime.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
@@ -2234,16 +2241,16 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgba64.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
@@ -2261,8 +2268,8 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/cmath \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
   /usr/include/math.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -2273,9 +2280,9 @@ CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -2351,9 +2358,9 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -2362,45 +2369,45 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/initializer_list \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/initializer_list \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/waitflags.h \
@@ -2437,7 +2444,7 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.
   /usr/include/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -2446,13 +2453,13 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -2472,51 +2479,51 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -2524,18 +2531,18 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/sched.h \
@@ -2549,19 +2556,19 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.
   /usr/include/bits/setjmp.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
@@ -2570,26 +2577,26 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -2605,18 +2612,18 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
@@ -2642,16 +2649,16 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
@@ -2682,9 +2689,9 @@ CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.
 
 CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/iostream \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -2693,20 +2700,20 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
@@ -2715,39 +2722,39 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/types/time_t.h \
@@ -2774,42 +2781,42 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -2822,15 +2829,15 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -2838,49 +2845,50 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.h \
-  /usr/include/c++/12.2.0/cwctype \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
   /usr/include/wctype.h \
   /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/12.2.0/bits/ostream.tcc \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/llh/project/PVZ1/peashooter.h \
+  /home/llh/project/PVZ1/shooter.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -2889,9 +2897,9 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -2907,9 +2915,9 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
@@ -2918,26 +2926,26 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -2953,18 +2961,18 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
@@ -2995,16 +3003,16 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
@@ -3030,9 +3038,12 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
+  /home/llh/project/PVZ1/bullet.h \
+  /home/llh/project/PVZ1/zombie.h \
+  /home/llh/project/PVZ1/helper.h \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/cmath \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
   /usr/include/math.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -3043,9 +3054,9 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -3054,9 +3065,6 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
-  /home/llh/project/PVZ1/helper.h \
-  /home/llh/project/PVZ1/bullet.h \
-  /home/llh/project/PVZ1/zombie.h \
   /home/llh/project/PVZ1/graph.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
@@ -3071,9 +3079,9 @@ CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp \
 
 CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -3082,18 +3090,18 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
@@ -3102,61 +3110,61 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -3182,15 +3190,15 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /usr/include/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -3198,22 +3206,22 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/iostream \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/sched.h \
@@ -3227,48 +3235,48 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /usr/include/bits/setjmp.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.h \
-  /usr/include/c++/12.2.0/cwctype \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
   /usr/include/wctype.h \
   /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/12.2.0/bits/ostream.tcc \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -3277,9 +3285,9 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -3295,9 +3303,9 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
@@ -3306,26 +3314,26 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -3341,18 +3349,18 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
@@ -3383,16 +3391,16 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
@@ -3428,8 +3436,8 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/cmath \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
   /usr/include/math.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -3440,9 +3448,9 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -3459,9 +3467,9 @@ CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp \
 
 CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -3470,18 +3478,18 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
@@ -3490,61 +3498,61 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -3570,15 +3578,15 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /usr/include/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -3586,22 +3594,22 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/iostream \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/sched.h \
@@ -3615,47 +3623,47 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /usr/include/bits/setjmp.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.h \
-  /usr/include/c++/12.2.0/cwctype \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
   /usr/include/wctype.h \
   /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/12.2.0/bits/ostream.tcc \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QBitmap \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbitmap.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -3664,9 +3672,9 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -3695,33 +3703,33 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstring.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qchar.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearray.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -3742,28 +3750,28 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
@@ -3816,8 +3824,8 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/cmath \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
   /usr/include/math.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -3828,9 +3836,9 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -3849,9 +3857,9 @@ CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp \
 
 CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -3860,18 +3868,18 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
@@ -3880,61 +3888,61 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -3960,15 +3968,15 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /usr/include/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -3976,22 +3984,22 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/iostream \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/sched.h \
@@ -4005,47 +4013,47 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /usr/include/bits/setjmp.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.h \
-  /usr/include/c++/12.2.0/cwctype \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
   /usr/include/wctype.h \
   /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/12.2.0/bits/ostream.tcc \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -4054,9 +4062,9 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -4067,7 +4075,7 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qscopedpointer.h \
-  /usr/include/c++/12.2.0/stdlib.h \
+  /usr/include/c++/12.2.1/stdlib.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
@@ -4087,32 +4095,32 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstring.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qchar.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearray.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -4132,28 +4140,28 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
@@ -4211,11 +4219,13 @@ CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp \
   /home/llh/project/PVZ1/sun.h \
   /home/llh/project/PVZ1/helper.h
 
-CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
+CMakeFiles/PVZ1.dir/shooter.cpp.o: /home/llh/project/PVZ1/shooter.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /home/llh/project/PVZ1/shooter.h \
+  /home/llh/project/PVZ1/plant.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -4224,20 +4234,18 @@ CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
@@ -4246,39 +4254,413 @@ CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/c++/12.2.1/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
+  /usr/include/assert.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qflags.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtgui-config.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnamespace.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs_impl.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstring.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qchar.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearray.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrefcount.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlist.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qalgorithms.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/uio_lim.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearraylist.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringlist.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qregexp.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringmatcher.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qscopedpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcolor.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgb.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgba64.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmatrix.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpolygon.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qregion.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qdatastream.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiodevice.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qline.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainterpath.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbrush.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpalette.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qsizepolicy.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcursor.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
+  /home/llh/project/PVZ1/bullet.h \
+  /home/llh/project/PVZ1/zombie.h \
+  /home/llh/project/PVZ1/helper.h \
+  /home/llh/project/PVZ1/mainwindow.h \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
+  /home/llh/project/PVZ1/sun.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
+  /home/llh/project/PVZ1/graph.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+  /home/llh/project/PVZ1/graph_block.h \
+  /home/llh/project/PVZ1/plant.h \
+  /home/llh/project/PVZ1/seedbank.h \
+  /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
+  /home/llh/project/PVZ1/shovel.h \
+  /home/llh/project/PVZ1/sunflower.h
+
+CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
+  /usr/include/stdc-predef.h \
+  /usr/include/c++/12.2.1/iostream \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/12.2.1/cctype \
+  /usr/include/ctype.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/types/time_t.h \
@@ -4305,42 +4687,42 @@ CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -4353,15 +4735,15 @@ CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -4369,49 +4751,49 @@ CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.h \
-  /usr/include/c++/12.2.0/cwctype \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
   /usr/include/wctype.h \
   /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/12.2.0/bits/ostream.tcc \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/llh/project/PVZ1/shovel.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -4420,9 +4802,9 @@ CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -4444,33 +4826,33 @@ CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstring.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qchar.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearray.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -4501,28 +4883,28 @@ CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
@@ -4566,8 +4948,8 @@ CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/cmath \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
   /usr/include/math.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -4578,9 +4960,9 @@ CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -4599,11 +4981,14 @@ CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/project/PVZ1/sunflower.h
 
-CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
+CMakeFiles/PVZ1.dir/snowshooter.cpp.o: /home/llh/project/PVZ1/snowshooter.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/12.2.0/cmath \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /home/llh/project/PVZ1/snowshooter.h \
+  /home/llh/project/PVZ1/shooter.h \
+  /home/llh/project/PVZ1/plant.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -4612,9 +4997,381 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/cctype \
+  /usr/include/ctype.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/c++/12.2.1/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
+  /usr/include/assert.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qflags.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtgui-config.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnamespace.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs_impl.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstring.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qchar.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearray.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrefcount.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlist.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qalgorithms.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/uio_lim.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearraylist.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringlist.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qregexp.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringmatcher.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qscopedpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreevent.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcolor.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgb.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgba64.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmatrix.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpolygon.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qregion.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qdatastream.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiodevice.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qline.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainterpath.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbrush.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpalette.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qsizepolicy.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcursor.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
+  /home/llh/project/PVZ1/bullet.h \
+  /home/llh/project/PVZ1/zombie.h \
+  /home/llh/project/PVZ1/helper.h \
+  /home/llh/project/PVZ1/mainwindow.h \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
+  /home/llh/project/PVZ1/sun.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
+  /home/llh/project/PVZ1/graph.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
+  /home/llh/project/PVZ1/graph_block.h \
+  /home/llh/project/PVZ1/plant.h \
+  /home/llh/project/PVZ1/seedbank.h \
+  /home/llh/project/PVZ1/plantcard.h \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
+  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
+  /home/llh/project/PVZ1/shovel.h \
+  /home/llh/project/PVZ1/sunflower.h
+
+CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
+  /usr/include/stdc-predef.h \
+  /usr/include/c++/12.2.1/cmath \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
   /usr/include/math.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/types.h \
@@ -4631,9 +5388,9 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
   /usr/include/stdlib.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/types/locale_t.h \
@@ -4663,49 +5420,49 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
   /usr/include/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/iostream \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/sched.h \
@@ -4719,48 +5476,48 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
   /usr/include/bits/setjmp.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdlib \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -4768,49 +5525,49 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.h \
-  /usr/include/c++/12.2.0/cwctype \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
   /usr/include/wctype.h \
   /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/12.2.0/bits/ostream.tcc \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/llh/project/PVZ1/sun.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -4819,9 +5576,9 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -4843,33 +5600,33 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstring.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qchar.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearray.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -4900,28 +5657,28 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h \
@@ -4950,10 +5707,10 @@ CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
   /home/llh/project/PVZ1/helper.h \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -4993,9 +5750,9 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -5004,45 +5761,45 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/initializer_list \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/initializer_list \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/waitflags.h \
@@ -5079,7 +5836,7 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /usr/include/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -5088,13 +5845,13 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -5110,51 +5867,51 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -5162,18 +5919,18 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/sched.h \
@@ -5187,19 +5944,19 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /usr/include/bits/setjmp.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
@@ -5208,26 +5965,26 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -5243,18 +6000,18 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
   /home/llh/project/PVZ1/plant.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h \
@@ -5290,16 +6047,16 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
@@ -5323,8 +6080,8 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcursor.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/cmath \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
   /usr/include/math.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -5335,9 +6092,9 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -5362,9 +6119,9 @@ CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp \
 
 CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/12.2.1/iostream \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h \
@@ -5373,20 +6130,20 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/iosfwd \
-  /usr/include/c++/12.2.0/bits/stringfwd.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/postypes.h \
-  /usr/include/c++/12.2.0/cwchar \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/iosfwd \
+  /usr/include/c++/12.2.1/bits/stringfwd.h \
+  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+  /usr/include/c++/12.2.1/bits/postypes.h \
+  /usr/include/c++/12.2.1/cwchar \
   /usr/include/wchar.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
@@ -5395,39 +6152,39 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception.h \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/exception_defines.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/new \
-  /usr/include/c++/12.2.0/bits/move.h \
-  /usr/include/c++/12.2.0/type_traits \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
-  /usr/include/c++/12.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+  /usr/include/c++/12.2.1/exception \
+  /usr/include/c++/12.2.1/bits/exception.h \
+  /usr/include/c++/12.2.1/bits/exception_ptr.h \
+  /usr/include/c++/12.2.1/bits/exception_defines.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.1/typeinfo \
+  /usr/include/c++/12.2.1/bits/hash_bytes.h \
+  /usr/include/c++/12.2.1/new \
+  /usr/include/c++/12.2.1/bits/move.h \
+  /usr/include/c++/12.2.1/type_traits \
+  /usr/include/c++/12.2.1/bits/nested_exception.h \
+  /usr/include/c++/12.2.1/bits/char_traits.h \
+  /usr/include/c++/12.2.1/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/12.2.0/bits/localefwd.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/12.2.0/clocale \
+  /usr/include/c++/12.2.1/bits/localefwd.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/12.2.1/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/12.2.0/cctype \
+  /usr/include/c++/12.2.1/cctype \
   /usr/include/ctype.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/12.2.1/bits/ios_base.h \
+  /usr/include/c++/12.2.1/ext/atomicity.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/bits/types/time_t.h \
@@ -5454,42 +6211,42 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/string \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/bits/functexcept.h \
-  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/12.2.0/bits/ostream_insert.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12.2.0/bits/concept_check.h \
-  /usr/include/c++/12.2.0/debug/assertions.h \
-  /usr/include/c++/12.2.0/bits/stl_iterator.h \
-  /usr/include/c++/12.2.0/ext/type_traits.h \
-  /usr/include/c++/12.2.0/bits/ptr_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/ext/numeric_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_algobase.h \
-  /usr/include/c++/12.2.0/bits/stl_pair.h \
-  /usr/include/c++/12.2.0/bits/utility.h \
-  /usr/include/c++/12.2.0/debug/debug.h \
-  /usr/include/c++/12.2.0/bits/predefined_ops.h \
-  /usr/include/c++/12.2.0/bits/refwrap.h \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/range_access.h \
-  /usr/include/c++/12.2.0/initializer_list \
-  /usr/include/c++/12.2.0/bits/basic_string.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_construct.h \
-  /usr/include/c++/12.2.0/ext/string_conversions.h \
-  /usr/include/c++/12.2.0/cstdlib \
+  /usr/include/c++/12.2.1/bits/locale_classes.h \
+  /usr/include/c++/12.2.1/string \
+  /usr/include/c++/12.2.1/bits/allocator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.1/bits/new_allocator.h \
+  /usr/include/c++/12.2.1/bits/functexcept.h \
+  /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/12.2.1/bits/ostream_insert.h \
+  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12.2.1/bits/concept_check.h \
+  /usr/include/c++/12.2.1/debug/assertions.h \
+  /usr/include/c++/12.2.1/bits/stl_iterator.h \
+  /usr/include/c++/12.2.1/ext/type_traits.h \
+  /usr/include/c++/12.2.1/bits/ptr_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_function.h \
+  /usr/include/c++/12.2.1/backward/binders.h \
+  /usr/include/c++/12.2.1/ext/numeric_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_algobase.h \
+  /usr/include/c++/12.2.1/bits/stl_pair.h \
+  /usr/include/c++/12.2.1/bits/utility.h \
+  /usr/include/c++/12.2.1/debug/debug.h \
+  /usr/include/c++/12.2.1/bits/predefined_ops.h \
+  /usr/include/c++/12.2.1/bits/refwrap.h \
+  /usr/include/c++/12.2.1/bits/invoke.h \
+  /usr/include/c++/12.2.1/bits/range_access.h \
+  /usr/include/c++/12.2.1/initializer_list \
+  /usr/include/c++/12.2.1/bits/basic_string.h \
+  /usr/include/c++/12.2.1/ext/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/alloc_traits.h \
+  /usr/include/c++/12.2.1/bits/stl_construct.h \
+  /usr/include/c++/12.2.1/ext/string_conversions.h \
+  /usr/include/c++/12.2.1/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -5502,15 +6259,15 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/alloca.h \
   /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/12.2.0/bits/std_abs.h \
-  /usr/include/c++/12.2.0/cstdio \
+  /usr/include/c++/12.2.1/bits/std_abs.h \
+  /usr/include/c++/12.2.1/cstdio \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/c++/12.2.0/cerrno \
+  /usr/include/c++/12.2.1/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -5518,49 +6275,49 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/12.2.0/bits/charconv.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
-  /usr/include/c++/12.2.0/bits/basic_string.tcc \
-  /usr/include/c++/12.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/12.2.0/system_error \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
-  /usr/include/c++/12.2.0/streambuf \
-  /usr/include/c++/12.2.0/bits/streambuf.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.h \
-  /usr/include/c++/12.2.0/cwctype \
+  /usr/include/c++/12.2.1/bits/charconv.h \
+  /usr/include/c++/12.2.1/bits/functional_hash.h \
+  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/12.2.1/system_error \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/12.2.1/stdexcept \
+  /usr/include/c++/12.2.1/streambuf \
+  /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
   /usr/include/wctype.h \
   /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/12.2.0/bits/ostream.tcc \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/llh/project/PVZ1/zombie.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h \
-  /usr/include/c++/12.2.0/cstddef \
-  /usr/include/c++/12.2.0/utility \
-  /usr/include/c++/12.2.0/bits/stl_relops.h \
+  /usr/include/c++/12.2.1/cstddef \
+  /usr/include/c++/12.2.1/utility \
+  /usr/include/c++/12.2.1/bits/stl_relops.h \
   /usr/include/assert.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h \
-  /usr/include/c++/12.2.0/algorithm \
-  /usr/include/c++/12.2.0/bits/stl_algo.h \
-  /usr/include/c++/12.2.0/bits/algorithmfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_heap.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/algorithm \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h \
@@ -5569,9 +6326,9 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h \
-  /usr/include/c++/12.2.0/atomic \
-  /usr/include/c++/12.2.0/bits/atomic_base.h \
-  /usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12.2.1/atomic \
+  /usr/include/c++/12.2.1/bits/atomic_base.h \
+  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h \
@@ -5591,9 +6348,9 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/12.2.0/stdlib.h \
-  /usr/include/c++/12.2.0/iterator \
-  /usr/include/c++/12.2.0/bits/stream_iterator.h \
+  /usr/include/c++/12.2.1/stdlib.h \
+  /usr/include/c++/12.2.1/iterator \
+  /usr/include/c++/12.2.1/bits/stream_iterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h \
@@ -5602,26 +6359,26 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h \
-  /usr/include/c++/12.2.0/numeric \
-  /usr/include/c++/12.2.0/bits/stl_numeric.h \
-  /usr/include/c++/12.2.0/functional \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/std_function.h \
+  /usr/include/c++/12.2.1/numeric \
+  /usr/include/c++/12.2.1/bits/stl_numeric.h \
+  /usr/include/c++/12.2.1/functional \
+  /usr/include/c++/12.2.1/tuple \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/12.2.0/vector \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/bits/stl_vector.h \
-  /usr/include/c++/12.2.0/bits/stl_bvector.h \
-  /usr/include/c++/12.2.0/bits/vector.tcc \
-  /usr/include/c++/12.2.0/list \
-  /usr/include/c++/12.2.0/bits/stl_list.h \
-  /usr/include/c++/12.2.0/bits/allocated_ptr.h \
-  /usr/include/c++/12.2.0/ext/aligned_buffer.h \
-  /usr/include/c++/12.2.0/bits/list.tcc \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h \
+  /usr/include/c++/12.2.1/vector \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/list \
+  /usr/include/c++/12.2.1/bits/stl_list.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/ext/aligned_buffer.h \
+  /usr/include/c++/12.2.1/bits/list.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -5637,18 +6394,18 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h \
-  /usr/include/c++/12.2.0/map \
-  /usr/include/c++/12.2.0/bits/stl_tree.h \
-  /usr/include/c++/12.2.0/bits/stl_map.h \
-  /usr/include/c++/12.2.0/bits/stl_multimap.h \
-  /usr/include/c++/12.2.0/bits/erase_if.h \
+  /usr/include/c++/12.2.1/map \
+  /usr/include/c++/12.2.1/bits/stl_tree.h \
+  /usr/include/c++/12.2.1/bits/stl_map.h \
+  /usr/include/c++/12.2.1/bits/stl_multimap.h \
+  /usr/include/c++/12.2.1/bits/erase_if.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h \
-  /usr/include/c++/12.2.0/chrono \
-  /usr/include/c++/12.2.0/bits/chrono.h \
-  /usr/include/c++/12.2.0/ratio \
-  /usr/include/c++/12.2.0/limits \
-  /usr/include/c++/12.2.0/ctime \
-  /usr/include/c++/12.2.0/bits/parse_numbers.h \
+  /usr/include/c++/12.2.1/chrono \
+  /usr/include/c++/12.2.1/bits/chrono.h \
+  /usr/include/c++/12.2.1/ratio \
+  /usr/include/c++/12.2.1/limits \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/bits/parse_numbers.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h \
@@ -5674,16 +6431,16 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
-  /usr/include/c++/12.2.0/ext/concurrence.h \
-  /usr/include/c++/12.2.0/bits/shared_ptr_atomic.h \
-  /usr/include/c++/12.2.0/backward/auto_ptr.h \
+  /usr/include/c++/12.2.1/memory \
+  /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12.2.1/backward/auto_ptr.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfont.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontmetrics.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qfontinfo.h \
@@ -5712,8 +6469,8 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
   /home/llh/project/PVZ1/mainwindow.h \
-  /usr/include/c++/12.2.0/random \
-  /usr/include/c++/12.2.0/cmath \
+  /usr/include/c++/12.2.1/random \
+  /usr/include/c++/12.2.1/cmath \
   /usr/include/math.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -5724,9 +6481,9 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/iscanonical.h \
-  /usr/include/c++/12.2.0/bits/random.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
-  /usr/include/c++/12.2.0/bits/random.tcc \
+  /usr/include/c++/12.2.1/bits/random.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/12.2.1/bits/random.tcc \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -5755,21 +6512,29 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
 
 /home/llh/project/PVZ1/sun.cpp:
 
+/home/llh/project/PVZ1/snowshooter.cpp:
+
 /home/llh/project/PVZ1/shovel.cpp:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbitmap.h:
+/home/llh/project/PVZ1/shooter.cpp:
+
+/home/llh/project/PVZ1/seedbank.cpp:
+
+/home/llh/project/PVZ1/plantcard.cpp:
+
+/home/llh/project/PVZ1/peashooter.cpp:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QStatusBar:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qactiongroup.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmenu.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qaction.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QVariant:
+
+PVZ1_autogen/include/ui_mainwindow.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qdatetime.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTime:
-
-/home/llh/project/PVZ1/mainwindow.cpp:
 
 /usr/include/linux/close_range.h:
 
@@ -5781,47 +6546,39 @@ CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp \
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmap.h:
 
-/usr/include/bits/confname.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qinputmethod.h:
-
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qapplication.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QApplication:
+/usr/include/c++/12.2.1/istream:
 
-/home/llh/project/PVZ1/graph_block.cpp:
+/usr/include/c++/12.2.1/bits/ostream.tcc:
 
-/home/llh/project/PVZ1/graph.cpp:
+/usr/include/c++/12.2.1/bits/locale_facets.tcc:
 
-/usr/include/c++/12.2.0/istream:
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
 
-/usr/include/c++/12.2.0/bits/basic_ios.tcc:
+/usr/include/c++/12.2.1/bits/locale_facets.h:
 
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+/usr/include/c++/12.2.1/bits/basic_ios.tcc:
 
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h:
+/usr/include/c++/12.2.1/bits/basic_ios.h:
 
-/usr/include/c++/12.2.0/bits/locale_facets.h:
+/usr/include/c++/12.2.1/ios:
 
-/usr/include/c++/12.2.0/bits/basic_ios.h:
-
-/usr/include/c++/12.2.0/ostream:
-
-/usr/include/c++/12.2.0/iostream:
+/usr/include/c++/12.2.1/ostream:
 
 PVZ1_autogen/EWIEGA46WW/moc_zombie.cpp:
 
-PVZ1_autogen/EWIEGA46WW/moc_plant.cpp:
+PVZ1_autogen/EWIEGA46WW/moc_sunflower.cpp:
+
+PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp:
+
+PVZ1_autogen/EWIEGA46WW/moc_plantcard.cpp:
 
 /home/llh/project/PVZ1/peashooter.h:
 
 PVZ1_autogen/EWIEGA46WW/moc_peashooter.cpp:
 
 PVZ1_autogen/EWIEGA46WW/moc_ordinaryzombie.cpp:
-
-PVZ1_autogen/EWIEGA46WW/moc_sun.cpp:
-
-/home/llh/project/PVZ1/sunflower.h:
 
 /home/llh/project/PVZ1/shovel.h:
 
@@ -5831,51 +6588,43 @@ PVZ1_autogen/EWIEGA46WW/moc_sun.cpp:
 
 /home/llh/project/PVZ1/sun.h:
 
-/home/llh/project/PVZ1/seedbank.h:
+PVZ1_autogen/EWIEGA46WW/moc_snowshooter.cpp:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QVariant:
+/usr/include/c++/12.2.1/bits/random.h:
 
-PVZ1_autogen/include/ui_mainwindow.h:
-
-/usr/include/c++/12.2.0/bits/random.tcc:
-
-/usr/include/c++/12.2.0/bits/random.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QBitmap:
-
-/usr/include/bits/iscanonical.h:
+/usr/include/bits/mathcalls-helper-functions.h:
 
 /usr/include/bits/fp-logb.h:
 
 /usr/include/bits/flt-eval-method.h:
 
+/home/llh/project/PVZ1/shooter.h:
+
 /usr/include/bits/libm-simd-decl-stubs.h:
 
-/usr/include/c++/12.2.0/random:
+PVZ1_autogen/EWIEGA46WW/moc_plant.cpp:
+
+/usr/include/c++/12.2.1/cmath:
+
+/usr/include/c++/12.2.1/random:
 
 PVZ1_autogen/EWIEGA46WW/moc_graph_block.cpp:
 
-/usr/include/c++/12.2.0/bits/ostream.tcc:
-
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h:
-
-/usr/include/bits/mathcalls.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget:
 
+/home/llh/project/PVZ1/graph.h:
+
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h:
 
-PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp:
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h:
-
-/usr/include/c++/12.2.0/cwctype:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h:
 
@@ -5886,14 +6635,6 @@ PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimageiohandler.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcoreapplication.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcursor.h:
 
@@ -5907,11 +6648,7 @@ PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer_impl.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h:
-
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsharedpointer.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmenubar.h:
 
@@ -5919,47 +6656,41 @@ PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainterpath.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h:
-
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qline.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiodevice.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qdatastream.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qregion.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpolygon.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmatrix.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcolor.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhash.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h:
+/usr/include/c++/12.2.1/ctime:
 
-/usr/include/c++/12.2.0/ratio:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixmap.h:
 
-/usr/include/c++/12.2.0/bits/chrono.h:
+/usr/include/c++/12.2.1/limits:
 
-/usr/include/c++/12.2.0/chrono:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h:
+
+/usr/include/c++/12.2.1/ratio:
+
+/usr/include/c++/12.2.1/chrono:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject_impl.h:
 
-/usr/include/c++/12.2.0/bits/erase_if.h:
+/usr/include/c++/12.2.1/bits/erase_if.h:
 
-/usr/include/c++/12.2.0/bits/stl_multimap.h:
+/usr/include/c++/12.2.1/bits/stl_multimap.h:
 
-/usr/include/c++/12.2.0/bits/stl_tree.h:
+/usr/include/c++/12.2.1/bits/stl_map.h:
 
-/home/llh/project/PVZ1/peashooter.cpp:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h:
 
-/usr/include/c++/12.2.0/map:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qscopedpointer.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringmatcher.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qregexp.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringlist.h:
 
@@ -5969,269 +6700,63 @@ PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /usr/include/bits/uio_lim.h:
 
-/usr/include/bits/xopen_lim.h:
-
 /usr/include/bits/posix2_lim.h:
 
 /usr/include/linux/limits.h:
 
-/usr/include/limits.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qscopedpointer.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h:
 
-/usr/include/c++/12.2.0/bits/nested_exception.h:
+/usr/include/c++/12.2.1/exception:
 
-/usr/include/c++/12.2.0/ios:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTime:
 
-/usr/include/c++/12.2.0/bits/cxxabi_init_exception.h:
+/usr/include/c++/12.2.1/bits/functexcept.h:
 
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h:
+/usr/include/sys/single_threaded.h:
 
-/usr/include/c++/12.2.0/bits/istream.tcc:
+/usr/include/c++/12.2.1/cwchar:
 
-/usr/include/wctype.h:
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
-/usr/include/bits/fp-fast.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h:
 
-/usr/include/sched.h:
-
-/usr/include/c++/12.2.0/exception:
-
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h:
+/usr/include/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/bits/types/__sigset_t.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpaintdevice.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h:
 
-/usr/include/c++/12.2.0/bit:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h:
+
+/usr/include/c++/12.2.1/bits/nested_exception.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmatrix.h:
+
+/usr/include/c++/12.2.1/bits/allocated_ptr.h:
 
 /usr/include/bits/setjmp.h:
 
-/usr/include/c++/12.2.0/backward/auto_ptr.h:
+/usr/include/c++/12.2.1/bits/chrono.h:
+
+/usr/include/c++/12.2.1/type_traits:
+
+/usr/include/bits/struct_mutex.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h:
+
+/usr/include/bits/types/timer_t.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton:
 
 PVZ1_autogen/EWIEGA46WW/moc_graph.cpp:
 
 /usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h:
-
-/usr/include/bits/types/struct_timeval.h:
-
-/usr/include/c++/12.2.0/bits/locale_facets.tcc:
-
-/usr/include/bits/timex.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvarlengtharray.h:
-
-/usr/include/c++/12.2.0/ext/numeric_traits.h:
-
-/usr/include/bits/errno.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h:
-
-/usr/include/c++/12.2.0/cerrno:
-
-/usr/include/c++/12.2.0/bits/stl_iterator.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/time.h:
-
-/usr/include/c++/12.2.0/bits/allocated_ptr.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/bits/types/__locale_t.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbrush.h:
-
-/usr/include/bits/types/FILE.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtgui-config.h:
-
-/usr/include/c++/12.2.0/bits/basic_string.h:
-
-/usr/include/c++/12.2.0/ext/concurrence.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h:
-
-/usr/include/c++/12.2.0/numeric:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/c++/12.2.0/bits/concept_check.h:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/c++/12.2.0/bits/streambuf.tcc:
-
-/usr/include/bits/types/wint_t.h:
-
-/usr/include/c++/12.2.0/cwchar:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/c++/12.2.0/iosfwd:
-
-/usr/include/c++/12.2.0/bits/stringfwd.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qeventloop.h:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/c++/12.2.0/bits/shared_ptr_base.h:
-
-/usr/include/sys/cdefs.h:
-
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp:
-
-/usr/include/c++/12.2.0/bits/invoke.h:
-
-/usr/include/c++/12.2.0/debug/assertions.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlist.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/12.2.0/bits/basic_string.tcc:
-
-/usr/include/features-time64.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/home/llh/project/PVZ1/zombie.h:
-
-/usr/include/bits/time.h:
-
-/usr/include/c++/12.2.0/bits/stl_construct.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/c++/12.2.0/bits/functional_hash.h:
-
-/usr/include/c++/12.2.0/ext/alloc_traits.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow:
-
-/usr/include/c++/12.2.0/bits/cpp_type_traits.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/c++/12.2.0/bits/new_allocator.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstring.h:
-
-/usr/include/c++/12.2.0/bits/postypes.h:
-
-/usr/include/c++/12.2.0/bits/std_abs.h:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/c++/12.2.0/backward/binders.h:
-
-/usr/include/c++/12.2.0/bits/stl_map.h:
-
-/usr/include/c++/12.2.0/bits/stl_pair.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/12.2.0/bits/refwrap.h:
-
-/usr/include/gnu/stubs.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/12.2.0/bits/stl_tempbuf.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h:
-
-/usr/include/bits/timesize.h:
-
-/usr/include/c++/12.2.0/bits/memoryfwd.h:
-
-/usr/include/c++/12.2.0/bits/stl_algobase.h:
-
-/usr/include/c++/12.2.0/bits/std_function.h:
-
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel:
-
-/usr/include/c++/12.2.0/bits/shared_ptr.h:
-
-/usr/include/c++/12.2.0/ext/type_traits.h:
-
-/usr/include/c++/12.2.0/bits/utility.h:
-
-/usr/include/c++/12.2.0/bits/stl_relops.h:
-
-/usr/include/c++/12.2.0/cstdint:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpalette.h:
-
-PVZ1_autogen/mocs_compilation.cpp:
-
-PVZ1_autogen/EWIEGA46WW/moc_plantcard.cpp:
-
-/usr/include/c++/12.2.0/bits/stl_vector.h:
-
-/usr/include/c++/12.2.0/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/12.2.0/memory:
-
-/usr/include/c++/12.2.0/type_traits:
-
-/usr/include/gnu/stubs-64.h:
-
-/usr/include/bits/local_lim.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qflags.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h:
-
-/usr/include/assert.h:
-
-/usr/include/bits/posix1_lim.h:
-
-/usr/include/wchar.h:
-
-PVZ1_autogen/EWIEGA46WW/moc_bullet.cpp:
-
-/usr/include/c++/12.2.0/debug/debug.h:
-
-/usr/include/c++/12.2.0/bits/exception_ptr.h:
-
-/usr/include/sys/single_threaded.h:
-
-/usr/include/bits/cpu-set.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h:
-
-/usr/include/c++/12.2.0/new:
-
-/usr/include/bits/typesizes.h:
-
-PVZ1_autogen/EWIEGA46WW/moc_sunflower.cpp:
-
-/usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/c++/12.2.0/bits/ptr_traits.h:
-
-/usr/include/c++/12.2.0/bits/predefined_ops.h:
 
 /home/llh/project/PVZ1/ordinaryzombie.h:
 
@@ -6241,63 +6766,313 @@ PVZ1_autogen/EWIEGA46WW/moc_sunflower.cpp:
 
 /usr/include/bits/types/__fpos_t.h:
 
-/usr/include/c++/12.2.0/bits/allocator.h:
+/usr/include/bits/types/struct_timeval.h:
 
-/home/llh/project/PVZ1/plantcard.cpp:
+/home/llh/project/PVZ1/zombie.h:
 
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h:
+/usr/include/bits/time.h:
 
-PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp:
+/usr/include/bits/types/__mbstate_t.h:
 
-/usr/include/c++/12.2.0/bits/ios_base.h:
-
-/usr/include/c++/12.2.0/bits/exception.h:
-
-/usr/include/c++/12.2.0/bits/uses_allocator.h:
-
-/usr/include/bits/mathcalls-helper-functions.h:
-
-/usr/include/c++/12.2.0/bits/stl_uninitialized.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnamespace.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h:
-
-/usr/include/bits/types.h:
+/usr/include/bits/stdio_lim.h:
 
 /usr/include/bits/types/struct_sched_param.h:
 
-/usr/include/c++/12.2.0/ext/aligned_buffer.h:
+/usr/include/bits/endianness.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpoint.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QBitmap:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmetatype.h:
+/usr/include/bits/iscanonical.h:
 
-/usr/include/c++/12.2.0/bits/alloc_traits.h:
+/usr/include/c++/12.2.1/bits/invoke.h:
+
+/usr/include/c++/12.2.1/bits/exception_ptr.h:
 
 /usr/include/pthread.h:
 
-/usr/include/c++/12.2.0/bits/align.h:
+/usr/include/c++/12.2.1/bits/shared_ptr_atomic.h:
 
-/usr/include/c++/12.2.0/iterator:
+PVZ1_autogen/EWIEGA46WW/moc_sun.cpp:
 
-/usr/include/bits/libc-header-start.h:
+/home/llh/project/PVZ1/sunflower.h:
+
+/usr/include/c++/12.2.1/bits/refwrap.h:
+
+/usr/include/c++/12.2.1/typeinfo:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrect.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtgui-config.h:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/c++/12.2.1/bits/std_abs.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/c++/12.2.1/bits/stringfwd.h:
+
+/usr/include/c++/12.2.1/bits/shared_ptr.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QMovie:
+
+/usr/include/c++/12.2.1/bits/stl_algobase.h:
+
+/usr/include/c++/12.2.1/bits/allocator.h:
+
+/home/llh/project/PVZ1/plant.cpp:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/12.2.1/backward/binders.h:
+
+/usr/include/c++/12.2.1/bits/algorithmfwd.h:
+
+/usr/include/c++/12.2.1/tuple:
+
+/usr/include/c++/12.2.1/bits/uniform_int_dist.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/c++/12.2.1/bits/exception_defines.h:
+
+/usr/include/c++/12.2.1/cstdlib:
+
+/usr/include/c++/12.2.1/bits/utility.h:
+
+/home/llh/project/PVZ1/graph_block.cpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h:
+
+/usr/include/features-time64.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qsizepolicy.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qkeysequence.h:
+
+/usr/include/c++/12.2.1/bits/stl_construct.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlist.h:
+
+/usr/include/bits/floatn.h:
+
+/usr/include/c++/12.2.1/bits/move.h:
+
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/c++/12.2.1/bits/hash_bytes.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbrush.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/c++/12.2.1/new:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstring.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmenu.h:
+
+/usr/include/c++/12.2.1/bits/stl_tempbuf.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlocale.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/gnu/stubs.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel:
+
+/usr/include/bits/mathcalls.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h:
+
+/usr/include/c++/12.2.1/bits/ios_base.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qmovie.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h:
+
+/usr/include/c++/12.2.1/bit:
+
+/usr/include/bits/uintn-identity.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtransform.h:
+
+/usr/include/c++/12.2.1/bits/stl_function.h:
+
+/usr/include/c++/12.2.1/bits/ptr_traits.h:
+
+/usr/include/c++/12.2.1/memory:
+
+/usr/include/bits/long-double.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qflags.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpalette.h:
+
+PVZ1_autogen/mocs_compilation.cpp:
+
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+PVZ1_autogen/EWIEGA46WW/moc_shooter.cpp:
+
+/usr/include/c++/12.2.1/bits/exception.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+/usr/include/c++/12.2.1/bits/concept_check.h:
+
+/home/llh/project/PVZ1/graph.cpp:
+
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qbitmap.h:
+
+/usr/include/c++/12.2.1/ext/aligned_buffer.h:
+
+/usr/include/c++/12.2.1/debug/debug.h:
+
+/usr/include/c++/12.2.1/iostream:
+
+/home/llh/project/PVZ1/snowshooter.h:
+
+PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h:
+
+/usr/include/c++/12.2.1/debug/assertions.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qcolor.h:
+
+/usr/include/c++/12.2.1/bits/shared_ptr_base.h:
+
+/home/llh/project/PVZ1/mainwindow.cpp:
+
+/usr/include/c++/12.2.1/list:
+
+/usr/include/limits.h:
+
+/usr/include/c++/12.2.1/bits/atomic_base.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QApplication:
+
+/usr/include/c++/12.2.1/iterator:
+
+/usr/include/c++/12.2.1/bits/stl_vector.h:
+
+/usr/include/bits/posix1_lim.h:
+
+PVZ1_autogen/EWIEGA46WW/moc_bullet.cpp:
+
+/usr/include/wchar.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpen.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimagereader.h:
+
+/usr/include/c++/12.2.1/bits/char_traits.h:
+
+/usr/include/c++/12.2.1/bits/new_allocator.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/c++/12.2.1/bits/basic_string.tcc:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/c++/12.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/12.2.1/map:
+
+/usr/include/c++/12.2.1/bits/stl_uninitialized.h:
+
+/usr/include/wctype.h:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/types/__locale_t.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/c++/12.2.1/utility:
+
+/usr/include/c++/12.2.1/bits/postypes.h:
+
+/usr/include/c++/12.2.1/bits/stl_pair.h:
+
+/usr/include/c++/12.2.1/ext/type_traits.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qalgorithms.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qmargins.h:
+
+/usr/include/c++/12.2.1/ext/numeric_traits.h:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
+
+/usr/include/sys/cdefs.h:
 
 /usr/include/bits/time64.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qguiapplication.h:
+/usr/include/c++/12.2.1/bits/istream.tcc:
 
-/home/llh/project/PVZ1/bullet.cpp:
+/usr/include/c++/12.2.1/bits/stl_iterator.h:
 
-/usr/include/bits/stdlib-float.h:
+/usr/include/sys/types.h:
 
-/usr/include/c++/12.2.0/bits/list.tcc:
+/usr/include/bits/cpu-set.h:
 
-/usr/include/c++/12.2.0/tuple:
+/usr/include/c++/12.2.1/bits/functional_hash.h:
 
-/usr/include/c++/12.2.0/bits/exception_defines.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h:
+
+/usr/include/c++/12.2.1/bits/stl_algo.h:
+
+/usr/include/c++/12.2.1/bits/predefined_ops.h:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
@@ -6305,13 +7080,35 @@ PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp:
 
 /usr/include/bits/wchar.h:
 
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qdatastream.h:
 
-/usr/include/c++/12.2.0/bits/move.h:
+/usr/include/c++/12.2.1/ext/alloc_traits.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h:
+/home/llh/project/PVZ1/helper.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qchar.h:
+
+/usr/include/c++/12.2.1/bits/alloc_traits.h:
+
+/usr/include/c++/12.2.1/bits/cpp_type_traits.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qguiapplication.h:
+
+/home/llh/project/PVZ1/bullet.cpp:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/c++/12.2.1/ext/concurrence.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qregexp.h:
+
+/usr/include/c++/12.2.1/initializer_list:
+
+/usr/include/bits/libc-header-start.h:
 
 /usr/include/bits/types/clockid_t.h:
+
+/usr/include/c++/12.2.1/bits/streambuf_iterator.h:
 
 /usr/include/bits/stdint-intn.h:
 
@@ -6321,47 +7118,35 @@ PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp:
 
 /usr/include/bits/sched.h:
 
-/usr/include/c++/12.2.0/bits/atomic_base.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiodevice.h:
 
-/usr/include/bits/endian.h:
+/usr/include/c++/12.2.1/bits/stl_heap.h:
 
-/usr/include/c++/12.2.0/ext/atomicity.h:
+PVZ1_autogen/EWIEGA46WW/moc_shovel.cpp:
 
-/usr/include/c++/12.2.0/bits/parse_numbers.h:
+/usr/include/c++/12.2.1/bits/parse_numbers.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs_impl.h:
+/usr/include/asm/errno.h:
 
-/usr/include/c++/12.2.0/cstdio:
+/usr/include/bits/stdint-uintn.h:
 
-/usr/include/bits/types/struct_timespec.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h:
 
-/usr/include/c++/12.2.0/bits/shared_ptr_atomic.h:
+/usr/include/c++/12.2.1/bits/unique_ptr.h:
 
-/home/llh/project/PVZ1/graph_block.h:
+/usr/include/string.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h:
-
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/usr/include/bits/getopt_posix.h:
-
-/usr/include/errno.h:
+/usr/include/c++/12.2.1/backward/auto_ptr.h:
 
 /usr/include/math.h:
 
 /home/llh/project/PVZ1/bullet.h:
 
-/usr/include/c++/12.2.0/system_error:
+/usr/include/c++/12.2.1/cwctype:
 
-/usr/include/c++/12.2.0/cmath:
+/home/llh/project/PVZ1/graph_block.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsysinfo.h:
-
-/usr/include/c++/12.2.0/cstddef:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h:
-
-/usr/include/c++/12.2.0/utility:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qconfig.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtcore-config.h:
 
@@ -6373,65 +7158,33 @@ PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsystemdetection.h:
 
-/usr/include/bits/types/time_t.h:
-
-/usr/include/c++/12.2.0/ext/string_conversions.h:
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qprocessordetection.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qplugin.h:
+/usr/include/c++/12.2.1/algorithm:
 
-/usr/include/c++/12.2.0/algorithm:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h:
 
-/usr/include/bits/thread-shared-types.h:
+/usr/include/c++/12.2.1/ext/atomicity.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtguiglobal.h:
+/usr/include/bits/byteswap.h:
 
-/usr/include/c++/12.2.0/bits/algorithmfwd.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qsize.h:
 
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/opt_random.h:
+/usr/include/sys/select.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qarraydata.h:
 
-/usr/include/c++/12.2.0/bits/stl_heap.h:
-
-/usr/include/c++/12.2.0/bits/uniform_int_dist.h:
-
-/usr/include/c++/12.2.0/initializer_list:
-
-/usr/include/c++/12.2.0/cstdlib:
-
 /home/llh/project/PVZ1/plant.h:
+
+/usr/include/c++/12.2.1/streambuf:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobal.h:
 
 /usr/include/stdlib.h:
 
-/home/llh/project/PVZ1/plant.cpp:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/ctype.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h:
-
-/usr/include/sys/types.h:
-
-/usr/include/c++/12.2.0/bits/hash_bytes.h:
-
-/usr/include/stdint.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/12.2.0/bits/locale_classes.tcc:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/include/c++/12.2.0/bits/atomic_lockfree_defines.h:
-
-/usr/include/bits/select.h:
+/usr/include/c++/12.2.1/bits/locale_classes.h:
 
 /usr/include/bits/types/sigset_t.h:
 
@@ -6439,21 +7192,23 @@ PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp:
 
 /usr/include/alloca.h:
 
-/usr/include/c++/12.2.0/functional:
+/usr/include/c++/12.2.1/bits/list.tcc:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h:
+/usr/include/bits/types/mbstate_t.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlogging.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvariant.h:
 
 /usr/include/bits/pthreadtypes.h:
 
-/usr/include/c++/12.2.0/bits/functexcept.h:
-
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic.h:
 
+/usr/include/c++/12.2.1/atomic:
+
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMenuBar:
+
+/usr/include/c++/12.2.1/bits/uses_allocator.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qglobalstatic.h:
 
@@ -6461,87 +7216,115 @@ PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnumeric.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h:
+PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp:
 
-/usr/include/c++/12.2.0/vector:
+/usr/include/c++/12.2.1/functional:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qshareddata.h:
+
+/usr/include/bits/types.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qversiontagging.h:
+
+/usr/include/c++/12.2.1/cctype:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qframe.h:
+
+/usr/include/c++/12.2.1/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/12.2.1/stdlib.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h:
 
 /home/llh/project/PVZ1/ordinaryzombie.cpp:
 
-/usr/include/c++/12.2.0/bits/stl_algo.h:
-
-/usr/include/c++/12.2.0/atomic:
-
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qwindowdefs.h:
-
-/usr/include/c++/12.2.0/limits:
-
-/usr/include/bits/types/mbstate_t.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtypeinfo.h:
-
-/usr/include/c++/12.2.0/bits/cxxabi_forced.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs.h:
 
-/usr/include/c++/12.2.0/ctime:
-
 /usr/include/bits/locale.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qnamespace.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobject.h:
 
-/home/llh/project/PVZ1/helper.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qchar.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearray.h:
 
 /home/llh/project/PVZ1/mainwindow.h:
 
-/usr/include/c++/12.2.0/bits/unique_ptr.h:
-
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qrefcount.h:
 
-/usr/include/string.h:
+/usr/include/c++/12.2.1/bits/streambuf.tcc:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qrgb.h:
 
 /usr/include/strings.h:
 
-/home/llh/project/PVZ1/seedbank.cpp:
+/usr/include/bits/typesizes.h:
 
-/usr/include/c++/12.2.0/stdlib.h:
+/usr/include/c++/12.2.1/string:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringview.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h:
+/usr/include/assert.h:
 
-/usr/include/c++/12.2.0/string:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qhashfunctions.h:
 
-/usr/include/bits/types/struct_itimerspec.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qobjectdefs_impl.h:
 
-/usr/include/c++/12.2.0/bits/char_traits.h:
+/usr/include/c++/12.2.1/vector:
 
-/usr/include/c++/12.2.0/bits/localefwd.h:
+/usr/include/c++/12.2.1/bits/localefwd.h:
+
+/usr/include/bits/confname.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qinputmethod.h:
+
+/usr/include/c++/12.2.1/clocale:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h:
 
 /usr/include/locale.h:
 
-/usr/include/c++/12.2.0/cctype:
+/usr/include/c++/12.2.1/cstddef:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h:
+/usr/include/c++/12.2.1/bits/ostream_insert.h:
 
-/usr/include/c++/12.2.0/bits/ostream_insert.h:
+/usr/include/bits/getopt_posix.h:
 
-/usr/include/c++/12.2.0/bits/range_access.h:
+/usr/include/c++/12.2.1/bits/stl_tree.h:
 
-/home/llh/project/PVZ1/graph.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h:
 
-/usr/include/c++/12.2.0/bits/locale_classes.h:
+/usr/include/errno.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainertools_impl.h:
+
+/usr/include/c++/12.2.1/bits/cxxabi_forced.h:
+
+/usr/include/c++/12.2.1/bits/range_access.h:
+
+/usr/include/c++/12.2.1/bits/basic_string.h:
+
+/home/llh/project/PVZ1/seedbank.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h:
+
+/usr/include/c++/12.2.1/ext/string_conversions.h:
+
+/usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/12.2.1/cstdio:
 
 /usr/include/bits/wordsize.h:
 
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qgenericatomic.h:
+
 /usr/include/stdio.h:
+
+/usr/include/c++/12.2.1/bits/memoryfwd.h:
 
 /usr/include/bits/types/__fpos64_t.h:
 
@@ -6549,88 +7332,74 @@ PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp:
 
 /usr/include/bits/environments.h:
 
-/usr/include/c++/12.2.0/clocale:
-
 /usr/include/bits/types/struct_FILE.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/c++/12.2.1/cerrno:
+
+/usr/include/c++/12.2.1/bits/stl_iterator_base_types.h:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcompilerdetection.h:
 
 /usr/include/linux/errno.h:
 
-PVZ1_autogen/EWIEGA46WW/moc_shovel.cpp:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/asm/errno.h:
-
 /usr/include/asm-generic/errno.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qsizepolicy.h:
+/usr/include/time.h:
 
-/usr/include/c++/12.2.0/bits/stl_iterator_base_funcs.h:
+/usr/include/c++/12.2.1/bits/stream_iterator.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/c++/12.2.1/bits/locale_classes.tcc:
+
+/usr/include/c++/12.2.1/bits/align.h:
+
+/usr/include/c++/12.2.1/system_error:
+
+/usr/include/c++/12.2.1/stdexcept:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h:
+
+/usr/include/c++/12.2.1/cstdint:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/c++/12.2.1/bits/stl_relops.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h:
+
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qcontainerfwd.h:
+
+/usr/include/c++/12.2.1/numeric:
+
+/usr/include/c++/12.2.1/iosfwd:
 
 /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasicatomic.h:
 
 /usr/include/bits/types/error_t.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h:
+/usr/include/c++/12.2.1/bits/stl_numeric.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h:
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/opt_random.h:
 
-/usr/include/c++/12.2.0/bits/charconv.h:
+/usr/include/c++/12.2.1/bits/std_function.h:
 
-/usr/include/c++/12.2.0/bits/stream_iterator.h:
+/usr/include/c++/12.2.1/bits/random.tcc:
 
-/usr/include/c++/12.2.0/bits/streambuf_iterator.h:
+/usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h:
 
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h:
+/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qvector.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbytearray.h:
+/usr/include/c++/12.2.1/bits/charconv.h:
 
-/usr/include/c++/12.2.0/stdexcept:
+/usr/include/c++/12.2.1/bits/stl_bvector.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h:
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgets-config.h:
+/usr/include/c++/12.2.1/bits/vector.tcc:
 
-/usr/include/c++/12.2.0/streambuf:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringliteral.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qstringalgorithms.h:
-
-/usr/include/c++/12.2.0/typeinfo:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qalgorithms.h:
-
-/usr/include/bits/types/locale_t.h:
-
-/usr/include/c++/12.2.0/bits/stl_function.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qiterator.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qlocale.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qpair.h:
-
-/usr/include/c++/12.2.0/bits/stl_numeric.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpixelformat.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/include/c++/12.2.0/bits/stl_bvector.h:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qaction.h:
-
-/usr/include/c++/12.2.0/bits/vector.tcc:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer:
-
-/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qatomic_cxx11.h:
-
-/usr/include/c++/12.2.0/list:
-
-/usr/include/c++/12.2.0/bits/stl_list.h:
+/usr/include/c++/12.2.1/bits/stl_list.h:

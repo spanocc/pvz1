@@ -5,24 +5,27 @@
 extern MainWindow *main_window;
 
 PeaShooter::PeaShooter(QWidget *parent, const QPoint& pos)  
-    : Plant(parent, pos),
-      produce_bullet_timer_(new QTimer(this)) {
+    : Shooter(parent, pos) {
 
     plant_type_ = PEASHOOTER;
+    bullet_type_ = ORDINARY_BULLET;
     hit_point_ = 350;
 
     setFixedSize(QSize(PeaShooterWidth, PeaShooterHeight)); 
     DynamicImageInit();
-    movie_->setSpeed(70);
-
+    movie_->setSpeed(60);
+    // 子弹初始化要在子类中使用，不能在Shooter的构造函数中来用，否则子类也需要声明BulletStart BulletStop ProduceBullet 这三个函数才能使用
+    BulletInit();
+/*
     // 建立产生子弹的时间间隔的信号函数
     connect(produce_bullet_timer_, &QTimer::timeout, this, [this]() {
         emit ProduceBullet(pos_); 
     });
     connect(this, &PeaShooter::ProduceBullet, main_window, &MainWindow::ProduceBullet);
-        
+*/       
 }
 
+/*
 void PeaShooter::BulletStart() {
     if(produce_bullet_switch_) return; // 已经在发射子弹了
     produce_bullet_switch_ = true;
@@ -35,3 +38,4 @@ void PeaShooter::BulletStop() {
     produce_bullet_switch_ = false;
     produce_bullet_timer_->stop();
 }
+*/

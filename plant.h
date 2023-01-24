@@ -8,7 +8,7 @@
 #include <QTimer>
 
 enum PlantType {
-    NONEPLANT = 0, SUNFLOWER, PEASHOOTER
+    NONEPLANT = 0, SUNFLOWER, PEASHOOTER, SNOWSHOOTER
 };
 
 // 使用QLable的继承是要使用QMoive播放gif

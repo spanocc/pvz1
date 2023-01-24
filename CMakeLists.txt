@@ -52,7 +52,9 @@ else()
     plantcard.cpp
     plant.cpp
     sunflower.cpp
+    shooter.cpp
     peashooter.cpp
+    snowshooter.cpp
     bullet.cpp
     zombie.cpp
     ordinaryzombie.cpp

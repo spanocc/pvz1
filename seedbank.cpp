@@ -23,6 +23,9 @@ SeedBank::SeedBank(QWidget *parent)
         } else if(i == 1) {
             plant_card_vec_[i] = new PlantCard(this, PEASHOOTER);
             plant_card_vec_[i]->move(PlantCardInitX + PlantCard::PlantCardWidth * i, 7);   //  豌豆射手y轴坐标为7
+        } else if(i == 2) {
+            plant_card_vec_[i] = new PlantCard(this, SNOWSHOOTER);
+            plant_card_vec_[i]->move(PlantCardInitX + PlantCard::PlantCardWidth * i, 7);   //  寒冰射手y轴坐标为7
         } else continue;
 
         connect(plant_card_vec_[i], &PlantCard::clicked, plant_card_vec_[i], &PlantCard::ChooseCard);

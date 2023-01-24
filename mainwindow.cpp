@@ -94,13 +94,13 @@ void MainWindow::ProduceSun(const QPoint &pos) {
 }
 
 // pos参数是产生子弹的植物的GraphBlock的位置
-void MainWindow::ProduceBullet(const QPoint &pos) {    // std::cout<<"produce a bullet (pos :"<<pos.x()<<" "<<pos.y()<<")\n";
+void MainWindow::ProduceBullet(const QPoint &pos, BulletType bullet_type) {    // std::cout<<"produce a bullet (pos :"<<pos.x()<<" "<<pos.y()<<")\n";
     // std::cout<<pos.y()<<std::endl;
     assert(((pos.y() - Graph::InitGraphY) % Graph::GraphBlockHeight) == 0);
     int line = (pos.y() - Graph::InitGraphY) / Graph::GraphBlockHeight; // 计算出该子弹所处的行号
     assert(line >= 0 && line <= 4);
 
-    Bullet *bullet = new Bullet(this);
+    Bullet *bullet = new Bullet(this, bullet_type);
     bullet->set_line(line);
     bullet->move(pos.x() + Graph::GraphBlockWidth - 50, pos.y() + 10); // -50 和 +10都是为了视觉效果
     // 子弹移动跟随mainwindow的定时器
