@@ -133,6 +133,12 @@
 			null
 		],
 		[
+			"/home/llh/project/PVZ1/potatomine.h",
+			"MU",
+			"EWIEGA46WW/moc_potatomine.cpp",
+			null
+		],
+		[
 			"/home/llh/project/PVZ1/seedbank.h",
 			"MU",
 			"EWIEGA46WW/moc_seedbank.cpp",
@@ -161,6 +167,12 @@
 			"/home/llh/project/PVZ1/sunflower.h",
 			"MU",
 			"EWIEGA46WW/moc_sunflower.cpp",
+			null
+		],
+		[
+			"/home/llh/project/PVZ1/wallnut.h",
+			"MU",
+			"EWIEGA46WW/moc_wallnut.cpp",
 			null
 		],
 		[
@@ -232,12 +244,14 @@
 		[ "/home/llh/project/PVZ1/peashooter.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/plant.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/plantcard.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/potatomine.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/seedbank.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/shooter.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/shovel.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/snowshooter.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/sun.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/sunflower.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/wallnut.cpp", "MU", null ],
 		[ "/home/llh/project/PVZ1/zombie.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

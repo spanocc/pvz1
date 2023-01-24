@@ -406,6 +406,30 @@ plantcard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/plantcard.cpp.s
 .PHONY : plantcard.cpp.s
 
+potatomine.o: potatomine.cpp.o
+.PHONY : potatomine.o
+
+# target to build an object file
+potatomine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/potatomine.cpp.o
+.PHONY : potatomine.cpp.o
+
+potatomine.i: potatomine.cpp.i
+.PHONY : potatomine.i
+
+# target to preprocess a source file
+potatomine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/potatomine.cpp.i
+.PHONY : potatomine.cpp.i
+
+potatomine.s: potatomine.cpp.s
+.PHONY : potatomine.s
+
+# target to generate assembly for a file
+potatomine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/potatomine.cpp.s
+.PHONY : potatomine.cpp.s
+
 seedbank.o: seedbank.cpp.o
 .PHONY : seedbank.o
 
@@ -550,6 +574,30 @@ sunflower.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sunflower.cpp.s
 .PHONY : sunflower.cpp.s
 
+wallnut.o: wallnut.cpp.o
+.PHONY : wallnut.o
+
+# target to build an object file
+wallnut.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/wallnut.cpp.o
+.PHONY : wallnut.cpp.o
+
+wallnut.i: wallnut.cpp.i
+.PHONY : wallnut.i
+
+# target to preprocess a source file
+wallnut.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/wallnut.cpp.i
+.PHONY : wallnut.cpp.i
+
+wallnut.s: wallnut.cpp.s
+.PHONY : wallnut.s
+
+# target to generate assembly for a file
+wallnut.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/wallnut.cpp.s
+.PHONY : wallnut.cpp.s
+
 zombie.o: zombie.cpp.o
 .PHONY : zombie.o
 
@@ -617,6 +665,9 @@ help:
 	@echo "... plantcard.o"
 	@echo "... plantcard.i"
 	@echo "... plantcard.s"
+	@echo "... potatomine.o"
+	@echo "... potatomine.i"
+	@echo "... potatomine.s"
 	@echo "... seedbank.o"
 	@echo "... seedbank.i"
 	@echo "... seedbank.s"
@@ -635,6 +686,9 @@ help:
 	@echo "... sunflower.o"
 	@echo "... sunflower.i"
 	@echo "... sunflower.s"
+	@echo "... wallnut.o"
+	@echo "... wallnut.i"
+	@echo "... wallnut.s"
 	@echo "... zombie.o"
 	@echo "... zombie.i"
 	@echo "... zombie.s"

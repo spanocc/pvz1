@@ -5,6 +5,8 @@
 #include "sunflower.h"
 #include "peashooter.h"
 #include "snowshooter.h"
+#include "potatomine.h"
+#include "wallnut.h"
 #include "mainwindow.h"
 #include "shovel.h"
 
@@ -60,6 +62,16 @@ void GraphBlock::CreatPlant() {
         SnowShooter *snow_shooter = new SnowShooter(this, pos());
         snow_shooter->show();
         plant_ = snow_shooter;
+    }
+    else if(current_plant == POTATOMINE) {      std::cout<<"create a potatomine"<<std::endl;
+        PotatoMine *potato_mine = new PotatoMine(this, pos());
+        potato_mine->show();
+        plant_ = potato_mine;
+    }
+    else if(current_plant == WALLNUT) {      std::cout<<"create a wallnut"<<std::endl;
+        WallNut *wall_nut = new WallNut(this, pos());
+        wall_nut->show();
+        plant_ = wall_nut;
     }
 
     assert(plant_);

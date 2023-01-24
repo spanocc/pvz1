@@ -58,5 +58,13 @@
         <file>image/snowbullet.png</file>
         <file>image/snowshootercard.png</file>
         <file>image/snowbullethit.png</file>
+        <file>image/potatomine1.gif</file>
+        <file>image/wallnut1.gif</file>
+        <file>image/wallnut2.gif</file>
+        <file>image/wallnutcard.png</file>
+        <file>image/potatominecard.png</file>
+        <file>image/wallnut.gif</file>
+        <file>image/potatomine.gif</file>
+        <file>image/potatoboom.gif</file>
     </qresource>
 </RCC>

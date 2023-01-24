@@ -13,6 +13,8 @@ const char *plant_name[] = {
 /* 1  */ "sunflower",
 /* 2  */ "peashooter",
 /* 3  */ "snowshooter",
+/* 4  */ "potatomine",
+/* 5  */ "wallnut",
 };
 
 // 必须加上extern才能被其他文件检测到 （extern 和 const 的用法）
@@ -21,6 +23,8 @@ extern const int plant_value[] = { // 每个植物消耗的阳光
 /* 1  */ 50,
 /* 2  */ 100,
 /* 3  */ 175,
+/* 4  */ 25,
+/* 5  */ 50,
 };
 
 extern const int plant_cool_down[] = { // 每个植物冷却时间 （毫秒）
@@ -28,6 +32,8 @@ extern const int plant_cool_down[] = { // 每个植物冷却时间 （毫秒）
 /* 1  */ 5000,
 /* 2  */ 5000,
 /* 3  */ 5000,
+/* 4  */ 5000,
+/* 5  */ 5000,
 
 };
 
@@ -62,6 +68,8 @@ void Plant::KillPlant() {
 
 PlantGhost::PlantGhost(QWidget *parent) : QWidget(parent){
     setFixedSize(QSize(175, 175));
+    if(current_plant == POTATOMINE) setFixedSize(QSize(175, 125));
+    else if(current_plant == WALLNUT) setFixedSize(QSize(150, 175));
     // 将鼠标点击事件取消
     setAttribute(Qt::WA_TransparentForMouseEvents, true);
 
@@ -70,7 +78,8 @@ PlantGhost::PlantGhost(QWidget *parent) : QWidget(parent){
 
 void PlantGhost::paintEvent(QPaintEvent *) {
     QPainter painter(this);
-    std::string plant_path = std::string(":/image/") + plant_name[current_plant] + ".gif";   
+    std::string plant_path = std::string(":/image/") + plant_name[current_plant] + ".gif";  
+    if(current_plant == POTATOMINE) plant_path = ":/image/potatomine1.gif";
     painter.setOpacity(0.3);
     painter.drawPixmap(0, 0, this->width(), this->height(),QPixmap(plant_path.c_str()));
 }

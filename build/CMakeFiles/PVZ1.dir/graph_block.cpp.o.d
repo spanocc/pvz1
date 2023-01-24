@@ -297,6 +297,7 @@ CMakeFiles/PVZ1.dir/graph_block.cpp.o: \
  /home/llh/project/PVZ1/peashooter.h /home/llh/project/PVZ1/shooter.h \
  /home/llh/project/PVZ1/bullet.h /home/llh/project/PVZ1/zombie.h \
  /home/llh/project/PVZ1/helper.h /home/llh/project/PVZ1/snowshooter.h \
+ /home/llh/project/PVZ1/potatomine.h /home/llh/project/PVZ1/wallnut.h \
  /home/llh/project/PVZ1/mainwindow.h /usr/include/c++/12.2.1/random \
  /usr/include/c++/12.2.1/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \

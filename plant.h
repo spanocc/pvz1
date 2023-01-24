@@ -8,7 +8,7 @@
 #include <QTimer>
 
 enum PlantType {
-    NONEPLANT = 0, SUNFLOWER, PEASHOOTER, SNOWSHOOTER
+    NONEPLANT = 0, SUNFLOWER, PEASHOOTER, SNOWSHOOTER, POTATOMINE, WALLNUT
 };
 
 // 使用QLable的继承是要使用QMoive播放gif
@@ -37,6 +37,8 @@ class Plant : public QLabel {
 
     // hp植物血量
     int hit_point_;
+    // 植物造成的伤害
+    int damage_;
 
     int line_; // 植物所在行数
     int column_; // 植物所在列数

@@ -55,6 +55,8 @@ else()
     shooter.cpp
     peashooter.cpp
     snowshooter.cpp
+    potatomine.cpp
+    wallnut.cpp
     bullet.cpp
     zombie.cpp
     ordinaryzombie.cpp

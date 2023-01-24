@@ -26,6 +26,12 @@ SeedBank::SeedBank(QWidget *parent)
         } else if(i == 2) {
             plant_card_vec_[i] = new PlantCard(this, SNOWSHOOTER);
             plant_card_vec_[i]->move(PlantCardInitX + PlantCard::PlantCardWidth * i, 7);   //  寒冰射手y轴坐标为7
+        } else if(i == 3) {
+            plant_card_vec_[i] = new PlantCard(this, POTATOMINE);
+            plant_card_vec_[i]->move(PlantCardInitX + PlantCard::PlantCardWidth * i, 7);   //  土豆地雷y轴坐标为7
+        } else if(i == 4) {
+            plant_card_vec_[i] = new PlantCard(this, WALLNUT);
+            plant_card_vec_[i]->move(PlantCardInitX + PlantCard::PlantCardWidth * i, 7);   //  坚果y轴坐标为7
         } else continue;
 
         connect(plant_card_vec_[i], &PlantCard::clicked, plant_card_vec_[i], &PlantCard::ChooseCard);

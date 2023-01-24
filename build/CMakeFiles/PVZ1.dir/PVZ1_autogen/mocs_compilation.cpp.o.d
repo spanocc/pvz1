@@ -323,6 +323,8 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_plantcard.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_potatomine.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../potatomine.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../seedbank.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_shooter.cpp \
@@ -335,5 +337,7 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sun.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_sunflower.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sunflower.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_wallnut.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../wallnut.h \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_zombie.cpp \
  /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../zombie.h

@@ -19,12 +19,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/llh/project/PVZ1/peashooter.cpp" "CMakeFiles/PVZ1.dir/peashooter.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/peashooter.cpp.o.d"
   "/home/llh/project/PVZ1/plant.cpp" "CMakeFiles/PVZ1.dir/plant.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/plant.cpp.o.d"
   "/home/llh/project/PVZ1/plantcard.cpp" "CMakeFiles/PVZ1.dir/plantcard.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/plantcard.cpp.o.d"
+  "/home/llh/project/PVZ1/potatomine.cpp" "CMakeFiles/PVZ1.dir/potatomine.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/potatomine.cpp.o.d"
   "/home/llh/project/PVZ1/seedbank.cpp" "CMakeFiles/PVZ1.dir/seedbank.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/seedbank.cpp.o.d"
   "/home/llh/project/PVZ1/shooter.cpp" "CMakeFiles/PVZ1.dir/shooter.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/shooter.cpp.o.d"
   "/home/llh/project/PVZ1/shovel.cpp" "CMakeFiles/PVZ1.dir/shovel.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/shovel.cpp.o.d"
   "/home/llh/project/PVZ1/snowshooter.cpp" "CMakeFiles/PVZ1.dir/snowshooter.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/snowshooter.cpp.o.d"
   "/home/llh/project/PVZ1/sun.cpp" "CMakeFiles/PVZ1.dir/sun.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/sun.cpp.o.d"
   "/home/llh/project/PVZ1/sunflower.cpp" "CMakeFiles/PVZ1.dir/sunflower.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/sunflower.cpp.o.d"
+  "/home/llh/project/PVZ1/wallnut.cpp" "CMakeFiles/PVZ1.dir/wallnut.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/wallnut.cpp.o.d"
   "/home/llh/project/PVZ1/zombie.cpp" "CMakeFiles/PVZ1.dir/zombie.cpp.o" "gcc" "CMakeFiles/PVZ1.dir/zombie.cpp.o.d"
   )
 
