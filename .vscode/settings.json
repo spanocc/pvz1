@@ -52,6 +52,7 @@
         "typeinfo": "cpp",
         "utility": "cpp",
         "variant": "cpp",
-        "clocale": "cpp"
+        "clocale": "cpp",
+        "qobject": "cpp"
     }
 }

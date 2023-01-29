@@ -5,6 +5,7 @@
 #include <list>
 #include <vector>
 #include <QMainWindow>
+#include "pvz_client.h"
 #include "sun.h"
 #include "bullet.h"
 #include "graph.h"
@@ -23,7 +24,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
+    MainWindow(QWidget *parent, const char *ip, int port);
     ~MainWindow();
 
     SeedBank *seed_bank() { return seed_bank_; }
@@ -33,6 +34,8 @@ public:
     Shovel* shovel() { return shovel_; }
 
     void paintEvent(QPaintEvent *);
+    // 初始化客户端
+    void ClientInit();
     // 初始化地图
     void GraphInit();
     // 初始化阳光
@@ -73,6 +76,8 @@ private:
 
     Ui::MainWindow *ui;
 
+    PVZClient *pvz_client_ = nullptr;
+
     // 总计时器
     QTimer *timer_ = nullptr;
     // 种子银行
@@ -101,5 +106,9 @@ private:
     // 僵尸随机出现的列数
     std::uniform_int_distribution<unsigned> zombie_u_;
     std::default_random_engine zombie_e_;
+
+  signals:
+    void ThreadDestroy();
+
 };
 #endif // MAINWINDOW_H

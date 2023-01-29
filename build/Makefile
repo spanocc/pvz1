@@ -430,6 +430,30 @@ potatomine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/potatomine.cpp.s
 .PHONY : potatomine.cpp.s
 
+pvz_client.o: pvz_client.cpp.o
+.PHONY : pvz_client.o
+
+# target to build an object file
+pvz_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/pvz_client.cpp.o
+.PHONY : pvz_client.cpp.o
+
+pvz_client.i: pvz_client.cpp.i
+.PHONY : pvz_client.i
+
+# target to preprocess a source file
+pvz_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/pvz_client.cpp.i
+.PHONY : pvz_client.cpp.i
+
+pvz_client.s: pvz_client.cpp.s
+.PHONY : pvz_client.s
+
+# target to generate assembly for a file
+pvz_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/pvz_client.cpp.s
+.PHONY : pvz_client.cpp.s
+
 seedbank.o: seedbank.cpp.o
 .PHONY : seedbank.o
 
@@ -525,6 +549,30 @@ snowshooter.s: snowshooter.cpp.s
 snowshooter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/snowshooter.cpp.s
 .PHONY : snowshooter.cpp.s
+
+socket_config.o: socket_config.cpp.o
+.PHONY : socket_config.o
+
+# target to build an object file
+socket_config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/socket_config.cpp.o
+.PHONY : socket_config.cpp.o
+
+socket_config.i: socket_config.cpp.i
+.PHONY : socket_config.i
+
+# target to preprocess a source file
+socket_config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/socket_config.cpp.i
+.PHONY : socket_config.cpp.i
+
+socket_config.s: socket_config.cpp.s
+.PHONY : socket_config.s
+
+# target to generate assembly for a file
+socket_config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/socket_config.cpp.s
+.PHONY : socket_config.cpp.s
 
 sun.o: sun.cpp.o
 .PHONY : sun.o
@@ -668,6 +716,9 @@ help:
 	@echo "... potatomine.o"
 	@echo "... potatomine.i"
 	@echo "... potatomine.s"
+	@echo "... pvz_client.o"
+	@echo "... pvz_client.i"
+	@echo "... pvz_client.s"
 	@echo "... seedbank.o"
 	@echo "... seedbank.i"
 	@echo "... seedbank.s"
@@ -680,6 +731,9 @@ help:
 	@echo "... snowshooter.o"
 	@echo "... snowshooter.i"
 	@echo "... snowshooter.s"
+	@echo "... socket_config.o"
+	@echo "... socket_config.i"
+	@echo "... socket_config.s"
 	@echo "... sun.o"
 	@echo "... sun.i"
 	@echo "... sun.s"

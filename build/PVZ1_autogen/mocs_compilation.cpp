@@ -8,6 +8,7 @@
 #include "EWIEGA46WW/moc_plant.cpp"
 #include "EWIEGA46WW/moc_plantcard.cpp"
 #include "EWIEGA46WW/moc_potatomine.cpp"
+#include "EWIEGA46WW/moc_pvz_client.cpp"
 #include "EWIEGA46WW/moc_seedbank.cpp"
 #include "EWIEGA46WW/moc_shooter.cpp"
 #include "EWIEGA46WW/moc_shovel.cpp"

@@ -45,6 +45,8 @@ else()
     mainwindow.h
     mainwindow.ui
     rsc.qrc
+    pvz_client.cpp
+    socket_config.cpp
     sun.cpp
     graph_block.cpp
     graph.cpp

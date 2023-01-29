@@ -9,9 +9,10 @@
 
 extern PlantType current_plant;
 
-MainWindow::MainWindow(QWidget *parent)
+MainWindow::MainWindow(QWidget *parent, const char *ip, int port)
     : QMainWindow(parent),
-      ui(new Ui::MainWindow),        
+      ui(new Ui::MainWindow),  
+      pvz_client_(new PVZClient(this, ip, port)),
       timer_(new QTimer(this)),
       e_(time(0)),
       sun_u_(0, 1500),  // 创建一个0到1500的随机数作为随机掉落的阳光的横坐标
@@ -22,6 +23,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     setFixedSize(QSize(MainWindowWidth, MainWindowHeight));
 
+    // 在初始化地图之前可以播放开始界面
+
     GraphInit();
     SeedBankInit();  // 种子银行后初始化，第一排的植物要在种子银行下面
     ShovelBankInit();
@@ -29,11 +32,18 @@ MainWindow::MainWindow(QWidget *parent)
     ZombieInit();
     
     timer_->start(50); // 20帧
+
+    ClientInit();
+    
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+    emit ThreadDestroy();
+    pvz_client_->exit();
+    pvz_client_->wait();
+    delete pvz_client_;
 }
 
 void MainWindow::paintEvent(QPaintEvent *) {
@@ -154,3 +164,8 @@ void MainWindow::DestroyPlantGhost() {
     delete plant_ghost_;
     plant_ghost_ = nullptr;
  }
+
+void MainWindow::ClientInit() {
+    connect(this, &MainWindow::ThreadDestroy, pvz_client_, &PVZClient::CloseConnection);
+    pvz_client_->start();
+}
