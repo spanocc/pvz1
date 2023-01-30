@@ -34,6 +34,7 @@ class PVZClient : public QThread{
     Message read_message_;
     int read_message_offset_; // 读进来的数据相较于message_首部字段的偏移量
     Message write_message_;
+    int write_message_offset_;
 
     int stop_ = 0; // 主循环是否停止
     int pipefd_[2]; // 通知线程结束
