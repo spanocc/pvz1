@@ -1,7 +1,5 @@
 #include "pvz_client.h"
 
-// 接收数据，发送数据，都由子线程去做
-
 PVZClient::PVZClient(QObject *parent, const char *ip, int port) 
     : QThread(parent),
       server_ip_(ip),
@@ -44,11 +42,11 @@ void PVZClient::run() {
     SetNoBlocking(sockfd_);
     AddEpollIn(epollfd_, sockfd_, false);
 
-    Write();
-    Reset();
+    // Write();
+    // Reset();
 
     epoll_event events[MAX_EVENT_NUM];
-    while(!stop_) {       
+    while(1) {       
 	    int event_num = epoll_wait(epollfd_, events, MAX_EVENT_NUM, -1);
 		if(event_num < 0 && errno != EINTR) { // EINTR是信号把epoll_wait系统调用中断了
             std::cerr<<strerror(errno)<<std::endl;
@@ -56,19 +54,27 @@ void PVZClient::run() {
 		}
 		for(int i = 0; i < event_num; ++i) {
 			int sockfd = events[i].data.fd;
-            if(sockfd == sockfd_ && (events[i].events & EPOLLIN)) {
+            if(sockfd == sockfd_ && (events[i].events & EPOLLIN)) { 
                 if(!Read() || !ProcessRead()) {
                     CloseConnection();
+                    return; // 退出线程
                 }
             } else if(sockfd == pipefd_[1] && (events[i].events & EPOLLIN)) {
-                char buf[16];
-                memset(buf, 0, sizeof(buf));
-                int ret = recv(sockfd, buf, sizeof(buf), 0);
-                if(!strcmp(buf, "stop")) return; // 结束线程
+                SignalMessage message;
+                int ret = recv(sockfd, (char *)(&message), sizeof(message), 0);
+                assert(ret == sizeof(message)); // 管道一定能读成功
+                if(message.message_type == CLOSE_CONNECTION) {
+                    CloseConnection();
+                    return; // 退出线程
+                } else {
+                    if(!ProcessWrite(message)) {
+                        CloseConnection();
+                        return; // 退出线程
+                    }
+                }
             }
         }
     }
-    // std::cout<<"end\n";
 }
 
 // 可能调用多次，所以要先进行判断
@@ -78,10 +84,6 @@ void PVZClient::CloseConnection() {
         epoll_ctl(epollfd_, EPOLL_CTL_DEL, sockfd_, 0);
         close(sockfd_);
         sockfd_ = -1;
-        stop_ = 1;
-        // 通知结束循环
-        char buf[16] = "stop";
-        send(pipefd_[0], buf, sizeof(buf), 0); 
     }
     std::cout<<"close the client\n";
 }
@@ -115,7 +117,8 @@ int PVZClient::ProcessRead() {
         return true; // 不够，继续读
     } else {
         std::cout<<read_message_.magic<<std::endl;
-        Write();
+        // 如果有需要回应的报文，直接发送，不要再等一轮主循环
+        // Write();
         Reset();
     }
     return true;
@@ -141,6 +144,26 @@ int PVZClient::Write() {
             return false;
         }
         write_message_offset_ += bytes_send;
+    }   
+}
+
+int PVZClient::ProcessWrite(const SignalMessage& signal_message) {
+    assert(write_message_offset_ == 0);
+    strncpy(write_message_.magic, "yuriyuri", sizeof(write_message_.magic) - 1);
+    if(signal_message.message_type == CREATE_PLANT) {
+        write_message_.message_type = CREATE_PLANT;
+        write_message_.line = signal_message.line;
+        write_message_.column = signal_message.column;
+        write_message_.plant_type = signal_message.plant_type;
     }
-    
+    else {
+        return false; 
+    }
+
+    if(!Write()) { // 写失败了
+        std::cout<<"write failue\n";
+        return false;
+    }
+    Reset();
+    return true;
 }

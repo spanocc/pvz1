@@ -5,6 +5,13 @@
 #include "message.h"
 #include "socket_config.h"
 
+// 线程不访问全局变量
+
+// 接收数据，发送数据，都由子线程去做
+
+// 主线程通知子线程用的是管道
+// 子线程接收到任务并处理完成后，通知主线程，直接用信号槽即可，槽函数在mainwindow中定义，信号函数在子线程中 （试过，在子线程中发信号，主线程来实现槽函数，在主线程的初始化啊函数中调用connect）
+
 class PVZClient : public QThread{
 
     Q_OBJECT
@@ -25,6 +32,10 @@ class PVZClient : public QThread{
     int ProcessRead();
     // 发送数据
     int Write();
+    // 包装好将要发送的报文
+    int ProcessWrite(const SignalMessage& siganl_message);
+
+    int pipefd_[2]; //主线程用0, 子线程用1
   private:
     const char *server_ip_ = nullptr;
     int server_port_;
@@ -36,8 +47,6 @@ class PVZClient : public QThread{
     Message write_message_;
     int write_message_offset_;
 
-    int stop_ = 0; // 主循环是否停止
-    int pipefd_[2]; // 通知线程结束
 };
 
 

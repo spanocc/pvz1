@@ -9,6 +9,7 @@
 #include "wallnut.h"
 #include "mainwindow.h"
 #include "shovel.h"
+#include "pvz_client.h"
 
 extern MainWindow *main_window; 
 extern PlantType current_plant; // 当前应该创建的植物（刚刚点击过的）
@@ -30,12 +31,23 @@ GraphBlock::GraphBlock(QWidget *parent) : QPushButton(parent) {
     });
 }
 
+void GraphBlock::CalculatePos() {
+    assert(((pos().y() - Graph::InitGraphY) % Graph::GraphBlockHeight) == 0);
+    assert(((pos().x() - Graph::InitGraphX) % Graph::GraphBlockWidth) == 0);
+    line_ = (pos().y() - Graph::InitGraphY) / Graph::GraphBlockHeight; // 计算出该子弹所处的行号
+    column_ = (pos().x() - Graph::InitGraphX) / Graph::GraphBlockWidth;
+    assert(line_ >= 0 && line_ < Graph::LineNum);
+    assert(column_ >= 0 && column_ < Graph::ColumnNum);
+}
+
 void GraphBlock::CreatPlant() {    
 
     if(current_plant == NONEPLANT) return;
-    else if(plant_ != nullptr) return;
+    if(plant_ != nullptr) return;
+
+    main_window->SignalCreatePlant(line_, column_);
     
-    else if(current_plant == SUNFLOWER) {   std::cout<<"create a sunflower"<<std::endl;
+    if(current_plant == SUNFLOWER) {   std::cout<<"create a sunflower"<<std::endl;
         SunFlower *sun_flower = new SunFlower(this, pos());   
         sun_flower->show(); // 让植物显示出来
         plant_ = sun_flower;

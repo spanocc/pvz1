@@ -40,7 +40,7 @@ MainWindow::MainWindow(QWidget *parent, const char *ip, int port)
 MainWindow::~MainWindow()
 {
     delete ui;
-    emit ThreadDestroy();
+    ThreadDestroy();
     pvz_client_->exit();
     pvz_client_->wait();
     delete pvz_client_;
@@ -166,6 +166,27 @@ void MainWindow::DestroyPlantGhost() {
  }
 
 void MainWindow::ClientInit() {
-    connect(this, &MainWindow::ThreadDestroy, pvz_client_, &PVZClient::CloseConnection);
-    pvz_client_->start();
+    // connect(pvz_client_, &PVZClient::pausss, this, &MainWindow::Pausss);
+    // connect(this, &MainWindow::SignalProcessWrite, pvz_client_, &PVZClient::ProcessWrite);
+    // connect(this, SIGNAL(SignalProcessWrite(const SignalMessage&)), pvz_client_, SLOT(ProcessWrite(const SignalMessage&)));
+     pvz_client_->start();
+}
+
+void MainWindow::ThreadDestroy() {
+    SignalMessage message;
+    message.message_type = CLOSE_CONNECTION;
+    send(pvz_client_->pipefd_[0], (char *)(&message), sizeof(message), 0);
+}
+
+void MainWindow::SignalCreatePlant(int line, int column) {
+    assert(current_plant != NONEPLANT);
+    // 发送报文
+    SignalMessage message;
+    message.message_type = CREATE_PLANT;
+    message.line = line;
+    message.column = column;
+    message.plant_type = current_plant;
+    
+    int ret = send(pvz_client_->pipefd_[0], (char *)(&message), sizeof(message), 0);
+    assert(ret == sizeof(message));
 }

@@ -18,9 +18,13 @@ class GraphBlock : public QPushButton {
     void CreatPlant();
     // 销毁一个植物
     void DestroyPlant() { assert(plant_); delete plant_; plant_ = nullptr; }
+    // 计算出行，列
+    void CalculatePos();
 
   private:
     Plant *plant_ = nullptr;
+    int line_;
+    int column_;
 };
 
 #endif

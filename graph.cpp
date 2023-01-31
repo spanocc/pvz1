@@ -10,6 +10,7 @@ Graph::Graph(QWidget *parent)
         for(int j = 0; j < ColumnNum; ++j) {
             graph_[i][j] = new GraphBlock(this);  // 会自动delete
             graph_[i][j]->move(InitGraphX + j * GraphBlockWidth, InitGraphY + i * GraphBlockHeight);
+            graph_[i][j]->CalculatePos();
         }
     } 
 }

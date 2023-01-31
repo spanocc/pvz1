@@ -67,6 +67,11 @@ public:
     void CreatePlantGhost();
     void DestroyPlantGhost();
 
+    // 不设置信号函数， 都用管道来通信 , 用信号函数的话，实际上执行函数的是主线程，而不是子线程，无法做到让所有处理事件都有子线程来做的目的
+    void ThreadDestroy();
+    // 通知子线程发送种植植物的信息
+    void SignalCreatePlant(int line, int column);
+
     // 定义为public，方便其他类获取窗口大小 eg：Sun类要获取窗口大小
     static const int MainWindowWidth = 1800;
     static const int MainWindowHeight = 1200;
@@ -107,8 +112,8 @@ private:
     std::uniform_int_distribution<unsigned> zombie_u_;
     std::default_random_engine zombie_e_;
 
-  signals:
-    void ThreadDestroy();
+    int pipefd_[2];
+
 
 };
 #endif // MAINWINDOW_H
