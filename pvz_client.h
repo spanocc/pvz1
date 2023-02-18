@@ -5,6 +5,8 @@
 #include "message.h"
 #include "socket_config.h"
 
+extern const char *plant_name[]; // 全局常量没事
+
 // 线程不访问全局变量
 
 // 接收数据，发送数据，都由子线程去做
@@ -33,7 +35,7 @@ class PVZClient : public QThread{
     // 发送数据
     int Write();
     // 包装好将要发送的报文
-    int ProcessWrite(const SignalMessage& siganl_message);
+    int ProcessWrite(const Message& message);
 
     int pipefd_[2]; //主线程用0, 子线程用1
   private:
@@ -46,6 +48,10 @@ class PVZClient : public QThread{
     int read_message_offset_; // 读进来的数据相较于message_首部字段的偏移量
     Message write_message_;
     int write_message_offset_;
+
+  signals:
+    void CreatePlant(int line, int column, int plant_type, int seq, bool respond);
+    void DestroyPlant(int line, int column, int seq, bool respond);
 
 };
 

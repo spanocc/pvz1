@@ -71,6 +71,12 @@ public:
     void ThreadDestroy();
     // 通知子线程发送种植植物的信息
     void SignalCreatePlant(int line, int column);
+    // 收到子线程发送种植植物的信息
+    void CreatePlant(int line, int column, int plant_type, int seq, bool respond);
+    // 通知子线程发送铲除植物的信息
+    void SignalDestroyPlant(int line, int column, int seq);
+    // 收到子线程发送铲除植物的信息
+    void DestroyPlant(int line, int column, int seq, bool respond);
 
     // 定义为public，方便其他类获取窗口大小 eg：Sun类要获取窗口大小
     static const int MainWindowWidth = 1800;

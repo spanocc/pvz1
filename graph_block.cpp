@@ -46,7 +46,7 @@ void GraphBlock::CreatPlant() {
     if(plant_ != nullptr) return;
 
     main_window->SignalCreatePlant(line_, column_);
-    
+/*
     if(current_plant == SUNFLOWER) {   std::cout<<"create a sunflower"<<std::endl;
         SunFlower *sun_flower = new SunFlower(this, pos());   
         sun_flower->show(); // 让植物显示出来
@@ -54,19 +54,6 @@ void GraphBlock::CreatPlant() {
     }
     else if(current_plant == PEASHOOTER) {      std::cout<<"create a peashooter"<<std::endl;
         PeaShooter *pea_shooter = new PeaShooter(this, pos());
-        /*connect(main_window->timer(), &QTimer::timeout, pea_shooter, [this, pea_shooter]() {
-            // 检查这列僵尸队列中是否有僵尸在该豌豆前面
-            for(const auto& it: main_window->zombie_queue()[pea_shooter->line()]) {
-                int zombie_pos = it->pos().x();
-                int bullet_pos = pos().x() + Graph::GraphBlockWidth - 50;
-                // + 180是为了视觉效果，到僵尸中心才算击中 与bullet.cpp中的BulletMove函数中的处理相同
-                if(bullet_pos <= zombie_pos + 180) {
-                    pea_shooter->BulletStart();
-                    return;
-                }
-            }
-            pea_shooter->BulletStop();
-        });*/
         pea_shooter->show();
         plant_ = pea_shooter;
     }
@@ -103,4 +90,72 @@ void GraphBlock::CreatPlant() {
     main_window->DestroyPlantGhost();
 
     connect(plant_, &Plant::Destroy, this, &GraphBlock::DestroyPlant);
+
+*/
+}
+
+void GraphBlock::CreatePlant(int plant_type, int seq, bool respond) { 
+    if(plant_type == NONEPLANT) return;
+    if(plant_ != nullptr) return;
+
+    if(plant_type == SUNFLOWER) {   std::cout<<"create a sunflower"<<std::endl;
+        SunFlower *sun_flower = new SunFlower(this, pos());   
+        sun_flower->show(); // 让植物显示出来
+        plant_ = sun_flower;
+    }
+    else if(plant_type == PEASHOOTER) {      std::cout<<"create a peashooter"<<std::endl;
+        PeaShooter *pea_shooter = new PeaShooter(this, pos());
+        pea_shooter->show();
+        plant_ = pea_shooter;
+    }
+    else if(plant_type == SNOWSHOOTER) {   std::cout<<"create a snowshooter"<<std::endl;
+        SnowShooter *snow_shooter = new SnowShooter(this, pos());
+        snow_shooter->show();
+        plant_ = snow_shooter;
+    }
+    else if(plant_type == POTATOMINE) {      std::cout<<"create a potatomine"<<std::endl;
+        PotatoMine *potato_mine = new PotatoMine(this, pos());
+        potato_mine->show();
+        plant_ = potato_mine;
+    }
+    else if(plant_type == WALLNUT) {      std::cout<<"create a wallnut"<<std::endl;
+        WallNut *wall_nut = new WallNut(this, pos());
+        wall_nut->show();
+        plant_ = wall_nut;
+    }
+
+    assert(plant_);
+
+    if(respond) { // 说明这个创建植物的事件是由本客户端产生的
+        sun_gold -= plant_value[plant_->plant_type()];
+        main_window->seed_bank()->UpdateSun(); // 更新剩余阳光的显示
+        // 卡片开始冷却
+        const auto& pcv = main_window->seed_bank()->plant_card_vec();
+        for(const auto& it : pcv) {
+            if(it && it->plant_type() == plant_type) {
+                it->back_card()->StartCoolDown();
+            break;
+            }
+        }
+
+        current_plant = NONEPLANT; // 种下一个植物后，plant_type恢复到原状态
+        main_window->DestroyPlantGhost();
+    }
+
+    void (GraphBlock::*destroy_plant)() = &GraphBlock::DestroyPlant;
+    connect(plant_, &Plant::Destroy, this, destroy_plant);
+
+    seq_ = seq; // 植物的序号
+}
+
+void GraphBlock::DestroyPlant() {
+    assert(plant_);
+    main_window->SignalDestroyPlant(line_, column_, seq_);
+}
+
+void GraphBlock::DestroyPlant(int seq, bool respond) {
+    assert(plant_); 
+    assert(seq == seq_);
+    delete plant_; 
+    plant_ = nullptr; 
 }

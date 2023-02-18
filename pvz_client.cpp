@@ -60,9 +60,10 @@ void PVZClient::run() {
                     return; // 退出线程
                 }
             } else if(sockfd == pipefd_[1] && (events[i].events & EPOLLIN)) {
-                SignalMessage message;
+                Message message;
                 int ret = recv(sockfd, (char *)(&message), sizeof(message), 0);
                 assert(ret == sizeof(message)); // 管道一定能读成功
+                assert(strcmp(message.magic, magic_str) == 0);
                 if(message.message_type == CLOSE_CONNECTION) {
                     CloseConnection();
                     return; // 退出线程
@@ -115,19 +116,31 @@ int PVZClient::Read() {
 int PVZClient::ProcessRead() {
     if(read_message_offset_ < sizeof(read_message_)) {
         return true; // 不够，继续读
-    } else {
-        std::cout<<read_message_.magic<<std::endl;
-        // 如果有需要回应的报文，直接发送，不要再等一轮主循环
-        // Write();
-        Reset();
     }
+    if(strcmp(read_message_.magic, magic_str)) {
+        return false;
+    }
+    // std::cout<<read_message_.magic<<std::endl;
+    // 如果有需要回应的报文，直接发送，不要再等一轮主循环
+    if(read_message_.message_type == RESPOND_CREATE_PLANT) {
+        std::cout<<"create a "<<plant_name[read_message_.plant_type]<<" at ("<<read_message_.line<<", "<<read_message_.column<<")\n";
+        std::cout<<"respond: "<<read_message_.respond<<std::endl;
+        emit CreatePlant(read_message_.line, read_message_.column, read_message_.plant_type, read_message_.seq, read_message_.respond);
+    } else if(read_message_.message_type == RESPOND_DESTROY_PLANT) {
+        std::cout<<"shovel away a "<<plant_name[read_message_.plant_type]<<" at ("<<read_message_.line<<", "<<read_message_.column<<")\n";
+        std::cout<<"respond: "<<read_message_.respond<<std::endl;
+        emit DestroyPlant(read_message_.line, read_message_.column, read_message_.seq, read_message_.respond);
+    }
+
+    Reset();
+    
     return true;
 }
 
 // 经过证明，在槽函数执行过程中，不会被其他信号打断
 // 一次发就全发完
 int PVZClient::Write() {
-    strcpy(write_message_.magic, "yuriyuri");
+    strncpy(write_message_.magic, magic_str, sizeof(write_message_.magic) - 1);
     assert(write_message_offset_ == 0);
     int bytes_send = 0;
     while(1) {
@@ -147,18 +160,11 @@ int PVZClient::Write() {
     }   
 }
 
-int PVZClient::ProcessWrite(const SignalMessage& signal_message) {
+int PVZClient::ProcessWrite(const Message& message) {
     assert(write_message_offset_ == 0);
     strncpy(write_message_.magic, "yuriyuri", sizeof(write_message_.magic) - 1);
-    if(signal_message.message_type == CREATE_PLANT) {
-        write_message_.message_type = CREATE_PLANT;
-        write_message_.line = signal_message.line;
-        write_message_.column = signal_message.column;
-        write_message_.plant_type = signal_message.plant_type;
-    }
-    else {
-        return false; 
-    }
+
+    write_message_ = message;
 
     if(!Write()) { // 写失败了
         std::cout<<"write failue\n";

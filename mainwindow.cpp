@@ -169,11 +169,14 @@ void MainWindow::ClientInit() {
     // connect(pvz_client_, &PVZClient::pausss, this, &MainWindow::Pausss);
     // connect(this, &MainWindow::SignalProcessWrite, pvz_client_, &PVZClient::ProcessWrite);
     // connect(this, SIGNAL(SignalProcessWrite(const SignalMessage&)), pvz_client_, SLOT(ProcessWrite(const SignalMessage&)));
-     pvz_client_->start();
+    connect(pvz_client_, &PVZClient::CreatePlant, this, &MainWindow::CreatePlant);
+    connect(pvz_client_, &PVZClient::DestroyPlant, this, &MainWindow::DestroyPlant);
+    pvz_client_->start();
 }
 
 void MainWindow::ThreadDestroy() {
-    SignalMessage message;
+    Message message;
+    strncpy(message.magic, magic_str, sizeof(message.magic) - 1);
     message.message_type = CLOSE_CONNECTION;
     send(pvz_client_->pipefd_[0], (char *)(&message), sizeof(message), 0);
 }
@@ -181,12 +184,36 @@ void MainWindow::ThreadDestroy() {
 void MainWindow::SignalCreatePlant(int line, int column) {
     assert(current_plant != NONEPLANT);
     // 发送报文
-    SignalMessage message;
-    message.message_type = CREATE_PLANT;
+    Message message;
+    strncpy(message.magic, magic_str, sizeof(message.magic) - 1);
+    message.message_type = SIGNAL_CREATE_PLANT;
     message.line = line;
     message.column = column;
     message.plant_type = current_plant;
     
     int ret = send(pvz_client_->pipefd_[0], (char *)(&message), sizeof(message), 0);
     assert(ret == sizeof(message));
+}
+
+void MainWindow::CreatePlant(int line, int column, int plant_type, int seq, bool respond) {
+    assert(line >= 0 && line < Graph::LineNum && column >= 0 && column < Graph::ColumnNum);
+    graph_->graph()[line][column]->CreatePlant(plant_type, seq, respond);
+}
+
+void MainWindow::SignalDestroyPlant(int line, int column, int seq) {
+    // 发送报文
+    Message message;
+    strncpy(message.magic, magic_str, sizeof(message.magic) - 1);
+    message.message_type = SIGNAL_DESTROY_PLANT;
+    message.line = line;
+    message.column = column;
+    message.seq = seq;
+    
+    int ret = send(pvz_client_->pipefd_[0], (char *)(&message), sizeof(message), 0);
+    assert(ret == sizeof(message));
+}
+
+void MainWindow::DestroyPlant(int line, int column, int seq, bool respond) {
+    assert(line >= 0 && line < Graph::LineNum && column >= 0 && column < Graph::ColumnNum);
+    graph_->graph()[line][column]->DestroyPlant(seq, respond);
 }
