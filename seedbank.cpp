@@ -5,7 +5,7 @@
 #include "seedbank.h"
 
 // 阳光数字改变时要同时改变卡片亮度和冷却
-int sun_gold = 500; // 初始阳光
+int sun_gold = 50; // 初始阳光
 
 
 SeedBank::SeedBank(QWidget *parent) 

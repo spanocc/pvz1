@@ -130,6 +130,12 @@ int PVZClient::ProcessRead() {
         std::cout<<"shovel away a "<<plant_name[read_message_.plant_type]<<" at ("<<read_message_.line<<", "<<read_message_.column<<")\n";
         std::cout<<"respond: "<<read_message_.respond<<std::endl;
         emit DestroyPlant(read_message_.line, read_message_.column, read_message_.seq, read_message_.respond);
+    } else if(read_message_.message_type == CREATE_ZOMBIE) {
+        std::cout<<"create a zombie in line "<< read_message_.line<<"\n";
+        emit CreateZombie(read_message_.zombie_type, read_message_.line);
+    } else if(read_message_.message_type == PRODUCE_SUN) {
+        std::cout<<"produce a sun in x: "<<read_message_.x<<"\n";
+        emit ProduceSun(read_message_.x);
     }
 
     Reset();

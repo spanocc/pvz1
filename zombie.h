@@ -7,7 +7,7 @@
 #include "plant.h"
 
 enum ZombieType {
-    ORDINARY
+    ORDINARY = 0,
 };
 
 // 僵尸由mainwindow创建和销毁

@@ -66,27 +66,26 @@ void MainWindow::ShovelBankInit() {
 }
 
 void MainWindow::SunInit() {
-    sun_timer_ = new QTimer(this);
-    void (MainWindow::*produce_random_sun)() = &MainWindow::ProduceSun;  // 绑定无参数的ProduceSun
-    connect(sun_timer_, &QTimer::timeout, this, produce_random_sun);
-    sun_timer_->start(10000); // 每10秒产生一个阳光
+    // sun_timer_ = new QTimer(this);
+    // void (MainWindow::*produce_random_sun)() = &MainWindow::ProduceSun;  // 绑定无参数的ProduceSun
+    // connect(sun_timer_, &QTimer::timeout, this, produce_random_sun);
+    // sun_timer_->start(10000); // 每10秒产生一个阳光
 }
 
 void MainWindow::ZombieInit() {
-    zombie_timer_ = new QTimer(this);
-    connect(sun_timer_, &QTimer::timeout, this, [this]() {
-        CreateZombie(ORDINARY, zombie_u_(e_));
-    });
-    sun_timer_->start(20000); // 每20秒产生一个僵尸
+    // zombie_timer_ = new QTimer(this);
+    // connect(zombie_timer_, &QTimer::timeout, this, [this]() {
+    //     CreateZombie(ORDINARY, zombie_u_(e_));
+    // });
+    // zombie_timer_->start(20000); // 每20秒产生一个僵尸
 
-    CreateZombie(ORDINARY, 2);
-
+    // CreateZombie(ORDINARY, 2);
 }
 
 
 
-void MainWindow::ProduceSun() {
-    int sun_x = static_cast<int>(sun_u_(e_));   // std::cout<<sun_x<<std::endl;
+void MainWindow::ProduceSun(int sun_x) {
+    // int sun_x = static_cast<int>(sun_u_(e_));   // std::cout<<sun_x<<std::endl;
     Sun *sun = new Sun(this);
     sun->move(sun_x, 0);
     connect(timer_, &QTimer::timeout, sun, &Sun::SunMove);
@@ -120,7 +119,7 @@ void MainWindow::ProduceBullet(const QPoint &pos, BulletType bullet_type) {    /
     bullet->show();
 }
 
-void MainWindow::CreateZombie(ZombieType zombie_type, int line) {    // std::cout<<line<<"\n";
+void MainWindow::CreateZombie(int zombie_type, int line) {    // std::cout<<line<<"\n";
     Zombie *zombie = nullptr;
     if(zombie_type == ORDINARY) {
         zombie = new OrdinaryZombie(this);
@@ -171,6 +170,9 @@ void MainWindow::ClientInit() {
     // connect(this, SIGNAL(SignalProcessWrite(const SignalMessage&)), pvz_client_, SLOT(ProcessWrite(const SignalMessage&)));
     connect(pvz_client_, &PVZClient::CreatePlant, this, &MainWindow::CreatePlant);
     connect(pvz_client_, &PVZClient::DestroyPlant, this, &MainWindow::DestroyPlant);
+    connect(pvz_client_, &PVZClient::CreateZombie, this, &MainWindow::CreateZombie);
+    void (MainWindow::*produce_random_sun)(int sun_x) = &MainWindow::ProduceSun; 
+    connect(pvz_client_, &PVZClient::ProduceSun, this, produce_random_sun);
     pvz_client_->start();
 }
 

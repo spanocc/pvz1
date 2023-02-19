@@ -48,7 +48,7 @@ public:
     void ZombieInit();
 
     // 产生一个掉落阳光
-    void ProduceSun();
+    void ProduceSun(int sun_x);
     // 产生一个向日葵的阳光
     void ProduceSun(const QPoint &pos);
     // 销毁这个阳光
@@ -60,7 +60,7 @@ public:
     void DestroyBullet(Bullet *bullet) { delete bullet; }
 
     // 在line行生成一个zombie_type类型的僵尸
-    void CreateZombie(ZombieType zombie_type, int line);
+    void CreateZombie(int zombie_type, int line);
     void DestroyZombie(Zombie *zombie);
 
     // 创建一个跟随鼠标的植物残影
@@ -116,7 +116,7 @@ private:
     QTimer *zombie_timer_ = nullptr;
     // 僵尸随机出现的列数
     std::uniform_int_distribution<unsigned> zombie_u_;
-    std::default_random_engine zombie_e_;
+    // std::default_random_engine zombie_e_;
 
     int pipefd_[2];
 

@@ -52,7 +52,8 @@ class PVZClient : public QThread{
   signals:
     void CreatePlant(int line, int column, int plant_type, int seq, bool respond);
     void DestroyPlant(int line, int column, int seq, bool respond);
-
+    void CreateZombie(int zombie_type, int line);
+    void ProduceSun(int sun_x);
 };
 
 

@@ -21,6 +21,6 @@ SunFlower::SunFlower(QWidget *parent, const QPoint& pos)
     });
     void (MainWindow::*produce_sunflower_sun)(const QPoint&) = &MainWindow::ProduceSun; // 指向含有QPoint参数的ProduceSun函数的指针
     connect(this, &SunFlower::ProduceSun, main_window, produce_sunflower_sun);
-    produce_sun_timer_->start(15000);
+    produce_sun_timer_->start(25000);
 
 }
