@@ -69,82 +69,10 @@ include CMakeFiles/PVZ1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PVZ1.dir/flags.make
 
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/rsc.qrc
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: CMakeFiles/PVZ1_autogen.dir/AutoRcc_rsc_EWIEGA46WW_Info.json
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/ordinaryzombie.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/peabullethit.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/shovelbank.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/potatoboom.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/ordinaryzombieattack.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/snowbullethit.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/wallnutcard.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/snowbullet.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/wallnut.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/peashooter.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/background1.jpg
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/bullet.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/potatominecard.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/SeedBank.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/peashootercard.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/wallnut1.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/potatomine1.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/wallnut2.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/snowshooter.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/shovel.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflowercard.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/snowshootercard.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/background.jpg
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/potatomine.gif
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun20.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun21.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun10.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun11.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun12.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun0.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun13.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun1.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun14.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun2.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun15.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun3.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun16.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun4.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun17.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun5.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun18.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun6.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun19.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun7.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun8.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun9.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower14.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower15.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower16.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower17.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower0.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower1.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower2.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower3.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower4.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower5.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower6.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower7.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower8.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower9.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower10.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower11.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower12.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflower/sunflower13.png
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/Qt5.14.0/5.14.0/gcc_64/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for rsc.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/llh/project/PVZ1/build/CMakeFiles/PVZ1_autogen.dir/AutoRcc_rsc_EWIEGA46WW_Info.json 
-
 CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: CMakeFiles/PVZ1.dir/flags.make
 CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: PVZ1_autogen/mocs_compilation.cpp
 CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o -MF CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o -c /home/llh/project/PVZ1/build/PVZ1_autogen/mocs_compilation.cpp
 
 CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.i: cmake_force
@@ -155,356 +83,356 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/build/PVZ1_autogen/mocs_compilation.cpp -o CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/PVZ1.dir/main.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/main.cpp.o: /home/llh/project/PVZ1/main.cpp
-CMakeFiles/PVZ1.dir/main.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PVZ1.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/main.cpp.o -MF CMakeFiles/PVZ1.dir/main.cpp.o.d -o CMakeFiles/PVZ1.dir/main.cpp.o -c /home/llh/project/PVZ1/main.cpp
+CMakeFiles/PVZ1.dir/src/bullet.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/bullet.cpp.o: /home/llh/project/PVZ1/src/bullet.cpp
+CMakeFiles/PVZ1.dir/src/bullet.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PVZ1.dir/src/bullet.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/bullet.cpp.o -MF CMakeFiles/PVZ1.dir/src/bullet.cpp.o.d -o CMakeFiles/PVZ1.dir/src/bullet.cpp.o -c /home/llh/project/PVZ1/src/bullet.cpp
 
-CMakeFiles/PVZ1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/main.cpp > CMakeFiles/PVZ1.dir/main.cpp.i
+CMakeFiles/PVZ1.dir/src/bullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/bullet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/bullet.cpp > CMakeFiles/PVZ1.dir/src/bullet.cpp.i
 
-CMakeFiles/PVZ1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/main.cpp -o CMakeFiles/PVZ1.dir/main.cpp.s
+CMakeFiles/PVZ1.dir/src/bullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/bullet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/bullet.cpp -o CMakeFiles/PVZ1.dir/src/bullet.cpp.s
 
-CMakeFiles/PVZ1.dir/mainwindow.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/mainwindow.cpp.o: /home/llh/project/PVZ1/mainwindow.cpp
-CMakeFiles/PVZ1.dir/mainwindow.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PVZ1.dir/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/mainwindow.cpp.o -MF CMakeFiles/PVZ1.dir/mainwindow.cpp.o.d -o CMakeFiles/PVZ1.dir/mainwindow.cpp.o -c /home/llh/project/PVZ1/mainwindow.cpp
+CMakeFiles/PVZ1.dir/src/graph.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/graph.cpp.o: /home/llh/project/PVZ1/src/graph.cpp
+CMakeFiles/PVZ1.dir/src/graph.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PVZ1.dir/src/graph.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/graph.cpp.o -MF CMakeFiles/PVZ1.dir/src/graph.cpp.o.d -o CMakeFiles/PVZ1.dir/src/graph.cpp.o -c /home/llh/project/PVZ1/src/graph.cpp
 
-CMakeFiles/PVZ1.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/mainwindow.cpp > CMakeFiles/PVZ1.dir/mainwindow.cpp.i
+CMakeFiles/PVZ1.dir/src/graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/graph.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/graph.cpp > CMakeFiles/PVZ1.dir/src/graph.cpp.i
 
-CMakeFiles/PVZ1.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/mainwindow.cpp -o CMakeFiles/PVZ1.dir/mainwindow.cpp.s
+CMakeFiles/PVZ1.dir/src/graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/graph.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/graph.cpp -o CMakeFiles/PVZ1.dir/src/graph.cpp.s
 
-CMakeFiles/PVZ1.dir/pvz_client.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/pvz_client.cpp.o: /home/llh/project/PVZ1/pvz_client.cpp
-CMakeFiles/PVZ1.dir/pvz_client.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PVZ1.dir/pvz_client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/pvz_client.cpp.o -MF CMakeFiles/PVZ1.dir/pvz_client.cpp.o.d -o CMakeFiles/PVZ1.dir/pvz_client.cpp.o -c /home/llh/project/PVZ1/pvz_client.cpp
+CMakeFiles/PVZ1.dir/src/graph_block.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/graph_block.cpp.o: /home/llh/project/PVZ1/src/graph_block.cpp
+CMakeFiles/PVZ1.dir/src/graph_block.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PVZ1.dir/src/graph_block.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/graph_block.cpp.o -MF CMakeFiles/PVZ1.dir/src/graph_block.cpp.o.d -o CMakeFiles/PVZ1.dir/src/graph_block.cpp.o -c /home/llh/project/PVZ1/src/graph_block.cpp
 
-CMakeFiles/PVZ1.dir/pvz_client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/pvz_client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/pvz_client.cpp > CMakeFiles/PVZ1.dir/pvz_client.cpp.i
+CMakeFiles/PVZ1.dir/src/graph_block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/graph_block.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/graph_block.cpp > CMakeFiles/PVZ1.dir/src/graph_block.cpp.i
 
-CMakeFiles/PVZ1.dir/pvz_client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/pvz_client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/pvz_client.cpp -o CMakeFiles/PVZ1.dir/pvz_client.cpp.s
+CMakeFiles/PVZ1.dir/src/graph_block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/graph_block.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/graph_block.cpp -o CMakeFiles/PVZ1.dir/src/graph_block.cpp.s
 
-CMakeFiles/PVZ1.dir/socket_config.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/socket_config.cpp.o: /home/llh/project/PVZ1/socket_config.cpp
-CMakeFiles/PVZ1.dir/socket_config.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PVZ1.dir/socket_config.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/socket_config.cpp.o -MF CMakeFiles/PVZ1.dir/socket_config.cpp.o.d -o CMakeFiles/PVZ1.dir/socket_config.cpp.o -c /home/llh/project/PVZ1/socket_config.cpp
+CMakeFiles/PVZ1.dir/src/main.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/main.cpp.o: /home/llh/project/PVZ1/src/main.cpp
+CMakeFiles/PVZ1.dir/src/main.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PVZ1.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/main.cpp.o -MF CMakeFiles/PVZ1.dir/src/main.cpp.o.d -o CMakeFiles/PVZ1.dir/src/main.cpp.o -c /home/llh/project/PVZ1/src/main.cpp
 
-CMakeFiles/PVZ1.dir/socket_config.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/socket_config.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/socket_config.cpp > CMakeFiles/PVZ1.dir/socket_config.cpp.i
+CMakeFiles/PVZ1.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/main.cpp > CMakeFiles/PVZ1.dir/src/main.cpp.i
 
-CMakeFiles/PVZ1.dir/socket_config.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/socket_config.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/socket_config.cpp -o CMakeFiles/PVZ1.dir/socket_config.cpp.s
+CMakeFiles/PVZ1.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/main.cpp -o CMakeFiles/PVZ1.dir/src/main.cpp.s
 
-CMakeFiles/PVZ1.dir/sun.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/sun.cpp.o: /home/llh/project/PVZ1/sun.cpp
-CMakeFiles/PVZ1.dir/sun.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PVZ1.dir/sun.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/sun.cpp.o -MF CMakeFiles/PVZ1.dir/sun.cpp.o.d -o CMakeFiles/PVZ1.dir/sun.cpp.o -c /home/llh/project/PVZ1/sun.cpp
+CMakeFiles/PVZ1.dir/src/mainwindow.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/mainwindow.cpp.o: /home/llh/project/PVZ1/src/mainwindow.cpp
+CMakeFiles/PVZ1.dir/src/mainwindow.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PVZ1.dir/src/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/mainwindow.cpp.o -MF CMakeFiles/PVZ1.dir/src/mainwindow.cpp.o.d -o CMakeFiles/PVZ1.dir/src/mainwindow.cpp.o -c /home/llh/project/PVZ1/src/mainwindow.cpp
 
-CMakeFiles/PVZ1.dir/sun.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/sun.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/sun.cpp > CMakeFiles/PVZ1.dir/sun.cpp.i
+CMakeFiles/PVZ1.dir/src/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/mainwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/mainwindow.cpp > CMakeFiles/PVZ1.dir/src/mainwindow.cpp.i
 
-CMakeFiles/PVZ1.dir/sun.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/sun.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/sun.cpp -o CMakeFiles/PVZ1.dir/sun.cpp.s
+CMakeFiles/PVZ1.dir/src/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/mainwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/mainwindow.cpp -o CMakeFiles/PVZ1.dir/src/mainwindow.cpp.s
 
-CMakeFiles/PVZ1.dir/graph_block.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/graph_block.cpp.o: /home/llh/project/PVZ1/graph_block.cpp
-CMakeFiles/PVZ1.dir/graph_block.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PVZ1.dir/graph_block.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/graph_block.cpp.o -MF CMakeFiles/PVZ1.dir/graph_block.cpp.o.d -o CMakeFiles/PVZ1.dir/graph_block.cpp.o -c /home/llh/project/PVZ1/graph_block.cpp
+CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/src/ordinaryzombie.cpp
+CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.o -MF CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.o.d -o CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.o -c /home/llh/project/PVZ1/src/ordinaryzombie.cpp
 
-CMakeFiles/PVZ1.dir/graph_block.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/graph_block.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/graph_block.cpp > CMakeFiles/PVZ1.dir/graph_block.cpp.i
+CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/ordinaryzombie.cpp > CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.i
 
-CMakeFiles/PVZ1.dir/graph_block.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/graph_block.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/graph_block.cpp -o CMakeFiles/PVZ1.dir/graph_block.cpp.s
+CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/ordinaryzombie.cpp -o CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.s
 
-CMakeFiles/PVZ1.dir/graph.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/graph.cpp.o: /home/llh/project/PVZ1/graph.cpp
-CMakeFiles/PVZ1.dir/graph.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PVZ1.dir/graph.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/graph.cpp.o -MF CMakeFiles/PVZ1.dir/graph.cpp.o.d -o CMakeFiles/PVZ1.dir/graph.cpp.o -c /home/llh/project/PVZ1/graph.cpp
+CMakeFiles/PVZ1.dir/src/peashooter.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/peashooter.cpp.o: /home/llh/project/PVZ1/src/peashooter.cpp
+CMakeFiles/PVZ1.dir/src/peashooter.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PVZ1.dir/src/peashooter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/peashooter.cpp.o -MF CMakeFiles/PVZ1.dir/src/peashooter.cpp.o.d -o CMakeFiles/PVZ1.dir/src/peashooter.cpp.o -c /home/llh/project/PVZ1/src/peashooter.cpp
 
-CMakeFiles/PVZ1.dir/graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/graph.cpp > CMakeFiles/PVZ1.dir/graph.cpp.i
+CMakeFiles/PVZ1.dir/src/peashooter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/peashooter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/peashooter.cpp > CMakeFiles/PVZ1.dir/src/peashooter.cpp.i
 
-CMakeFiles/PVZ1.dir/graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/graph.cpp -o CMakeFiles/PVZ1.dir/graph.cpp.s
+CMakeFiles/PVZ1.dir/src/peashooter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/peashooter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/peashooter.cpp -o CMakeFiles/PVZ1.dir/src/peashooter.cpp.s
 
-CMakeFiles/PVZ1.dir/seedbank.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/seedbank.cpp.o: /home/llh/project/PVZ1/seedbank.cpp
-CMakeFiles/PVZ1.dir/seedbank.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PVZ1.dir/seedbank.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/seedbank.cpp.o -MF CMakeFiles/PVZ1.dir/seedbank.cpp.o.d -o CMakeFiles/PVZ1.dir/seedbank.cpp.o -c /home/llh/project/PVZ1/seedbank.cpp
+CMakeFiles/PVZ1.dir/src/plant.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/plant.cpp.o: /home/llh/project/PVZ1/src/plant.cpp
+CMakeFiles/PVZ1.dir/src/plant.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PVZ1.dir/src/plant.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/plant.cpp.o -MF CMakeFiles/PVZ1.dir/src/plant.cpp.o.d -o CMakeFiles/PVZ1.dir/src/plant.cpp.o -c /home/llh/project/PVZ1/src/plant.cpp
 
-CMakeFiles/PVZ1.dir/seedbank.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/seedbank.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/seedbank.cpp > CMakeFiles/PVZ1.dir/seedbank.cpp.i
+CMakeFiles/PVZ1.dir/src/plant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/plant.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/plant.cpp > CMakeFiles/PVZ1.dir/src/plant.cpp.i
 
-CMakeFiles/PVZ1.dir/seedbank.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/seedbank.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/seedbank.cpp -o CMakeFiles/PVZ1.dir/seedbank.cpp.s
+CMakeFiles/PVZ1.dir/src/plant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/plant.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/plant.cpp -o CMakeFiles/PVZ1.dir/src/plant.cpp.s
 
-CMakeFiles/PVZ1.dir/plantcard.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/plantcard.cpp.o: /home/llh/project/PVZ1/plantcard.cpp
-CMakeFiles/PVZ1.dir/plantcard.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PVZ1.dir/plantcard.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/plantcard.cpp.o -MF CMakeFiles/PVZ1.dir/plantcard.cpp.o.d -o CMakeFiles/PVZ1.dir/plantcard.cpp.o -c /home/llh/project/PVZ1/plantcard.cpp
+CMakeFiles/PVZ1.dir/src/plantcard.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/plantcard.cpp.o: /home/llh/project/PVZ1/src/plantcard.cpp
+CMakeFiles/PVZ1.dir/src/plantcard.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PVZ1.dir/src/plantcard.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/plantcard.cpp.o -MF CMakeFiles/PVZ1.dir/src/plantcard.cpp.o.d -o CMakeFiles/PVZ1.dir/src/plantcard.cpp.o -c /home/llh/project/PVZ1/src/plantcard.cpp
 
-CMakeFiles/PVZ1.dir/plantcard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/plantcard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/plantcard.cpp > CMakeFiles/PVZ1.dir/plantcard.cpp.i
+CMakeFiles/PVZ1.dir/src/plantcard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/plantcard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/plantcard.cpp > CMakeFiles/PVZ1.dir/src/plantcard.cpp.i
 
-CMakeFiles/PVZ1.dir/plantcard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/plantcard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/plantcard.cpp -o CMakeFiles/PVZ1.dir/plantcard.cpp.s
+CMakeFiles/PVZ1.dir/src/plantcard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/plantcard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/plantcard.cpp -o CMakeFiles/PVZ1.dir/src/plantcard.cpp.s
 
-CMakeFiles/PVZ1.dir/plant.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/plant.cpp.o: /home/llh/project/PVZ1/plant.cpp
-CMakeFiles/PVZ1.dir/plant.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PVZ1.dir/plant.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/plant.cpp.o -MF CMakeFiles/PVZ1.dir/plant.cpp.o.d -o CMakeFiles/PVZ1.dir/plant.cpp.o -c /home/llh/project/PVZ1/plant.cpp
+CMakeFiles/PVZ1.dir/src/potatomine.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/potatomine.cpp.o: /home/llh/project/PVZ1/src/potatomine.cpp
+CMakeFiles/PVZ1.dir/src/potatomine.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PVZ1.dir/src/potatomine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/potatomine.cpp.o -MF CMakeFiles/PVZ1.dir/src/potatomine.cpp.o.d -o CMakeFiles/PVZ1.dir/src/potatomine.cpp.o -c /home/llh/project/PVZ1/src/potatomine.cpp
 
-CMakeFiles/PVZ1.dir/plant.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/plant.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/plant.cpp > CMakeFiles/PVZ1.dir/plant.cpp.i
+CMakeFiles/PVZ1.dir/src/potatomine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/potatomine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/potatomine.cpp > CMakeFiles/PVZ1.dir/src/potatomine.cpp.i
 
-CMakeFiles/PVZ1.dir/plant.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/plant.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/plant.cpp -o CMakeFiles/PVZ1.dir/plant.cpp.s
+CMakeFiles/PVZ1.dir/src/potatomine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/potatomine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/potatomine.cpp -o CMakeFiles/PVZ1.dir/src/potatomine.cpp.s
 
-CMakeFiles/PVZ1.dir/sunflower.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/sunflower.cpp.o: /home/llh/project/PVZ1/sunflower.cpp
-CMakeFiles/PVZ1.dir/sunflower.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PVZ1.dir/sunflower.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/sunflower.cpp.o -MF CMakeFiles/PVZ1.dir/sunflower.cpp.o.d -o CMakeFiles/PVZ1.dir/sunflower.cpp.o -c /home/llh/project/PVZ1/sunflower.cpp
+CMakeFiles/PVZ1.dir/src/pvz_client.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/pvz_client.cpp.o: /home/llh/project/PVZ1/src/pvz_client.cpp
+CMakeFiles/PVZ1.dir/src/pvz_client.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PVZ1.dir/src/pvz_client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/pvz_client.cpp.o -MF CMakeFiles/PVZ1.dir/src/pvz_client.cpp.o.d -o CMakeFiles/PVZ1.dir/src/pvz_client.cpp.o -c /home/llh/project/PVZ1/src/pvz_client.cpp
 
-CMakeFiles/PVZ1.dir/sunflower.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/sunflower.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/sunflower.cpp > CMakeFiles/PVZ1.dir/sunflower.cpp.i
+CMakeFiles/PVZ1.dir/src/pvz_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/pvz_client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/pvz_client.cpp > CMakeFiles/PVZ1.dir/src/pvz_client.cpp.i
 
-CMakeFiles/PVZ1.dir/sunflower.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/sunflower.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/sunflower.cpp -o CMakeFiles/PVZ1.dir/sunflower.cpp.s
+CMakeFiles/PVZ1.dir/src/pvz_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/pvz_client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/pvz_client.cpp -o CMakeFiles/PVZ1.dir/src/pvz_client.cpp.s
 
-CMakeFiles/PVZ1.dir/shooter.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/shooter.cpp.o: /home/llh/project/PVZ1/shooter.cpp
-CMakeFiles/PVZ1.dir/shooter.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/PVZ1.dir/shooter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/shooter.cpp.o -MF CMakeFiles/PVZ1.dir/shooter.cpp.o.d -o CMakeFiles/PVZ1.dir/shooter.cpp.o -c /home/llh/project/PVZ1/shooter.cpp
+CMakeFiles/PVZ1.dir/src/seedbank.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/seedbank.cpp.o: /home/llh/project/PVZ1/src/seedbank.cpp
+CMakeFiles/PVZ1.dir/src/seedbank.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PVZ1.dir/src/seedbank.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/seedbank.cpp.o -MF CMakeFiles/PVZ1.dir/src/seedbank.cpp.o.d -o CMakeFiles/PVZ1.dir/src/seedbank.cpp.o -c /home/llh/project/PVZ1/src/seedbank.cpp
 
-CMakeFiles/PVZ1.dir/shooter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/shooter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/shooter.cpp > CMakeFiles/PVZ1.dir/shooter.cpp.i
+CMakeFiles/PVZ1.dir/src/seedbank.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/seedbank.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/seedbank.cpp > CMakeFiles/PVZ1.dir/src/seedbank.cpp.i
 
-CMakeFiles/PVZ1.dir/shooter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/shooter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/shooter.cpp -o CMakeFiles/PVZ1.dir/shooter.cpp.s
+CMakeFiles/PVZ1.dir/src/seedbank.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/seedbank.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/seedbank.cpp -o CMakeFiles/PVZ1.dir/src/seedbank.cpp.s
 
-CMakeFiles/PVZ1.dir/peashooter.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/peashooter.cpp.o: /home/llh/project/PVZ1/peashooter.cpp
-CMakeFiles/PVZ1.dir/peashooter.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/PVZ1.dir/peashooter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/peashooter.cpp.o -MF CMakeFiles/PVZ1.dir/peashooter.cpp.o.d -o CMakeFiles/PVZ1.dir/peashooter.cpp.o -c /home/llh/project/PVZ1/peashooter.cpp
+CMakeFiles/PVZ1.dir/src/shooter.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/shooter.cpp.o: /home/llh/project/PVZ1/src/shooter.cpp
+CMakeFiles/PVZ1.dir/src/shooter.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/PVZ1.dir/src/shooter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/shooter.cpp.o -MF CMakeFiles/PVZ1.dir/src/shooter.cpp.o.d -o CMakeFiles/PVZ1.dir/src/shooter.cpp.o -c /home/llh/project/PVZ1/src/shooter.cpp
 
-CMakeFiles/PVZ1.dir/peashooter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/peashooter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/peashooter.cpp > CMakeFiles/PVZ1.dir/peashooter.cpp.i
+CMakeFiles/PVZ1.dir/src/shooter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/shooter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/shooter.cpp > CMakeFiles/PVZ1.dir/src/shooter.cpp.i
 
-CMakeFiles/PVZ1.dir/peashooter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/peashooter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/peashooter.cpp -o CMakeFiles/PVZ1.dir/peashooter.cpp.s
+CMakeFiles/PVZ1.dir/src/shooter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/shooter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/shooter.cpp -o CMakeFiles/PVZ1.dir/src/shooter.cpp.s
 
-CMakeFiles/PVZ1.dir/snowshooter.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/snowshooter.cpp.o: /home/llh/project/PVZ1/snowshooter.cpp
-CMakeFiles/PVZ1.dir/snowshooter.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/PVZ1.dir/snowshooter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/snowshooter.cpp.o -MF CMakeFiles/PVZ1.dir/snowshooter.cpp.o.d -o CMakeFiles/PVZ1.dir/snowshooter.cpp.o -c /home/llh/project/PVZ1/snowshooter.cpp
+CMakeFiles/PVZ1.dir/src/shovel.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/shovel.cpp.o: /home/llh/project/PVZ1/src/shovel.cpp
+CMakeFiles/PVZ1.dir/src/shovel.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/PVZ1.dir/src/shovel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/shovel.cpp.o -MF CMakeFiles/PVZ1.dir/src/shovel.cpp.o.d -o CMakeFiles/PVZ1.dir/src/shovel.cpp.o -c /home/llh/project/PVZ1/src/shovel.cpp
 
-CMakeFiles/PVZ1.dir/snowshooter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/snowshooter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/snowshooter.cpp > CMakeFiles/PVZ1.dir/snowshooter.cpp.i
+CMakeFiles/PVZ1.dir/src/shovel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/shovel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/shovel.cpp > CMakeFiles/PVZ1.dir/src/shovel.cpp.i
 
-CMakeFiles/PVZ1.dir/snowshooter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/snowshooter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/snowshooter.cpp -o CMakeFiles/PVZ1.dir/snowshooter.cpp.s
+CMakeFiles/PVZ1.dir/src/shovel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/shovel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/shovel.cpp -o CMakeFiles/PVZ1.dir/src/shovel.cpp.s
 
-CMakeFiles/PVZ1.dir/potatomine.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/potatomine.cpp.o: /home/llh/project/PVZ1/potatomine.cpp
-CMakeFiles/PVZ1.dir/potatomine.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/PVZ1.dir/potatomine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/potatomine.cpp.o -MF CMakeFiles/PVZ1.dir/potatomine.cpp.o.d -o CMakeFiles/PVZ1.dir/potatomine.cpp.o -c /home/llh/project/PVZ1/potatomine.cpp
+CMakeFiles/PVZ1.dir/src/snowshooter.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/snowshooter.cpp.o: /home/llh/project/PVZ1/src/snowshooter.cpp
+CMakeFiles/PVZ1.dir/src/snowshooter.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/PVZ1.dir/src/snowshooter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/snowshooter.cpp.o -MF CMakeFiles/PVZ1.dir/src/snowshooter.cpp.o.d -o CMakeFiles/PVZ1.dir/src/snowshooter.cpp.o -c /home/llh/project/PVZ1/src/snowshooter.cpp
 
-CMakeFiles/PVZ1.dir/potatomine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/potatomine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/potatomine.cpp > CMakeFiles/PVZ1.dir/potatomine.cpp.i
+CMakeFiles/PVZ1.dir/src/snowshooter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/snowshooter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/snowshooter.cpp > CMakeFiles/PVZ1.dir/src/snowshooter.cpp.i
 
-CMakeFiles/PVZ1.dir/potatomine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/potatomine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/potatomine.cpp -o CMakeFiles/PVZ1.dir/potatomine.cpp.s
+CMakeFiles/PVZ1.dir/src/snowshooter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/snowshooter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/snowshooter.cpp -o CMakeFiles/PVZ1.dir/src/snowshooter.cpp.s
 
-CMakeFiles/PVZ1.dir/wallnut.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/wallnut.cpp.o: /home/llh/project/PVZ1/wallnut.cpp
-CMakeFiles/PVZ1.dir/wallnut.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/PVZ1.dir/wallnut.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/wallnut.cpp.o -MF CMakeFiles/PVZ1.dir/wallnut.cpp.o.d -o CMakeFiles/PVZ1.dir/wallnut.cpp.o -c /home/llh/project/PVZ1/wallnut.cpp
+CMakeFiles/PVZ1.dir/src/socket_config.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/socket_config.cpp.o: /home/llh/project/PVZ1/src/socket_config.cpp
+CMakeFiles/PVZ1.dir/src/socket_config.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/PVZ1.dir/src/socket_config.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/socket_config.cpp.o -MF CMakeFiles/PVZ1.dir/src/socket_config.cpp.o.d -o CMakeFiles/PVZ1.dir/src/socket_config.cpp.o -c /home/llh/project/PVZ1/src/socket_config.cpp
 
-CMakeFiles/PVZ1.dir/wallnut.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/wallnut.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/wallnut.cpp > CMakeFiles/PVZ1.dir/wallnut.cpp.i
+CMakeFiles/PVZ1.dir/src/socket_config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/socket_config.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/socket_config.cpp > CMakeFiles/PVZ1.dir/src/socket_config.cpp.i
 
-CMakeFiles/PVZ1.dir/wallnut.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/wallnut.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/wallnut.cpp -o CMakeFiles/PVZ1.dir/wallnut.cpp.s
+CMakeFiles/PVZ1.dir/src/socket_config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/socket_config.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/socket_config.cpp -o CMakeFiles/PVZ1.dir/src/socket_config.cpp.s
 
-CMakeFiles/PVZ1.dir/bullet.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/bullet.cpp.o: /home/llh/project/PVZ1/bullet.cpp
-CMakeFiles/PVZ1.dir/bullet.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/PVZ1.dir/bullet.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/bullet.cpp.o -MF CMakeFiles/PVZ1.dir/bullet.cpp.o.d -o CMakeFiles/PVZ1.dir/bullet.cpp.o -c /home/llh/project/PVZ1/bullet.cpp
+CMakeFiles/PVZ1.dir/src/sun.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/sun.cpp.o: /home/llh/project/PVZ1/src/sun.cpp
+CMakeFiles/PVZ1.dir/src/sun.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/PVZ1.dir/src/sun.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/sun.cpp.o -MF CMakeFiles/PVZ1.dir/src/sun.cpp.o.d -o CMakeFiles/PVZ1.dir/src/sun.cpp.o -c /home/llh/project/PVZ1/src/sun.cpp
 
-CMakeFiles/PVZ1.dir/bullet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/bullet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/bullet.cpp > CMakeFiles/PVZ1.dir/bullet.cpp.i
+CMakeFiles/PVZ1.dir/src/sun.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/sun.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/sun.cpp > CMakeFiles/PVZ1.dir/src/sun.cpp.i
 
-CMakeFiles/PVZ1.dir/bullet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/bullet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/bullet.cpp -o CMakeFiles/PVZ1.dir/bullet.cpp.s
+CMakeFiles/PVZ1.dir/src/sun.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/sun.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/sun.cpp -o CMakeFiles/PVZ1.dir/src/sun.cpp.s
 
-CMakeFiles/PVZ1.dir/zombie.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/zombie.cpp.o: /home/llh/project/PVZ1/zombie.cpp
-CMakeFiles/PVZ1.dir/zombie.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/PVZ1.dir/zombie.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/zombie.cpp.o -MF CMakeFiles/PVZ1.dir/zombie.cpp.o.d -o CMakeFiles/PVZ1.dir/zombie.cpp.o -c /home/llh/project/PVZ1/zombie.cpp
+CMakeFiles/PVZ1.dir/src/sunflower.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/sunflower.cpp.o: /home/llh/project/PVZ1/src/sunflower.cpp
+CMakeFiles/PVZ1.dir/src/sunflower.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/PVZ1.dir/src/sunflower.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/sunflower.cpp.o -MF CMakeFiles/PVZ1.dir/src/sunflower.cpp.o.d -o CMakeFiles/PVZ1.dir/src/sunflower.cpp.o -c /home/llh/project/PVZ1/src/sunflower.cpp
 
-CMakeFiles/PVZ1.dir/zombie.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/zombie.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/zombie.cpp > CMakeFiles/PVZ1.dir/zombie.cpp.i
+CMakeFiles/PVZ1.dir/src/sunflower.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/sunflower.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/sunflower.cpp > CMakeFiles/PVZ1.dir/src/sunflower.cpp.i
 
-CMakeFiles/PVZ1.dir/zombie.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/zombie.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/zombie.cpp -o CMakeFiles/PVZ1.dir/zombie.cpp.s
+CMakeFiles/PVZ1.dir/src/sunflower.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/sunflower.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/sunflower.cpp -o CMakeFiles/PVZ1.dir/src/sunflower.cpp.s
 
-CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: /home/llh/project/PVZ1/ordinaryzombie.cpp
-CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o -MF CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o.d -o CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o -c /home/llh/project/PVZ1/ordinaryzombie.cpp
+CMakeFiles/PVZ1.dir/src/test.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/test.cpp.o: /home/llh/project/PVZ1/src/test.cpp
+CMakeFiles/PVZ1.dir/src/test.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/PVZ1.dir/src/test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/test.cpp.o -MF CMakeFiles/PVZ1.dir/src/test.cpp.o.d -o CMakeFiles/PVZ1.dir/src/test.cpp.o -c /home/llh/project/PVZ1/src/test.cpp
 
-CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/ordinaryzombie.cpp > CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.i
+CMakeFiles/PVZ1.dir/src/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/test.cpp > CMakeFiles/PVZ1.dir/src/test.cpp.i
 
-CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/ordinaryzombie.cpp -o CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.s
+CMakeFiles/PVZ1.dir/src/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/test.cpp -o CMakeFiles/PVZ1.dir/src/test.cpp.s
 
-CMakeFiles/PVZ1.dir/shovel.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/shovel.cpp.o: /home/llh/project/PVZ1/shovel.cpp
-CMakeFiles/PVZ1.dir/shovel.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/PVZ1.dir/shovel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/shovel.cpp.o -MF CMakeFiles/PVZ1.dir/shovel.cpp.o.d -o CMakeFiles/PVZ1.dir/shovel.cpp.o -c /home/llh/project/PVZ1/shovel.cpp
+CMakeFiles/PVZ1.dir/src/wallnut.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/wallnut.cpp.o: /home/llh/project/PVZ1/src/wallnut.cpp
+CMakeFiles/PVZ1.dir/src/wallnut.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/PVZ1.dir/src/wallnut.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/wallnut.cpp.o -MF CMakeFiles/PVZ1.dir/src/wallnut.cpp.o.d -o CMakeFiles/PVZ1.dir/src/wallnut.cpp.o -c /home/llh/project/PVZ1/src/wallnut.cpp
 
-CMakeFiles/PVZ1.dir/shovel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/shovel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/shovel.cpp > CMakeFiles/PVZ1.dir/shovel.cpp.i
+CMakeFiles/PVZ1.dir/src/wallnut.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/wallnut.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/wallnut.cpp > CMakeFiles/PVZ1.dir/src/wallnut.cpp.i
 
-CMakeFiles/PVZ1.dir/shovel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/shovel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/shovel.cpp -o CMakeFiles/PVZ1.dir/shovel.cpp.s
+CMakeFiles/PVZ1.dir/src/wallnut.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/wallnut.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/wallnut.cpp -o CMakeFiles/PVZ1.dir/src/wallnut.cpp.s
 
-CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o: CMakeFiles/PVZ1.dir/flags.make
-CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o: PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp
-CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o -MF CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o.d -o CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o -c /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp
+CMakeFiles/PVZ1.dir/src/zombie.cpp.o: CMakeFiles/PVZ1.dir/flags.make
+CMakeFiles/PVZ1.dir/src/zombie.cpp.o: /home/llh/project/PVZ1/src/zombie.cpp
+CMakeFiles/PVZ1.dir/src/zombie.cpp.o: CMakeFiles/PVZ1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/PVZ1.dir/src/zombie.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PVZ1.dir/src/zombie.cpp.o -MF CMakeFiles/PVZ1.dir/src/zombie.cpp.o.d -o CMakeFiles/PVZ1.dir/src/zombie.cpp.o -c /home/llh/project/PVZ1/src/zombie.cpp
 
-CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp > CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.i
+CMakeFiles/PVZ1.dir/src/zombie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PVZ1.dir/src/zombie.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/llh/project/PVZ1/src/zombie.cpp > CMakeFiles/PVZ1.dir/src/zombie.cpp.i
 
-CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp -o CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.s
+CMakeFiles/PVZ1.dir/src/zombie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PVZ1.dir/src/zombie.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/llh/project/PVZ1/src/zombie.cpp -o CMakeFiles/PVZ1.dir/src/zombie.cpp.s
 
 # Object files for target PVZ1
 PVZ1_OBJECTS = \
 "CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/PVZ1.dir/main.cpp.o" \
-"CMakeFiles/PVZ1.dir/mainwindow.cpp.o" \
-"CMakeFiles/PVZ1.dir/pvz_client.cpp.o" \
-"CMakeFiles/PVZ1.dir/socket_config.cpp.o" \
-"CMakeFiles/PVZ1.dir/sun.cpp.o" \
-"CMakeFiles/PVZ1.dir/graph_block.cpp.o" \
-"CMakeFiles/PVZ1.dir/graph.cpp.o" \
-"CMakeFiles/PVZ1.dir/seedbank.cpp.o" \
-"CMakeFiles/PVZ1.dir/plantcard.cpp.o" \
-"CMakeFiles/PVZ1.dir/plant.cpp.o" \
-"CMakeFiles/PVZ1.dir/sunflower.cpp.o" \
-"CMakeFiles/PVZ1.dir/shooter.cpp.o" \
-"CMakeFiles/PVZ1.dir/peashooter.cpp.o" \
-"CMakeFiles/PVZ1.dir/snowshooter.cpp.o" \
-"CMakeFiles/PVZ1.dir/potatomine.cpp.o" \
-"CMakeFiles/PVZ1.dir/wallnut.cpp.o" \
-"CMakeFiles/PVZ1.dir/bullet.cpp.o" \
-"CMakeFiles/PVZ1.dir/zombie.cpp.o" \
-"CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o" \
-"CMakeFiles/PVZ1.dir/shovel.cpp.o" \
-"CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o"
+"CMakeFiles/PVZ1.dir/src/bullet.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/graph.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/graph_block.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/main.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/mainwindow.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/peashooter.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/plant.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/plantcard.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/potatomine.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/pvz_client.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/seedbank.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/shooter.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/shovel.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/snowshooter.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/socket_config.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/sun.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/sunflower.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/test.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/wallnut.cpp.o" \
+"CMakeFiles/PVZ1.dir/src/zombie.cpp.o"
 
 # External object files for target PVZ1
 PVZ1_EXTERNAL_OBJECTS =
 
 PVZ1: CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/main.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/mainwindow.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/pvz_client.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/socket_config.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/sun.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/graph_block.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/graph.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/seedbank.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/plantcard.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/plant.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/sunflower.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/shooter.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/peashooter.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/snowshooter.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/potatomine.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/wallnut.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/bullet.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/zombie.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/shovel.cpp.o
-PVZ1: CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/bullet.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/graph.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/graph_block.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/main.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/mainwindow.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/peashooter.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/plant.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/plantcard.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/potatomine.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/pvz_client.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/seedbank.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/shooter.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/shovel.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/snowshooter.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/socket_config.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/sun.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/sunflower.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/test.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/wallnut.cpp.o
+PVZ1: CMakeFiles/PVZ1.dir/src/zombie.cpp.o
 PVZ1: CMakeFiles/PVZ1.dir/build.make
 PVZ1: /home/llh/Qt5.14.0/5.14.0/gcc_64/lib/libQt5Widgets.so.5.14.0
 PVZ1: /home/llh/Qt5.14.0/5.14.0/gcc_64/lib/libQt5Gui.so.5.14.0
 PVZ1: /home/llh/Qt5.14.0/5.14.0/gcc_64/lib/libQt5Core.so.5.14.0
 PVZ1: CMakeFiles/PVZ1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable PVZ1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/llh/project/PVZ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable PVZ1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PVZ1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -515,7 +443,7 @@ CMakeFiles/PVZ1.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/PVZ1.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/PVZ1.dir/clean
 
-CMakeFiles/PVZ1.dir/depend: PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp
+CMakeFiles/PVZ1.dir/depend:
 	cd /home/llh/project/PVZ1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/llh/project/PVZ1 /home/llh/project/PVZ1 /home/llh/project/PVZ1/build /home/llh/project/PVZ1/build /home/llh/project/PVZ1/build/CMakeFiles/PVZ1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PVZ1.dir/depend
 

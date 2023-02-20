@@ -1,7 +1,7 @@
 CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/project/PVZ1/build/PVZ1_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_bullet.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_bullet.cpp \
  /usr/include/c++/12.2.1/memory /usr/include/c++/12.2.1/bits/allocator.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
  /usr/include/c++/12.2.1/bits/new_allocator.h \
@@ -97,7 +97,7 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/12.2.1/bits/atomic_base.h \
  /usr/include/c++/12.2.1/bits/atomic_lockfree_defines.h \
  /usr/include/c++/12.2.1/backward/auto_ptr.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../bullet.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/bullet.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QLabel \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qlabel.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -268,9 +268,9 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonobject.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qjsonvalue.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qfactoryinterface.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../zombie.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../helper.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/zombie.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/helper.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/plant.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QPainter \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qpainter.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qtextoption.h \
@@ -278,20 +278,20 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QTimer \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qtimer.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qbasictimer.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_graph.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_graph.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/graph.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QWidget \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qwidget.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph_block.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/graph_block.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QPushButton \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qpushbutton.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qicon.h \
- /home/llh/project/PVZ1/plant.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_graph_block.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph_block.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_mainwindow.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../mainwindow.h \
+ /home/llh/project/PVZ1/src/plant.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_graph_block.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/graph_block.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_mainwindow.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/mainwindow.h \
  /usr/include/c++/12.2.1/random /usr/include/c++/12.2.1/cmath \
  /usr/include/math.h /usr/include/bits/math-vector.h \
  /usr/include/bits/libm-simd-decl-stubs.h \
@@ -305,7 +305,7 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/QMainWindow \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets/qtabwidget.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../pvz_client.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/pvz_client.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/QThread \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtCore/qthread.h \
  /usr/include/c++/12.2.1/future /usr/include/c++/12.2.1/mutex \
@@ -314,8 +314,8 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/12.2.1/condition_variable \
  /usr/include/c++/12.2.1/bits/atomic_futex.h \
  /usr/include/c++/12.2.1/bits/std_thread.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../message.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../socket_config.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/message.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/socket_config.h \
  /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
@@ -363,41 +363,41 @@ CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
  /usr/include/c++/12.2.1/bits/ostream.tcc /usr/include/c++/12.2.1/istream \
  /usr/include/c++/12.2.1/bits/istream.tcc \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sun.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../bullet.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../graph.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../seedbank.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/sun.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/bullet.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/graph.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/seedbank.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/plantcard.h \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/QImage \
  /home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui/qimage.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../shovel.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sunflower.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_ordinaryzombie.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../ordinaryzombie.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_peashooter.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../peashooter.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../shooter.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_plant.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plant.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_plantcard.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../plantcard.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_potatomine.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../potatomine.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_pvz_client.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../pvz_client.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_seedbank.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../seedbank.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_shooter.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../shooter.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_shovel.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../shovel.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_snowshooter.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../snowshooter.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_sun.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sun.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_sunflower.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../sunflower.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_wallnut.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../wallnut.h \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/moc_zombie.cpp \
- /home/llh/project/PVZ1/build/PVZ1_autogen/EWIEGA46WW/../../../zombie.h
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/shovel.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/sunflower.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_ordinaryzombie.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/ordinaryzombie.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_peashooter.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/peashooter.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/shooter.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_plant.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/plant.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_plantcard.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/plantcard.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_potatomine.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/potatomine.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_pvz_client.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/pvz_client.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_seedbank.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/seedbank.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_shooter.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/shooter.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_shovel.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/shovel.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_snowshooter.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/snowshooter.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_sun.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/sun.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_sunflower.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/sunflower.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_wallnut.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/wallnut.h \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/moc_zombie.cpp \
+ /home/llh/project/PVZ1/build/PVZ1_autogen/UVLADIE3JM/../../../src/zombie.h

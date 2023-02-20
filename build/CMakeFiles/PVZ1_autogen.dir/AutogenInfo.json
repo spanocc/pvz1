@@ -76,8 +76,7 @@
 		"/home/llh/Qt5.14.0/5.14.0/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
 		"/home/llh/Qt5.14.0/5.14.0/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/home/llh/Qt5.14.0/5.14.0/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
-		"/home/llh/project/PVZ1/rsc.qrc"
+		"/usr/share/cmake/Modules/CMakeParseArguments.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/llh/project/PVZ1",
 	"DEP_FILE" : "",
@@ -85,112 +84,117 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/llh/project/PVZ1/bullet.h",
+			"/home/llh/project/PVZ1/src/bullet.h",
 			"MU",
-			"EWIEGA46WW/moc_bullet.cpp",
+			"UVLADIE3JM/moc_bullet.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/graph.h",
+			"/home/llh/project/PVZ1/src/graph.h",
 			"MU",
-			"EWIEGA46WW/moc_graph.cpp",
+			"UVLADIE3JM/moc_graph.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/graph_block.h",
+			"/home/llh/project/PVZ1/src/graph_block.h",
 			"MU",
-			"EWIEGA46WW/moc_graph_block.cpp",
+			"UVLADIE3JM/moc_graph_block.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/mainwindow.h",
+			"/home/llh/project/PVZ1/src/mainwindow.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"UVLADIE3JM/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/ordinaryzombie.h",
+			"/home/llh/project/PVZ1/src/ordinaryzombie.h",
 			"MU",
-			"EWIEGA46WW/moc_ordinaryzombie.cpp",
+			"UVLADIE3JM/moc_ordinaryzombie.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/peashooter.h",
+			"/home/llh/project/PVZ1/src/peashooter.h",
 			"MU",
-			"EWIEGA46WW/moc_peashooter.cpp",
+			"UVLADIE3JM/moc_peashooter.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/plant.h",
+			"/home/llh/project/PVZ1/src/plant.h",
 			"MU",
-			"EWIEGA46WW/moc_plant.cpp",
+			"UVLADIE3JM/moc_plant.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/plantcard.h",
+			"/home/llh/project/PVZ1/src/plantcard.h",
 			"MU",
-			"EWIEGA46WW/moc_plantcard.cpp",
+			"UVLADIE3JM/moc_plantcard.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/potatomine.h",
+			"/home/llh/project/PVZ1/src/potatomine.h",
 			"MU",
-			"EWIEGA46WW/moc_potatomine.cpp",
+			"UVLADIE3JM/moc_potatomine.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/pvz_client.h",
+			"/home/llh/project/PVZ1/src/pvz_client.h",
 			"MU",
-			"EWIEGA46WW/moc_pvz_client.cpp",
+			"UVLADIE3JM/moc_pvz_client.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/seedbank.h",
+			"/home/llh/project/PVZ1/src/seedbank.h",
 			"MU",
-			"EWIEGA46WW/moc_seedbank.cpp",
+			"UVLADIE3JM/moc_seedbank.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/shooter.h",
+			"/home/llh/project/PVZ1/src/shooter.h",
 			"MU",
-			"EWIEGA46WW/moc_shooter.cpp",
+			"UVLADIE3JM/moc_shooter.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/shovel.h",
+			"/home/llh/project/PVZ1/src/shovel.h",
 			"MU",
-			"EWIEGA46WW/moc_shovel.cpp",
+			"UVLADIE3JM/moc_shovel.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/snowshooter.h",
+			"/home/llh/project/PVZ1/src/snowshooter.h",
 			"MU",
-			"EWIEGA46WW/moc_snowshooter.cpp",
+			"UVLADIE3JM/moc_snowshooter.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/socket_config.h",
+			"/home/llh/project/PVZ1/src/socket_config.h",
 			"MU",
-			"EWIEGA46WW/moc_socket_config.cpp",
-			null
-		],
-		[ "/home/llh/project/PVZ1/sun.h", "MU", "EWIEGA46WW/moc_sun.cpp", null ],
-		[
-			"/home/llh/project/PVZ1/sunflower.h",
-			"MU",
-			"EWIEGA46WW/moc_sunflower.cpp",
+			"UVLADIE3JM/moc_socket_config.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/wallnut.h",
+			"/home/llh/project/PVZ1/src/sun.h",
 			"MU",
-			"EWIEGA46WW/moc_wallnut.cpp",
+			"UVLADIE3JM/moc_sun.cpp",
 			null
 		],
 		[
-			"/home/llh/project/PVZ1/zombie.h",
+			"/home/llh/project/PVZ1/src/sunflower.h",
 			"MU",
-			"EWIEGA46WW/moc_zombie.cpp",
+			"UVLADIE3JM/moc_sunflower.cpp",
+			null
+		],
+		[
+			"/home/llh/project/PVZ1/src/wallnut.h",
+			"MU",
+			"UVLADIE3JM/moc_wallnut.cpp",
+			null
+		],
+		[
+			"/home/llh/project/PVZ1/src/zombie.h",
+			"MU",
+			"UVLADIE3JM/moc_zombie.cpp",
 			null
 		]
 	],
@@ -210,6 +214,7 @@
 		"/home/llh/project/PVZ1/build",
 		"/home/llh/project/PVZ1",
 		"/home/llh/project/PVZ1/include",
+		"/home/llh/project/PVZ1/src",
 		"/home/llh/Qt5.14.0/5.14.0/gcc_64/include",
 		"/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets",
 		"/home/llh/Qt5.14.0/5.14.0/gcc_64/include/QtGui",
@@ -247,26 +252,27 @@
 	"SETTINGS_FILE" : "/home/llh/project/PVZ1/build/CMakeFiles/PVZ1_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/llh/project/PVZ1/bullet.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/graph.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/graph_block.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/main.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/mainwindow.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/ordinaryzombie.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/peashooter.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/plant.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/plantcard.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/potatomine.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/pvz_client.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/seedbank.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/shooter.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/shovel.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/snowshooter.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/socket_config.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/sun.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/sunflower.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/wallnut.cpp", "MU", null ],
-		[ "/home/llh/project/PVZ1/zombie.cpp", "MU", null ]
+		[ "/home/llh/project/PVZ1/src/bullet.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/graph.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/graph_block.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/main.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/mainwindow.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/ordinaryzombie.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/peashooter.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/plant.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/plantcard.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/potatomine.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/pvz_client.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/seedbank.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/shooter.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/shovel.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/snowshooter.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/socket_config.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/sun.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/sunflower.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/test.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/wallnut.cpp", "MU", null ],
+		[ "/home/llh/project/PVZ1/src/zombie.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

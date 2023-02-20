@@ -142,30 +142,6 @@ PVZ1_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1_autogen.dir/build.make CMakeFiles/PVZ1_autogen.dir/build
 .PHONY : PVZ1_autogen/fast
 
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.o: PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o
-.PHONY : PVZ1_autogen/EWIEGA46WW/qrc_rsc.o
-
-# target to build an object file
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o
-.PHONY : PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.o
-
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.i: PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.i
-.PHONY : PVZ1_autogen/EWIEGA46WW/qrc_rsc.i
-
-# target to preprocess a source file
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.i
-.PHONY : PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.i
-
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.s: PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.s
-.PHONY : PVZ1_autogen/EWIEGA46WW/qrc_rsc.s
-
-# target to generate assembly for a file
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.s
-.PHONY : PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp.s
-
 PVZ1_autogen/mocs_compilation.o: PVZ1_autogen/mocs_compilation.cpp.o
 .PHONY : PVZ1_autogen/mocs_compilation.o
 
@@ -190,485 +166,509 @@ PVZ1_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/PVZ1_autogen/mocs_compilation.cpp.s
 .PHONY : PVZ1_autogen/mocs_compilation.cpp.s
 
-bullet.o: bullet.cpp.o
-.PHONY : bullet.o
+src/bullet.o: src/bullet.cpp.o
+.PHONY : src/bullet.o
 
 # target to build an object file
-bullet.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/bullet.cpp.o
-.PHONY : bullet.cpp.o
+src/bullet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/bullet.cpp.o
+.PHONY : src/bullet.cpp.o
 
-bullet.i: bullet.cpp.i
-.PHONY : bullet.i
+src/bullet.i: src/bullet.cpp.i
+.PHONY : src/bullet.i
 
 # target to preprocess a source file
-bullet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/bullet.cpp.i
-.PHONY : bullet.cpp.i
+src/bullet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/bullet.cpp.i
+.PHONY : src/bullet.cpp.i
 
-bullet.s: bullet.cpp.s
-.PHONY : bullet.s
+src/bullet.s: src/bullet.cpp.s
+.PHONY : src/bullet.s
 
 # target to generate assembly for a file
-bullet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/bullet.cpp.s
-.PHONY : bullet.cpp.s
+src/bullet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/bullet.cpp.s
+.PHONY : src/bullet.cpp.s
 
-graph.o: graph.cpp.o
-.PHONY : graph.o
+src/graph.o: src/graph.cpp.o
+.PHONY : src/graph.o
 
 # target to build an object file
-graph.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/graph.cpp.o
-.PHONY : graph.cpp.o
+src/graph.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/graph.cpp.o
+.PHONY : src/graph.cpp.o
 
-graph.i: graph.cpp.i
-.PHONY : graph.i
+src/graph.i: src/graph.cpp.i
+.PHONY : src/graph.i
 
 # target to preprocess a source file
-graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/graph.cpp.i
-.PHONY : graph.cpp.i
+src/graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/graph.cpp.i
+.PHONY : src/graph.cpp.i
 
-graph.s: graph.cpp.s
-.PHONY : graph.s
+src/graph.s: src/graph.cpp.s
+.PHONY : src/graph.s
 
 # target to generate assembly for a file
-graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/graph.cpp.s
-.PHONY : graph.cpp.s
+src/graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/graph.cpp.s
+.PHONY : src/graph.cpp.s
 
-graph_block.o: graph_block.cpp.o
-.PHONY : graph_block.o
+src/graph_block.o: src/graph_block.cpp.o
+.PHONY : src/graph_block.o
 
 # target to build an object file
-graph_block.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/graph_block.cpp.o
-.PHONY : graph_block.cpp.o
+src/graph_block.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/graph_block.cpp.o
+.PHONY : src/graph_block.cpp.o
 
-graph_block.i: graph_block.cpp.i
-.PHONY : graph_block.i
+src/graph_block.i: src/graph_block.cpp.i
+.PHONY : src/graph_block.i
 
 # target to preprocess a source file
-graph_block.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/graph_block.cpp.i
-.PHONY : graph_block.cpp.i
+src/graph_block.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/graph_block.cpp.i
+.PHONY : src/graph_block.cpp.i
 
-graph_block.s: graph_block.cpp.s
-.PHONY : graph_block.s
+src/graph_block.s: src/graph_block.cpp.s
+.PHONY : src/graph_block.s
 
 # target to generate assembly for a file
-graph_block.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/graph_block.cpp.s
-.PHONY : graph_block.cpp.s
+src/graph_block.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/graph_block.cpp.s
+.PHONY : src/graph_block.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-mainwindow.o: mainwindow.cpp.o
-.PHONY : mainwindow.o
+src/mainwindow.o: src/mainwindow.cpp.o
+.PHONY : src/mainwindow.o
 
 # target to build an object file
-mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/mainwindow.cpp.o
-.PHONY : mainwindow.cpp.o
+src/mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/mainwindow.cpp.o
+.PHONY : src/mainwindow.cpp.o
 
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
+src/mainwindow.i: src/mainwindow.cpp.i
+.PHONY : src/mainwindow.i
 
 # target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
+src/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/mainwindow.cpp.i
+.PHONY : src/mainwindow.cpp.i
 
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
+src/mainwindow.s: src/mainwindow.cpp.s
+.PHONY : src/mainwindow.s
 
 # target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
+src/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/mainwindow.cpp.s
+.PHONY : src/mainwindow.cpp.s
 
-ordinaryzombie.o: ordinaryzombie.cpp.o
-.PHONY : ordinaryzombie.o
+src/ordinaryzombie.o: src/ordinaryzombie.cpp.o
+.PHONY : src/ordinaryzombie.o
 
 # target to build an object file
-ordinaryzombie.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.o
-.PHONY : ordinaryzombie.cpp.o
+src/ordinaryzombie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.o
+.PHONY : src/ordinaryzombie.cpp.o
 
-ordinaryzombie.i: ordinaryzombie.cpp.i
-.PHONY : ordinaryzombie.i
+src/ordinaryzombie.i: src/ordinaryzombie.cpp.i
+.PHONY : src/ordinaryzombie.i
 
 # target to preprocess a source file
-ordinaryzombie.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.i
-.PHONY : ordinaryzombie.cpp.i
+src/ordinaryzombie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.i
+.PHONY : src/ordinaryzombie.cpp.i
 
-ordinaryzombie.s: ordinaryzombie.cpp.s
-.PHONY : ordinaryzombie.s
+src/ordinaryzombie.s: src/ordinaryzombie.cpp.s
+.PHONY : src/ordinaryzombie.s
 
 # target to generate assembly for a file
-ordinaryzombie.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/ordinaryzombie.cpp.s
-.PHONY : ordinaryzombie.cpp.s
+src/ordinaryzombie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/ordinaryzombie.cpp.s
+.PHONY : src/ordinaryzombie.cpp.s
 
-peashooter.o: peashooter.cpp.o
-.PHONY : peashooter.o
+src/peashooter.o: src/peashooter.cpp.o
+.PHONY : src/peashooter.o
 
 # target to build an object file
-peashooter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/peashooter.cpp.o
-.PHONY : peashooter.cpp.o
+src/peashooter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/peashooter.cpp.o
+.PHONY : src/peashooter.cpp.o
 
-peashooter.i: peashooter.cpp.i
-.PHONY : peashooter.i
+src/peashooter.i: src/peashooter.cpp.i
+.PHONY : src/peashooter.i
 
 # target to preprocess a source file
-peashooter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/peashooter.cpp.i
-.PHONY : peashooter.cpp.i
+src/peashooter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/peashooter.cpp.i
+.PHONY : src/peashooter.cpp.i
 
-peashooter.s: peashooter.cpp.s
-.PHONY : peashooter.s
+src/peashooter.s: src/peashooter.cpp.s
+.PHONY : src/peashooter.s
 
 # target to generate assembly for a file
-peashooter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/peashooter.cpp.s
-.PHONY : peashooter.cpp.s
+src/peashooter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/peashooter.cpp.s
+.PHONY : src/peashooter.cpp.s
 
-plant.o: plant.cpp.o
-.PHONY : plant.o
+src/plant.o: src/plant.cpp.o
+.PHONY : src/plant.o
 
 # target to build an object file
-plant.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/plant.cpp.o
-.PHONY : plant.cpp.o
+src/plant.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/plant.cpp.o
+.PHONY : src/plant.cpp.o
 
-plant.i: plant.cpp.i
-.PHONY : plant.i
+src/plant.i: src/plant.cpp.i
+.PHONY : src/plant.i
 
 # target to preprocess a source file
-plant.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/plant.cpp.i
-.PHONY : plant.cpp.i
+src/plant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/plant.cpp.i
+.PHONY : src/plant.cpp.i
 
-plant.s: plant.cpp.s
-.PHONY : plant.s
+src/plant.s: src/plant.cpp.s
+.PHONY : src/plant.s
 
 # target to generate assembly for a file
-plant.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/plant.cpp.s
-.PHONY : plant.cpp.s
+src/plant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/plant.cpp.s
+.PHONY : src/plant.cpp.s
 
-plantcard.o: plantcard.cpp.o
-.PHONY : plantcard.o
+src/plantcard.o: src/plantcard.cpp.o
+.PHONY : src/plantcard.o
 
 # target to build an object file
-plantcard.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/plantcard.cpp.o
-.PHONY : plantcard.cpp.o
+src/plantcard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/plantcard.cpp.o
+.PHONY : src/plantcard.cpp.o
 
-plantcard.i: plantcard.cpp.i
-.PHONY : plantcard.i
+src/plantcard.i: src/plantcard.cpp.i
+.PHONY : src/plantcard.i
 
 # target to preprocess a source file
-plantcard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/plantcard.cpp.i
-.PHONY : plantcard.cpp.i
+src/plantcard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/plantcard.cpp.i
+.PHONY : src/plantcard.cpp.i
 
-plantcard.s: plantcard.cpp.s
-.PHONY : plantcard.s
+src/plantcard.s: src/plantcard.cpp.s
+.PHONY : src/plantcard.s
 
 # target to generate assembly for a file
-plantcard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/plantcard.cpp.s
-.PHONY : plantcard.cpp.s
+src/plantcard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/plantcard.cpp.s
+.PHONY : src/plantcard.cpp.s
 
-potatomine.o: potatomine.cpp.o
-.PHONY : potatomine.o
+src/potatomine.o: src/potatomine.cpp.o
+.PHONY : src/potatomine.o
 
 # target to build an object file
-potatomine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/potatomine.cpp.o
-.PHONY : potatomine.cpp.o
+src/potatomine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/potatomine.cpp.o
+.PHONY : src/potatomine.cpp.o
 
-potatomine.i: potatomine.cpp.i
-.PHONY : potatomine.i
+src/potatomine.i: src/potatomine.cpp.i
+.PHONY : src/potatomine.i
 
 # target to preprocess a source file
-potatomine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/potatomine.cpp.i
-.PHONY : potatomine.cpp.i
+src/potatomine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/potatomine.cpp.i
+.PHONY : src/potatomine.cpp.i
 
-potatomine.s: potatomine.cpp.s
-.PHONY : potatomine.s
+src/potatomine.s: src/potatomine.cpp.s
+.PHONY : src/potatomine.s
 
 # target to generate assembly for a file
-potatomine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/potatomine.cpp.s
-.PHONY : potatomine.cpp.s
+src/potatomine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/potatomine.cpp.s
+.PHONY : src/potatomine.cpp.s
 
-pvz_client.o: pvz_client.cpp.o
-.PHONY : pvz_client.o
+src/pvz_client.o: src/pvz_client.cpp.o
+.PHONY : src/pvz_client.o
 
 # target to build an object file
-pvz_client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/pvz_client.cpp.o
-.PHONY : pvz_client.cpp.o
+src/pvz_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/pvz_client.cpp.o
+.PHONY : src/pvz_client.cpp.o
 
-pvz_client.i: pvz_client.cpp.i
-.PHONY : pvz_client.i
+src/pvz_client.i: src/pvz_client.cpp.i
+.PHONY : src/pvz_client.i
 
 # target to preprocess a source file
-pvz_client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/pvz_client.cpp.i
-.PHONY : pvz_client.cpp.i
+src/pvz_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/pvz_client.cpp.i
+.PHONY : src/pvz_client.cpp.i
 
-pvz_client.s: pvz_client.cpp.s
-.PHONY : pvz_client.s
+src/pvz_client.s: src/pvz_client.cpp.s
+.PHONY : src/pvz_client.s
 
 # target to generate assembly for a file
-pvz_client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/pvz_client.cpp.s
-.PHONY : pvz_client.cpp.s
+src/pvz_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/pvz_client.cpp.s
+.PHONY : src/pvz_client.cpp.s
 
-seedbank.o: seedbank.cpp.o
-.PHONY : seedbank.o
+src/seedbank.o: src/seedbank.cpp.o
+.PHONY : src/seedbank.o
 
 # target to build an object file
-seedbank.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/seedbank.cpp.o
-.PHONY : seedbank.cpp.o
+src/seedbank.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/seedbank.cpp.o
+.PHONY : src/seedbank.cpp.o
 
-seedbank.i: seedbank.cpp.i
-.PHONY : seedbank.i
+src/seedbank.i: src/seedbank.cpp.i
+.PHONY : src/seedbank.i
 
 # target to preprocess a source file
-seedbank.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/seedbank.cpp.i
-.PHONY : seedbank.cpp.i
+src/seedbank.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/seedbank.cpp.i
+.PHONY : src/seedbank.cpp.i
 
-seedbank.s: seedbank.cpp.s
-.PHONY : seedbank.s
+src/seedbank.s: src/seedbank.cpp.s
+.PHONY : src/seedbank.s
 
 # target to generate assembly for a file
-seedbank.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/seedbank.cpp.s
-.PHONY : seedbank.cpp.s
+src/seedbank.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/seedbank.cpp.s
+.PHONY : src/seedbank.cpp.s
 
-shooter.o: shooter.cpp.o
-.PHONY : shooter.o
+src/shooter.o: src/shooter.cpp.o
+.PHONY : src/shooter.o
 
 # target to build an object file
-shooter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shooter.cpp.o
-.PHONY : shooter.cpp.o
+src/shooter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/shooter.cpp.o
+.PHONY : src/shooter.cpp.o
 
-shooter.i: shooter.cpp.i
-.PHONY : shooter.i
+src/shooter.i: src/shooter.cpp.i
+.PHONY : src/shooter.i
 
 # target to preprocess a source file
-shooter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shooter.cpp.i
-.PHONY : shooter.cpp.i
+src/shooter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/shooter.cpp.i
+.PHONY : src/shooter.cpp.i
 
-shooter.s: shooter.cpp.s
-.PHONY : shooter.s
+src/shooter.s: src/shooter.cpp.s
+.PHONY : src/shooter.s
 
 # target to generate assembly for a file
-shooter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shooter.cpp.s
-.PHONY : shooter.cpp.s
+src/shooter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/shooter.cpp.s
+.PHONY : src/shooter.cpp.s
 
-shovel.o: shovel.cpp.o
-.PHONY : shovel.o
+src/shovel.o: src/shovel.cpp.o
+.PHONY : src/shovel.o
 
 # target to build an object file
-shovel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shovel.cpp.o
-.PHONY : shovel.cpp.o
+src/shovel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/shovel.cpp.o
+.PHONY : src/shovel.cpp.o
 
-shovel.i: shovel.cpp.i
-.PHONY : shovel.i
+src/shovel.i: src/shovel.cpp.i
+.PHONY : src/shovel.i
 
 # target to preprocess a source file
-shovel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shovel.cpp.i
-.PHONY : shovel.cpp.i
+src/shovel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/shovel.cpp.i
+.PHONY : src/shovel.cpp.i
 
-shovel.s: shovel.cpp.s
-.PHONY : shovel.s
+src/shovel.s: src/shovel.cpp.s
+.PHONY : src/shovel.s
 
 # target to generate assembly for a file
-shovel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/shovel.cpp.s
-.PHONY : shovel.cpp.s
+src/shovel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/shovel.cpp.s
+.PHONY : src/shovel.cpp.s
 
-snowshooter.o: snowshooter.cpp.o
-.PHONY : snowshooter.o
+src/snowshooter.o: src/snowshooter.cpp.o
+.PHONY : src/snowshooter.o
 
 # target to build an object file
-snowshooter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/snowshooter.cpp.o
-.PHONY : snowshooter.cpp.o
+src/snowshooter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/snowshooter.cpp.o
+.PHONY : src/snowshooter.cpp.o
 
-snowshooter.i: snowshooter.cpp.i
-.PHONY : snowshooter.i
+src/snowshooter.i: src/snowshooter.cpp.i
+.PHONY : src/snowshooter.i
 
 # target to preprocess a source file
-snowshooter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/snowshooter.cpp.i
-.PHONY : snowshooter.cpp.i
+src/snowshooter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/snowshooter.cpp.i
+.PHONY : src/snowshooter.cpp.i
 
-snowshooter.s: snowshooter.cpp.s
-.PHONY : snowshooter.s
+src/snowshooter.s: src/snowshooter.cpp.s
+.PHONY : src/snowshooter.s
 
 # target to generate assembly for a file
-snowshooter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/snowshooter.cpp.s
-.PHONY : snowshooter.cpp.s
+src/snowshooter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/snowshooter.cpp.s
+.PHONY : src/snowshooter.cpp.s
 
-socket_config.o: socket_config.cpp.o
-.PHONY : socket_config.o
+src/socket_config.o: src/socket_config.cpp.o
+.PHONY : src/socket_config.o
 
 # target to build an object file
-socket_config.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/socket_config.cpp.o
-.PHONY : socket_config.cpp.o
+src/socket_config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/socket_config.cpp.o
+.PHONY : src/socket_config.cpp.o
 
-socket_config.i: socket_config.cpp.i
-.PHONY : socket_config.i
+src/socket_config.i: src/socket_config.cpp.i
+.PHONY : src/socket_config.i
 
 # target to preprocess a source file
-socket_config.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/socket_config.cpp.i
-.PHONY : socket_config.cpp.i
+src/socket_config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/socket_config.cpp.i
+.PHONY : src/socket_config.cpp.i
 
-socket_config.s: socket_config.cpp.s
-.PHONY : socket_config.s
+src/socket_config.s: src/socket_config.cpp.s
+.PHONY : src/socket_config.s
 
 # target to generate assembly for a file
-socket_config.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/socket_config.cpp.s
-.PHONY : socket_config.cpp.s
+src/socket_config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/socket_config.cpp.s
+.PHONY : src/socket_config.cpp.s
 
-sun.o: sun.cpp.o
-.PHONY : sun.o
+src/sun.o: src/sun.cpp.o
+.PHONY : src/sun.o
 
 # target to build an object file
-sun.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sun.cpp.o
-.PHONY : sun.cpp.o
+src/sun.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/sun.cpp.o
+.PHONY : src/sun.cpp.o
 
-sun.i: sun.cpp.i
-.PHONY : sun.i
+src/sun.i: src/sun.cpp.i
+.PHONY : src/sun.i
 
 # target to preprocess a source file
-sun.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sun.cpp.i
-.PHONY : sun.cpp.i
+src/sun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/sun.cpp.i
+.PHONY : src/sun.cpp.i
 
-sun.s: sun.cpp.s
-.PHONY : sun.s
+src/sun.s: src/sun.cpp.s
+.PHONY : src/sun.s
 
 # target to generate assembly for a file
-sun.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sun.cpp.s
-.PHONY : sun.cpp.s
+src/sun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/sun.cpp.s
+.PHONY : src/sun.cpp.s
 
-sunflower.o: sunflower.cpp.o
-.PHONY : sunflower.o
+src/sunflower.o: src/sunflower.cpp.o
+.PHONY : src/sunflower.o
 
 # target to build an object file
-sunflower.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sunflower.cpp.o
-.PHONY : sunflower.cpp.o
+src/sunflower.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/sunflower.cpp.o
+.PHONY : src/sunflower.cpp.o
 
-sunflower.i: sunflower.cpp.i
-.PHONY : sunflower.i
+src/sunflower.i: src/sunflower.cpp.i
+.PHONY : src/sunflower.i
 
 # target to preprocess a source file
-sunflower.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sunflower.cpp.i
-.PHONY : sunflower.cpp.i
+src/sunflower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/sunflower.cpp.i
+.PHONY : src/sunflower.cpp.i
 
-sunflower.s: sunflower.cpp.s
-.PHONY : sunflower.s
+src/sunflower.s: src/sunflower.cpp.s
+.PHONY : src/sunflower.s
 
 # target to generate assembly for a file
-sunflower.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/sunflower.cpp.s
-.PHONY : sunflower.cpp.s
+src/sunflower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/sunflower.cpp.s
+.PHONY : src/sunflower.cpp.s
 
-wallnut.o: wallnut.cpp.o
-.PHONY : wallnut.o
+src/test.o: src/test.cpp.o
+.PHONY : src/test.o
 
 # target to build an object file
-wallnut.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/wallnut.cpp.o
-.PHONY : wallnut.cpp.o
+src/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/test.cpp.o
+.PHONY : src/test.cpp.o
 
-wallnut.i: wallnut.cpp.i
-.PHONY : wallnut.i
+src/test.i: src/test.cpp.i
+.PHONY : src/test.i
 
 # target to preprocess a source file
-wallnut.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/wallnut.cpp.i
-.PHONY : wallnut.cpp.i
+src/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/test.cpp.i
+.PHONY : src/test.cpp.i
 
-wallnut.s: wallnut.cpp.s
-.PHONY : wallnut.s
+src/test.s: src/test.cpp.s
+.PHONY : src/test.s
 
 # target to generate assembly for a file
-wallnut.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/wallnut.cpp.s
-.PHONY : wallnut.cpp.s
+src/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/test.cpp.s
+.PHONY : src/test.cpp.s
 
-zombie.o: zombie.cpp.o
-.PHONY : zombie.o
+src/wallnut.o: src/wallnut.cpp.o
+.PHONY : src/wallnut.o
 
 # target to build an object file
-zombie.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/zombie.cpp.o
-.PHONY : zombie.cpp.o
+src/wallnut.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/wallnut.cpp.o
+.PHONY : src/wallnut.cpp.o
 
-zombie.i: zombie.cpp.i
-.PHONY : zombie.i
+src/wallnut.i: src/wallnut.cpp.i
+.PHONY : src/wallnut.i
 
 # target to preprocess a source file
-zombie.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/zombie.cpp.i
-.PHONY : zombie.cpp.i
+src/wallnut.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/wallnut.cpp.i
+.PHONY : src/wallnut.cpp.i
 
-zombie.s: zombie.cpp.s
-.PHONY : zombie.s
+src/wallnut.s: src/wallnut.cpp.s
+.PHONY : src/wallnut.s
 
 # target to generate assembly for a file
-zombie.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/zombie.cpp.s
-.PHONY : zombie.cpp.s
+src/wallnut.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/wallnut.cpp.s
+.PHONY : src/wallnut.cpp.s
+
+src/zombie.o: src/zombie.cpp.o
+.PHONY : src/zombie.o
+
+# target to build an object file
+src/zombie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/zombie.cpp.o
+.PHONY : src/zombie.cpp.o
+
+src/zombie.i: src/zombie.cpp.i
+.PHONY : src/zombie.i
+
+# target to preprocess a source file
+src/zombie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/zombie.cpp.i
+.PHONY : src/zombie.cpp.i
+
+src/zombie.s: src/zombie.cpp.s
+.PHONY : src/zombie.s
+
+# target to generate assembly for a file
+src/zombie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PVZ1.dir/build.make CMakeFiles/PVZ1.dir/src/zombie.cpp.s
+.PHONY : src/zombie.cpp.s
 
 # Help Target
 help:
@@ -680,72 +680,72 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... PVZ1_autogen"
 	@echo "... PVZ1"
-	@echo "... PVZ1_autogen/EWIEGA46WW/qrc_rsc.o"
-	@echo "... PVZ1_autogen/EWIEGA46WW/qrc_rsc.i"
-	@echo "... PVZ1_autogen/EWIEGA46WW/qrc_rsc.s"
 	@echo "... PVZ1_autogen/mocs_compilation.o"
 	@echo "... PVZ1_autogen/mocs_compilation.i"
 	@echo "... PVZ1_autogen/mocs_compilation.s"
-	@echo "... bullet.o"
-	@echo "... bullet.i"
-	@echo "... bullet.s"
-	@echo "... graph.o"
-	@echo "... graph.i"
-	@echo "... graph.s"
-	@echo "... graph_block.o"
-	@echo "... graph_block.i"
-	@echo "... graph_block.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... mainwindow.o"
-	@echo "... mainwindow.i"
-	@echo "... mainwindow.s"
-	@echo "... ordinaryzombie.o"
-	@echo "... ordinaryzombie.i"
-	@echo "... ordinaryzombie.s"
-	@echo "... peashooter.o"
-	@echo "... peashooter.i"
-	@echo "... peashooter.s"
-	@echo "... plant.o"
-	@echo "... plant.i"
-	@echo "... plant.s"
-	@echo "... plantcard.o"
-	@echo "... plantcard.i"
-	@echo "... plantcard.s"
-	@echo "... potatomine.o"
-	@echo "... potatomine.i"
-	@echo "... potatomine.s"
-	@echo "... pvz_client.o"
-	@echo "... pvz_client.i"
-	@echo "... pvz_client.s"
-	@echo "... seedbank.o"
-	@echo "... seedbank.i"
-	@echo "... seedbank.s"
-	@echo "... shooter.o"
-	@echo "... shooter.i"
-	@echo "... shooter.s"
-	@echo "... shovel.o"
-	@echo "... shovel.i"
-	@echo "... shovel.s"
-	@echo "... snowshooter.o"
-	@echo "... snowshooter.i"
-	@echo "... snowshooter.s"
-	@echo "... socket_config.o"
-	@echo "... socket_config.i"
-	@echo "... socket_config.s"
-	@echo "... sun.o"
-	@echo "... sun.i"
-	@echo "... sun.s"
-	@echo "... sunflower.o"
-	@echo "... sunflower.i"
-	@echo "... sunflower.s"
-	@echo "... wallnut.o"
-	@echo "... wallnut.i"
-	@echo "... wallnut.s"
-	@echo "... zombie.o"
-	@echo "... zombie.i"
-	@echo "... zombie.s"
+	@echo "... src/bullet.o"
+	@echo "... src/bullet.i"
+	@echo "... src/bullet.s"
+	@echo "... src/graph.o"
+	@echo "... src/graph.i"
+	@echo "... src/graph.s"
+	@echo "... src/graph_block.o"
+	@echo "... src/graph_block.i"
+	@echo "... src/graph_block.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/mainwindow.o"
+	@echo "... src/mainwindow.i"
+	@echo "... src/mainwindow.s"
+	@echo "... src/ordinaryzombie.o"
+	@echo "... src/ordinaryzombie.i"
+	@echo "... src/ordinaryzombie.s"
+	@echo "... src/peashooter.o"
+	@echo "... src/peashooter.i"
+	@echo "... src/peashooter.s"
+	@echo "... src/plant.o"
+	@echo "... src/plant.i"
+	@echo "... src/plant.s"
+	@echo "... src/plantcard.o"
+	@echo "... src/plantcard.i"
+	@echo "... src/plantcard.s"
+	@echo "... src/potatomine.o"
+	@echo "... src/potatomine.i"
+	@echo "... src/potatomine.s"
+	@echo "... src/pvz_client.o"
+	@echo "... src/pvz_client.i"
+	@echo "... src/pvz_client.s"
+	@echo "... src/seedbank.o"
+	@echo "... src/seedbank.i"
+	@echo "... src/seedbank.s"
+	@echo "... src/shooter.o"
+	@echo "... src/shooter.i"
+	@echo "... src/shooter.s"
+	@echo "... src/shovel.o"
+	@echo "... src/shovel.i"
+	@echo "... src/shovel.s"
+	@echo "... src/snowshooter.o"
+	@echo "... src/snowshooter.i"
+	@echo "... src/snowshooter.s"
+	@echo "... src/socket_config.o"
+	@echo "... src/socket_config.i"
+	@echo "... src/socket_config.s"
+	@echo "... src/sun.o"
+	@echo "... src/sun.i"
+	@echo "... src/sun.s"
+	@echo "... src/sunflower.o"
+	@echo "... src/sunflower.i"
+	@echo "... src/sunflower.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
+	@echo "... src/wallnut.o"
+	@echo "... src/wallnut.i"
+	@echo "... src/wallnut.s"
+	@echo "... src/zombie.o"
+	@echo "... src/zombie.i"
+	@echo "... src/zombie.s"
 .PHONY : help
 
 

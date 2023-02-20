@@ -62,7 +62,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/llh/project/PVZ1/CMakeLists.txt"
   "CMakeFiles/3.25.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.2/CMakeSystem.cmake"
-  "/home/llh/project/PVZ1/rsc.qrc"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
@@ -89,7 +88,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/PVZ1_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/PVZ1_autogen.dir/AutoRcc_rsc_EWIEGA46WW_Info.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
