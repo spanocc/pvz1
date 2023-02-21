@@ -84,6 +84,7 @@ class Zombie : public QLabel {
 
   signals:
     void Destroy(Zombie *zombie); // 告诉mianwindow销毁自己
+    void GameDefeat();
 
 };
 

@@ -27,6 +27,7 @@ void Shooter::BulletStop() {
 void Shooter::BulletInit() {
     // 建立产生子弹的时间间隔的信号函数
     connect(produce_bullet_timer_, &QTimer::timeout, this, [this]() {
+        if(main_window->game_run_ == 0) return;
         emit ProduceBullet(pos_, bullet_type_); 
     });
     connect(this, &Shooter::ProduceBullet, main_window, &MainWindow::ProduceBullet);

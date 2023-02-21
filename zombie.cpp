@@ -67,10 +67,11 @@ void Zombie::DynamicImageInit() {
 void Zombie::ZombieMove() {
     QPoint zombie_pos = pos();
     int x = zombie_pos.x(), y = zombie_pos.y();
-
-    if(x <= 0) {
-        std::cout<<"game over!\n";
-        emit Destroy(this);
+    // +200为了视觉效果
+    if(x + 200 <= 0) {
+        // std::cout<<"game over!\n";
+        // emit Destroy(this);
+        GameDefeat();
         return;
     }
     // 看僵尸所在格子里有没有植物            +200是为了使列数与视觉效果的列数对齐，这个数字根据实际效果来调整

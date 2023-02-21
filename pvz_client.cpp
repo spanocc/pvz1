@@ -56,7 +56,8 @@ void PVZClient::run() {
 			int sockfd = events[i].data.fd;
             if(sockfd == sockfd_ && (events[i].events & EPOLLIN)) { 
                 if(!Read() || !ProcessRead()) {
-                    CloseConnection();
+                    // CloseConnection(); 关闭mainwindow时，析构函数会最终触发closeconnection函数
+                    CloseWindow();
                     return; // 退出线程
                 }
             } else if(sockfd == pipefd_[1] && (events[i].events & EPOLLIN)) {
@@ -139,6 +140,9 @@ int PVZClient::ProcessRead() {
     } else if(read_message_.message_type == GAME_START) {
         std::cout<<"game start!\n";
         emit GameStart();
+    } else if(read_message_.message_type == LAST_WAVE) {
+        std::cout<<"last wave\n";
+        emit ZombieEnd();
     }
 
     Reset();

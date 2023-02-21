@@ -73,10 +73,12 @@ PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/rsc.qrc
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: CMakeFiles/PVZ1_autogen.dir/AutoRcc_rsc_EWIEGA46WW_Info.json
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/ordinaryzombie.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/peabullethit.gif
+PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/gamedefeat.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/shovelbank.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/potatoboom.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/ordinaryzombieattack.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/snowbullethit.png
+PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/gamevictory.jpg
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/wallnutcard.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/snowbullet.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/wallnut.gif
@@ -98,7 +100,6 @@ PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/shovel.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflowercard.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/snowshootercard.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/background.jpg
-PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/defeat.jpg
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/potatomine.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun20.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun21.png

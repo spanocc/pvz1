@@ -55,6 +55,8 @@ class PVZClient : public QThread{
     void CreateZombie(int zombie_type, int line);
     void ProduceSun(int sun_x);
     void GameStart();
+    void CloseWindow();
+    void ZombieEnd();
 };
 
 

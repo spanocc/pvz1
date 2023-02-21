@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_PVZClient_t {
-    QByteArrayData data[14];
-    char stringdata0[123];
+    QByteArrayData data[16];
+    char stringdata0[145];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -45,13 +45,15 @@ QT_MOC_LITERAL(9, 71, 12), // "CreateZombie"
 QT_MOC_LITERAL(10, 84, 11), // "zombie_type"
 QT_MOC_LITERAL(11, 96, 10), // "ProduceSun"
 QT_MOC_LITERAL(12, 107, 5), // "sun_x"
-QT_MOC_LITERAL(13, 113, 9) // "GameStart"
+QT_MOC_LITERAL(13, 113, 9), // "GameStart"
+QT_MOC_LITERAL(14, 123, 11), // "CloseWindow"
+QT_MOC_LITERAL(15, 135, 9) // "ZombieEnd"
 
     },
     "PVZClient\0CreatePlant\0\0line\0column\0"
     "plant_type\0seq\0respond\0DestroyPlant\0"
     "CreateZombie\0zombie_type\0ProduceSun\0"
-    "sun_x\0GameStart"
+    "sun_x\0GameStart\0CloseWindow\0ZombieEnd"
 };
 #undef QT_MOC_LITERAL
 
@@ -61,25 +63,29 @@ static const uint qt_meta_data_PVZClient[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+       7,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       5,       // signalCount
+       7,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    5,   39,    2, 0x06 /* Public */,
-       8,    4,   50,    2, 0x06 /* Public */,
-       9,    2,   59,    2, 0x06 /* Public */,
-      11,    1,   64,    2, 0x06 /* Public */,
-      13,    0,   67,    2, 0x06 /* Public */,
+       1,    5,   49,    2, 0x06 /* Public */,
+       8,    4,   60,    2, 0x06 /* Public */,
+       9,    2,   69,    2, 0x06 /* Public */,
+      11,    1,   74,    2, 0x06 /* Public */,
+      13,    0,   77,    2, 0x06 /* Public */,
+      14,    0,   78,    2, 0x06 /* Public */,
+      15,    0,   79,    2, 0x06 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Bool,    3,    4,    5,    6,    7,
     QMetaType::Void, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Bool,    3,    4,    6,    7,
     QMetaType::Void, QMetaType::Int, QMetaType::Int,   10,    3,
     QMetaType::Void, QMetaType::Int,   12,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -96,6 +102,8 @@ void PVZClient::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 2: _t->CreateZombie((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         case 3: _t->ProduceSun((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 4: _t->GameStart(); break;
+        case 5: _t->CloseWindow(); break;
+        case 6: _t->ZombieEnd(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -135,6 +143,20 @@ void PVZClient::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
                 return;
             }
         }
+        {
+            using _t = void (PVZClient::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&PVZClient::CloseWindow)) {
+                *result = 5;
+                return;
+            }
+        }
+        {
+            using _t = void (PVZClient::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&PVZClient::ZombieEnd)) {
+                *result = 6;
+                return;
+            }
+        }
     }
 }
 
@@ -167,13 +189,13 @@ int PVZClient::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 7;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 7)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 5;
+        _id -= 7;
     }
     return _id;
 }
@@ -210,6 +232,18 @@ void PVZClient::ProduceSun(int _t1)
 void PVZClient::GameStart()
 {
     QMetaObject::activate(this, &staticMetaObject, 4, nullptr);
+}
+
+// SIGNAL 5
+void PVZClient::CloseWindow()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
+}
+
+// SIGNAL 6
+void PVZClient::ZombieEnd()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

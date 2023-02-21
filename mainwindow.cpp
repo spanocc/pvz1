@@ -31,6 +31,8 @@ MainWindow::MainWindow(QWidget *parent, const char *ip, int port)
     SunInit();
     ZombieInit();
     
+    GameVictory();
+
     timer_->start(50); // 20帧
 
     ClientInit();
@@ -44,6 +46,8 @@ MainWindow::~MainWindow()
     pvz_client_->exit();
     pvz_client_->wait();
     delete pvz_client_;
+
+    std::cout<<"close the window!\n";
 }
 
 void MainWindow::paintEvent(QPaintEvent *) {
@@ -131,6 +135,7 @@ void MainWindow::CreateZombie(int zombie_type, int line) {    // std::cout<<line
     zombie->move(MainWindowWidth - 50, Graph::InitGraphY + line * Graph::GraphBlockHeight - 160);    
     connect(timer_, &QTimer::timeout, zombie, &Zombie::ZombieMove);
     connect(zombie, &Zombie::Destroy, this, &MainWindow::DestroyZombie);
+    connect(zombie, &Zombie::GameDefeat, this, &MainWindow::GameDefeat);
     zombie->show();
 
     // 将鼠标点击事件取消
@@ -143,6 +148,15 @@ void MainWindow::DestroyZombie(Zombie *zombie) {
     assert(it != zombie_list.end());
     zombie_list.erase(it);
     delete zombie; 
+
+    if(last_wave_) {
+        for(const auto& it : zombie_queue_) {
+            if(!it.empty()) {
+                return;
+            }
+        }
+        GameVictory();
+    }
 }
 
 
@@ -174,6 +188,10 @@ void MainWindow::ClientInit() {
     void (MainWindow::*produce_random_sun)(int sun_x) = &MainWindow::ProduceSun; 
     connect(pvz_client_, &PVZClient::ProduceSun, this, produce_random_sun);
     connect(pvz_client_, &PVZClient::GameStart, this, &MainWindow::GameStart);
+    connect(pvz_client_, &PVZClient::CloseWindow, this, &MainWindow::close);
+    connect(pvz_client_, &PVZClient::ZombieEnd, this, [this]() {
+        last_wave_ = 1;
+    });
     pvz_client_->start();
 }
 
@@ -236,9 +254,56 @@ void MainWindow::GameStart() {
         delete game_start_lable;
         delete game_start_movie;
         // game_start_movie->stop();
-        game_run = 1;
+        game_run_ = 1;
         timer->stop();
     });
     timer->start(3000);
     game_start_movie->start();
+}
+
+void MainWindow::GameDefeat() {
+
+    game_run_ = 0;
+
+    QLabel* game_defeat_label = new QLabel(this);
+    game_defeat_label->move(300, 100);
+    game_defeat_label->setFixedSize(QSize(1000, 1000));
+    game_defeat_label->setStyleSheet("border-image:url(:/image/gamedefeat.jpg)");  
+    game_defeat_label->setWindowFlags(Qt::WindowStaysOnTopHint);
+    game_defeat_label->show(); 
+
+    timer_->stop();
+    SignalGameOver(0);
+
+    QTimer* close_timer = new QTimer(this); 
+    connect(close_timer, &QTimer::timeout, this, &MainWindow::close);  // 关闭窗口
+    close_timer->start(5000); // 5s后自动关闭
+}
+
+void MainWindow::SignalGameOver(bool victory) {
+    Message message;
+    strncpy(message.magic, magic_str, sizeof(message.magic) - 1);
+    if(victory) message.message_type = VICTORY;
+    else message.message_type = DEFEAT;
+
+    int ret = send(pvz_client_->pipefd_[0], (char *)(&message), sizeof(message), 0);
+    assert(ret == sizeof(message));
+}
+
+void MainWindow::GameVictory() {
+    game_run_ = 0;
+
+    QLabel* game_defeat_label = new QLabel(this);
+    game_defeat_label->move(300, 200);
+    game_defeat_label->setFixedSize(QSize(1300, 800));
+    game_defeat_label->setStyleSheet("border-image:url(:/image/gamevictory.jpg)");  
+    game_defeat_label->setWindowFlags(Qt::WindowStaysOnTopHint);
+    game_defeat_label->show(); 
+
+    timer_->stop();
+    SignalGameOver(1);
+
+    QTimer* close_timer = new QTimer(this); 
+    connect(close_timer, &QTimer::timeout, this, &MainWindow::close);  // 关闭窗口
+    close_timer->start(5000); // 5s后自动关闭
 }
