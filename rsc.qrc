@@ -70,5 +70,6 @@
         <file>image/gamestart.gif</file>
         <file>image/gamedefeat.png</file>
         <file>image/gamevictory.jpg</file>
+        <file>image/gamedefeat.jpg</file>
     </qresource>
 </RCC>

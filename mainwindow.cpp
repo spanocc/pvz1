@@ -31,7 +31,8 @@ MainWindow::MainWindow(QWidget *parent, const char *ip, int port)
     SunInit();
     ZombieInit();
     
-    GameVictory();
+    // GameVictory();
+    // GameDefeat();
 
     timer_->start(50); // 20帧
 
@@ -267,7 +268,7 @@ void MainWindow::GameDefeat() {
 
     QLabel* game_defeat_label = new QLabel(this);
     game_defeat_label->move(300, 100);
-    game_defeat_label->setFixedSize(QSize(1000, 1000));
+    game_defeat_label->setFixedSize(QSize(1300, 1000));
     game_defeat_label->setStyleSheet("border-image:url(:/image/gamedefeat.jpg)");  
     game_defeat_label->setWindowFlags(Qt::WindowStaysOnTopHint);
     game_defeat_label->show(); 
