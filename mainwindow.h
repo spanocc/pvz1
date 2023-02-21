@@ -77,10 +77,14 @@ public:
     void SignalDestroyPlant(int line, int column, int seq);
     // 收到子线程发送铲除植物的信息
     void DestroyPlant(int line, int column, int seq, bool respond);
+    // 收到服务器游戏开始的通知
+    void GameStart();
 
     // 定义为public，方便其他类获取窗口大小 eg：Sun类要获取窗口大小
     static const int MainWindowWidth = 1800;
     static const int MainWindowHeight = 1200;
+
+    bool game_run = 0; // 游戏是否正在进行
 
 private:
 

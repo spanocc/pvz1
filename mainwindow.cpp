@@ -173,6 +173,7 @@ void MainWindow::ClientInit() {
     connect(pvz_client_, &PVZClient::CreateZombie, this, &MainWindow::CreateZombie);
     void (MainWindow::*produce_random_sun)(int sun_x) = &MainWindow::ProduceSun; 
     connect(pvz_client_, &PVZClient::ProduceSun, this, produce_random_sun);
+    connect(pvz_client_, &PVZClient::GameStart, this, &MainWindow::GameStart);
     pvz_client_->start();
 }
 
@@ -218,4 +219,26 @@ void MainWindow::SignalDestroyPlant(int line, int column, int seq) {
 void MainWindow::DestroyPlant(int line, int column, int seq, bool respond) {
     assert(line >= 0 && line < Graph::LineNum && column >= 0 && column < Graph::ColumnNum);
     graph_->graph()[line][column]->DestroyPlant(seq, respond);
+}
+
+void MainWindow::GameStart() {
+    QTimer* timer = new QTimer(this);
+    
+    QLabel* game_start_lable = new QLabel(this);
+    game_start_lable->move(600, 350);
+    game_start_lable->setFixedSize(QSize(600, 300));
+    game_start_lable->show();
+    QMovie* game_start_movie = new QMovie(":/image/gamestart.gif");
+    game_start_movie->setScaledSize(game_start_lable->size());
+    game_start_lable->setMovie(game_start_movie);
+
+    connect(timer, &QTimer::timeout, this, [game_start_lable, game_start_movie, timer, this]() {
+        delete game_start_lable;
+        delete game_start_movie;
+        // game_start_movie->stop();
+        game_run = 1;
+        timer->stop();
+    });
+    timer->start(3000);
+    game_start_movie->start();
 }

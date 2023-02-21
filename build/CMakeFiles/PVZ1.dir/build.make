@@ -91,11 +91,14 @@ PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/wallnut1.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/potatomine1.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/wallnut2.gif
+PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/finalwave.png
+PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/gamestart.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/snowshooter.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/shovel.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sunflowercard.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/snowshootercard.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/background.jpg
+PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/defeat.jpg
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/potatomine.gif
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun20.png
 PVZ1_autogen/EWIEGA46WW/qrc_rsc.cpp: /home/llh/project/PVZ1/image/sun/sun21.png

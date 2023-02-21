@@ -13,6 +13,7 @@ ShovelBank::ShovelBank(QWidget *parent) : QPushButton(parent) {
     setFixedSize(150, 150);
 
     connect(this, &ShovelBank::clicked, this, []() {
+        if(!main_window->game_run) return; // 游戏未开始，无视点击事件
         std::cout<<"click shovelbank\n";
         if(!shovel_switch) main_window->shovel()->StartShovel();
         else main_window->shovel()->ResetShovel();

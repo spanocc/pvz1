@@ -136,6 +136,9 @@ int PVZClient::ProcessRead() {
     } else if(read_message_.message_type == PRODUCE_SUN) {
         std::cout<<"produce a sun in x: "<<read_message_.x<<"\n";
         emit ProduceSun(read_message_.x);
+    } else if(read_message_.message_type == GAME_START) {
+        std::cout<<"game start!\n";
+        emit GameStart();
     }
 
     Reset();

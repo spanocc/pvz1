@@ -66,5 +66,8 @@
         <file>image/wallnut.gif</file>
         <file>image/potatomine.gif</file>
         <file>image/potatoboom.gif</file>
+        <file>image/finalwave.png</file>
+        <file>image/defeat.jpg</file>
+        <file>image/gamestart.gif</file>
     </qresource>
 </RCC>

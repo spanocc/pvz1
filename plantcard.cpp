@@ -40,6 +40,7 @@ void PlantCard::paintEvent(QPaintEvent *) {
 }
 
 void PlantCard::ChooseCard() {
+    if(!main_window->game_run) return; // 游戏未开始，无视点击事件
     // 未冷却完毕，无视点击事件
     if(back_card_->remain_cool_down_) return;
     assert(plant_type_ != NONEPLANT);

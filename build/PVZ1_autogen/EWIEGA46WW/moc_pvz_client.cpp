@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_PVZClient_t {
-    QByteArrayData data[13];
-    char stringdata0[113];
+    QByteArrayData data[14];
+    char stringdata0[123];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -44,13 +44,14 @@ QT_MOC_LITERAL(8, 58, 12), // "DestroyPlant"
 QT_MOC_LITERAL(9, 71, 12), // "CreateZombie"
 QT_MOC_LITERAL(10, 84, 11), // "zombie_type"
 QT_MOC_LITERAL(11, 96, 10), // "ProduceSun"
-QT_MOC_LITERAL(12, 107, 5) // "sun_x"
+QT_MOC_LITERAL(12, 107, 5), // "sun_x"
+QT_MOC_LITERAL(13, 113, 9) // "GameStart"
 
     },
     "PVZClient\0CreatePlant\0\0line\0column\0"
     "plant_type\0seq\0respond\0DestroyPlant\0"
     "CreateZombie\0zombie_type\0ProduceSun\0"
-    "sun_x"
+    "sun_x\0GameStart"
 };
 #undef QT_MOC_LITERAL
 
@@ -60,24 +61,26 @@ static const uint qt_meta_data_PVZClient[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       4,       // signalCount
+       5,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    5,   34,    2, 0x06 /* Public */,
-       8,    4,   45,    2, 0x06 /* Public */,
-       9,    2,   54,    2, 0x06 /* Public */,
-      11,    1,   59,    2, 0x06 /* Public */,
+       1,    5,   39,    2, 0x06 /* Public */,
+       8,    4,   50,    2, 0x06 /* Public */,
+       9,    2,   59,    2, 0x06 /* Public */,
+      11,    1,   64,    2, 0x06 /* Public */,
+      13,    0,   67,    2, 0x06 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Bool,    3,    4,    5,    6,    7,
     QMetaType::Void, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Bool,    3,    4,    6,    7,
     QMetaType::Void, QMetaType::Int, QMetaType::Int,   10,    3,
     QMetaType::Void, QMetaType::Int,   12,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -92,6 +95,7 @@ void PVZClient::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 1: _t->DestroyPlant((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4]))); break;
         case 2: _t->CreateZombie((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         case 3: _t->ProduceSun((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 4: _t->GameStart(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -121,6 +125,13 @@ void PVZClient::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
             using _t = void (PVZClient::*)(int );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&PVZClient::ProduceSun)) {
                 *result = 3;
+                return;
+            }
+        }
+        {
+            using _t = void (PVZClient::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&PVZClient::GameStart)) {
+                *result = 4;
                 return;
             }
         }
@@ -156,13 +167,13 @@ int PVZClient::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 5)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 4;
+        _id -= 5;
     }
     return _id;
 }
@@ -193,6 +204,12 @@ void PVZClient::ProduceSun(int _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void PVZClient::GameStart()
+{
+    QMetaObject::activate(this, &staticMetaObject, 4, nullptr);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

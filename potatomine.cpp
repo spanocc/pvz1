@@ -58,7 +58,7 @@ PotatoMine::PotatoMine(QWidget *parent, const QPoint& pos)
         emit Destroy();     
     });
 
-    grow_timer_->start(10000);
+    grow_timer_->start(15000); // 15s长出来
     
 
 }
